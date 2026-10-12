@@ -7,11 +7,13 @@ from zoneinfo import ZoneInfo
 TZ=ZoneInfo('Europe/Amsterdam')
 D=os.path.dirname(os.path.abspath(__file__)); F=os.path.join(D,'data','listings.json')
 MAX=1100
+AMS=["amsterdam","amstelveen","diemen","duivendrecht","ouderkerk-aan-de-amstel","weesp","hoofddorp","nieuw-vennep","badhoevedorp",
+ "haarlem","heemstede","zaandam","koog-aan-de-zaan","purmerend","landsmeer","uithoorn","aalsmeer","abcoude","muiden","hilversum","bussum","naarden"]
 STEDEN=["rotterdam","den-haag","rijswijk","voorburg","leidschendam","delft","schiedam","vlaardingen","zoetermeer","leiden",
  "dordrecht","capelle-aan-den-ijssel","barendrecht","gouda","alphen-aan-den-rijn","utrecht","nieuwegein","houten",
- "zeist","amersfoort","haarlem","amstelveen","hoofddorp","sliedrecht","spijkenisse"]
+ "zeist","amersfoort","sliedrecht","spijkenisse"]+AMS
 REGIO={**{s:"Utrecht" for s in ["utrecht","nieuwegein","houten","zeist","amersfoort"]},
-       **{s:"Noord-Holland (zuid)" for s in ["haarlem","amstelveen","hoofddorp"]}}
+       **{s:"Amsterdam e.o." for s in AMS}}
 UA="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128 Safari/537.36"
 clean=lambda x: html.unescape(re.sub(r'\s+',' ',re.sub(r'<[^>]+>',' ',x))).strip()
 def num(s):
@@ -41,9 +43,10 @@ def ikwilhuren(pages=4):
             if not u: continue
             plaats=u.group(1).split('/')[2].split('-')[0]
             if plaats not in [s.split('-')[0] for s in STEDEN]: continue
+            plaats={'nieuw':'nieuw-vennep','ouderkerk':'ouderkerk-aan-de-amstel','koog':'koog-aan-de-zaan'}.get(plaats,plaats)
             out.append(dict(url='https://ikwilhuren.nu'+u.group(1),titel=clean(re.search(r'stretched-link"[^>]*>(.*?)</a>',c,re.S).group(1)),
               sub=clean(re.search(r'</a>\s*</span>\s*<span>(.*?)</span>',c,re.S).group(1)) if re.search(r'</a>\s*</span>\s*<span>(.*?)</span>',c,re.S) else '',
-              huur=num(c),m2=(re.search(r'(\d+) m<sup>',c) or [None,''])[1]+' m²',interieur='',plaats=plaats.title(),
+              huur=num(c),m2=(re.search(r'(\d+) m<sup>',c) or [None,''])[1]+' m²',interieur='',plaats=plaats.replace('-',' ').title(),
               regio=REGIO.get(plaats,"Zuid-Holland"),bron="ikwilhuren.nu"))
     return out
 def git(*a,check=True): return subprocess.run(["git",*a],cwd=D,capture_output=True,text=True,check=check)
