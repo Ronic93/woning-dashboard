@@ -1,0 +1,70 @@
+<!doctype html><html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Woning Dashboard</title><style>
+:root{--bg:#0f1115;--card:#1a1d24;--mut:#8b93a3;--ok:#2ecc71;--warn:#f5a623;--bad:#e74c3c;--acc:#4da3ff}
+*{box-sizing:border-box}body{margin:0;font:15px/1.4 -apple-system,system-ui,sans-serif;background:var(--bg);color:#e8eaf0}
+header{position:sticky;top:0;background:#0f1115ee;backdrop-filter:blur(6px);padding:12px 14px;border-bottom:1px solid #222;z-index:5}
+h1{font-size:19px;margin:0 0 6px}.row{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+select,button,input{background:#222733;color:#e8eaf0;border:1px solid #333a48;border-radius:8px;padding:7px 9px;font:inherit}
+button{cursor:pointer}button.p{background:var(--acc);border:0;color:#fff}
+main{padding:10px;max-width:760px;margin:auto}.card{background:var(--card);border-radius:14px;padding:13px;margin:10px 0;border-left:5px solid #444}
+.card.aanrader{border-color:var(--ok)}.card.prima{border-color:var(--acc)}.card.twijfel{border-color:var(--warn)}.card.afraden{border-color:var(--bad)}
+.t{font-weight:700;font-size:16px}.m{color:var(--mut);font-size:13px}.b{display:inline-block;padding:2px 8px;border-radius:99px;font-size:12px;font-weight:600;margin:2px 2px 0 0;background:#2a2f3b}
+.ok{color:var(--ok)}.warn{color:var(--warn)}.bad{color:var(--bad)}.grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 10px;margin:8px 0;font-size:14px}
+details{margin-top:6px}summary{cursor:pointer;color:var(--acc)}textarea{width:100%;min-height:150px;background:#11141a;color:#e8eaf0;border:1px solid #333;border-radius:8px;padding:8px;font:inherit}
+.tabs button.on{background:var(--acc);color:#fff}a{color:var(--acc)}
+</style></head><body>
+<header><h1>🏠 Woning Dashboard</h1>
+<div class="row tabs"><button id="t1" class="on" onclick="tab(1)">Mijn lijst</button><button id="t2" onclick="tab(2)">Nieuw aanbod <span id="nc"></span></button>
+<details style="flex-basis:100%"><summary>⚙️ Mijn budget (alleen op dit toestel)</summary><div class="row">
+<input id="s_net" type="number" placeholder="Netto/mnd" onchange="saveSet()"><input id="s_vaste" type="number" placeholder="Vaste lasten" onchange="saveSet()">
+<input id="s_extra" type="number" placeholder="Woon-extra's (energie e.d.)" onchange="saveSet()"><input id="s_nibud" type="number" placeholder="Nibud-minimum over" onchange="saveSet()">
+<input id="s_naam" placeholder="Je voornaam" onchange="saveSet()"></div></details>
+<select id="fs" onchange="render()"><option value="">Alle status</option><option>nieuw</option><option>gereageerd</option><option>bezichtiging</option><option>afgewezen</option></select>
+<label class="m"><input type="checkbox" id="pk" onchange="render()"> parkeren ✔</label></div>
+<div class="m" id="info"></div></header>
+<main id="list"></main>
+<script>
+const MAX=1050,WARN=1100;
+let D={listings:[],nieuw:[]},cur=1,E=JSON.parse(localStorage.wd_edits||'{}'),S=JSON.parse(localStorage.wd_set||'{}');
+const eur=n=>'€'+Number(n).toLocaleString('nl-NL',{minimumFractionDigits:0,maximumFractionDigits:2});
+const ed=(id)=>E[id]||(E[id]={});const save=()=>localStorage.wd_edits=JSON.stringify(E);
+function saveSet(){for(const k of ['net','vaste','extra','nibud','naam'])S[k]=document.getElementById('s_'+k).value;localStorage.wd_set=JSON.stringify(S);render()}
+function tab(n){cur=n;t1.className=n==1?'on':'';t2.className=n==2?'on':'';render()}
+function budget(l){const VASTE=+S.vaste||0,EXTRA=+S.extra||0,NIBUD=+S.nibud||0,woon=(+l.huur)+(+l.service||0)+(+l.extra||0),over=(+S.net)-VASTE-EXTRA-woon;
+ const hc=l.huur<=MAX?'ok':l.huur<=WARN?'warn':'bad';const oc=over>=NIBUD?'ok':over>=NIBUD-150?'warn':'bad';
+ return `<div class="grid"><div>Kale huur</div><div class="${hc}">${eur(l.huur)}${l.huur>MAX?(l.huur<=WARN?' ⚠️ boven €1.050':' ⛔ te duur'):''}</div>
+ <div>Servicekosten${l.extra?' + parkeren':''}</div><div>${eur(l.service||0)}${l.extra?' + '+eur(l.extra):''}</div>
+ <div>Woonlasten totaal</div><div><b>${eur(woon)}</b></div><div class="m">Vaste lasten + woon-extra's</div><div class="m">${eur(VASTE)} + ${eur(EXTRA)}</div>
+ ${S.net?`<div>Over per maand</div><div class="${oc}"><b>${eur(Math.round(over))}</b> <span class="m">(Nibud ~${eur(NIBUD)})</span></div>`:'<div class="m" style="grid-column:span 2">Vul ⚙️ Mijn budget in voor de budgetcheck</div>'}</div>`}
+function reactie(l){return `Beste verhuurder,
+
+Ik ben ${S.naam||'[naam]'} en reageer graag op de woning aan de ${l.adres||l.titel} in ${l.plaats}. Ik werk in vaste dienst met een bruto maandinkomen van €[bruto] en zoek een zelfstandige woning voor mezelf, voor de lange termijn. Ik rook niet, ben rustig en betrouwbaar${/parkeer/i.test(l.parkeren||'')&&/eigen/i.test(l.parkeren||'')?', en ik heb een auto en neem de parkeerplaats graag mee':''}. Ik kan per [datum] intrekken.
+
+Mijn dossier (ID, werkgeversverklaring, 3 loonstroken en IB60) ligt klaar. Ik kom graag langs voor een bezichtiging.
+
+Met vriendelijke groet,
+${S.naam||'[naam]'}
+[telefoonnummer]`}
+function card(l,i){const e=ed(l.url),st=e.status||'nieuw',v=l.verdict||'';
+ return `<div class="card ${v}"><div class="t">${l.plaats} · ${l.adres||l.titel}</div>
+ <div class="m">${l.regio||''}${l.m2?' · '+String(l.m2).replace(/ m²$/,'')+' m²':''}${l.beschikbaar?' · '+l.beschikbaar:''}${l.bron&&!l.verdict?' · '+l.bron:''}</div>
+ <div>${v?`<span class="b ${v=='aanrader'?'ok':v=='prima'?'':v=='twijfel'?'warn':'bad'}">${v}</span>`:'<span class="b">nog geen buurtcheck</span>'}
+ ${l.lbm?`<span class="b">LBM ${l.lbm_klasse} ${String(l.lbm).replace('.',',')}</span>`:''}${l.parkeren?`<span class="b">🚗 ${l.parkeren}</span>`:''}
+ ${l.online===false?'<span class="b bad">waarschijnlijk weg</span>':l.online?'<span class="b ok">online 12-10</span>':''}</div>
+ ${budget(l)}${l.review?`<div class="m">${l.review}</div>`:l.sub?`<div class="m">${l.sub}</div>`:''}
+ <div class="row" style="margin-top:8px"><select onchange="ed('${l.url}').status=this.value;save();render()">${['nieuw','gereageerd','bezichtiging','afgewezen'].map(s=>`<option ${s==st?'selected':''}>${s}</option>`).join('')}</select>
+ <a href="${l.url}" target="_blank">Advertentie ↗</a></div>
+ <input placeholder="Notitie…" style="width:100%;margin-top:6px" value="${(e.note||'').replace(/"/g,'&quot;')}" onchange="ed('${l.url}').note=this.value;save()">
+ <details><summary>Reactietekst</summary><textarea id="r${i}" onchange="ed('${l.url}').tekst=this.value;save()">${e.tekst||reactie(l)}</textarea>
+ <button class="p" onclick="navigator.clipboard.writeText(document.getElementById('r${i}').value).then(()=>this.textContent='Gekopieerd ✔')">Kopieer</button>
+ <span class="m"> Vul [bruto] zelf in. Je verstuurt hem zelf; dit dashboard neemt nooit contact op.</span></details></div>`}
+function render(){for(const k of ['net','vaste','extra','nibud','naam'])document.getElementById('s_'+k).value=S[k]||'';let L=cur==1?D.listings:D.nieuw;
+ L=L.filter(l=>(!fs.value||(ed(l.url).status||'nieuw')==fs.value)&&(!pk.checked||/✔|eigen|gratis/i.test(l.parkeren||'')));
+ if(cur==1){const o={aanrader:0,prima:1,twijfel:2,afraden:3};L=[...L].sort((a,b)=>(o[a.verdict]-o[b.verdict])||a.huur-b.huur)}
+ list.innerHTML=(cur==2?`<div class="row">${location.port?'<button class="p" onclick="refresh(this)">🔄 Ververs aanbod nu</button>':''}<span class="m">${D.refresh?'Laatst: '+D.refresh.tijd.replace('T',' ')+' · +'+D.refresh.toegevoegd:''}</span></div>`:'')+(L.map(card).join('')||'<p class="m">Niets gevonden.</p>');
+ nc.textContent=D.nieuw.length?`(${D.nieuw.length})`:'';
+ info.textContent=`Huurplafond ${eur(MAX)} (waarschuwing t/m ${eur(WARN)}) · vrije sector/middenhuur · ZH, zuid-NH, Utrecht`}
+async function load(){D=await (await fetch('data/listings.json?'+Date.now())).json();render()}
+async function refresh(b){b.disabled=1;b.textContent='Bezig (±1-2 min)…';const r=await (await fetch('api/refresh',{method:'POST'})).json();await load();if(!r.ok)alert(r.msg)}
+load();
+</script></body></html>
