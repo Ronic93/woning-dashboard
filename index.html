@@ -11,6 +11,9 @@ main{padding:10px;max-width:760px;margin:auto}.card{background:var(--card);borde
 .t{font-weight:700;font-size:16px}.m{color:var(--mut);font-size:13px}.b{display:inline-block;padding:2px 8px;border-radius:99px;font-size:12px;font-weight:600;margin:2px 2px 0 0;background:#2a2f3b}
 .ok{color:var(--ok)}.warn{color:var(--warn)}.bad{color:var(--bad)}.grid{display:grid;grid-template-columns:1fr 1fr;gap:4px 10px;margin:8px 0;font-size:14px}
 details{margin-top:6px}summary{cursor:pointer;color:var(--acc)}textarea{width:100%;min-height:150px;background:#11141a;color:#e8eaf0;border:1px solid #333;border-radius:8px;padding:8px;font:inherit}
+.ms{position:relative}.ms summary{background:#222733;border:1px solid #333a48;border-radius:8px;padding:7px 9px;color:#e8eaf0;list-style:none}
+.msl{position:absolute;z-index:9;background:#1a1d24;border:1px solid #333a48;border-radius:8px;padding:8px;max-height:300px;overflow:auto;min-width:220px}.msl label{display:block;padding:3px 0}
+table.k{width:100%;font-size:14px;border-collapse:collapse;margin:4px 0}table.k td{padding:2px 0}table.k td:last-child{text-align:right}table.k tr.tot td{border-top:1px solid #333;font-weight:700}
 .tabs button.on{background:var(--acc);color:#fff}a{color:var(--acc)}
 </style></head><body>
 <header><h1>🏠 Woning Dashboard</h1>
@@ -21,10 +24,18 @@ details{margin-top:6px}summary{cursor:pointer;color:var(--acc)}textarea{width:10
 <input id="s_naam" placeholder="Je voornaam" onchange="saveSet()"></div></details>
 <select id="fs" onchange="render()"><option value="">Alle status</option><option>nieuw</option><option>gereageerd</option><option>bezichtiging</option><option>afgewezen</option></select>
 <label class="m"><input type="checkbox" id="pk" onchange="render()"> parkeren ✔</label></div>
+<div class="row" style="margin-top:6px"><select id="fr" onchange="F.regio=this.value;F.plaats=[];saveF()"><option value="">Alle regio's</option></select>
+<details id="pd" class="ms"><summary id="ps">Alle plaatsen</summary><div id="pl" class="msl"></div></details>
+<select id="so" onchange="F.sort=this.value;saveF()"><option value="">Sorteer: standaard</option><option value="rit">Kortste rijtijd</option><option value="km">Kortste afstand</option><option value="huur">Laagste huur</option><option value="instap">Laagste instapkosten</option></select>
+<input id="fmin" type="number" placeholder="Max rijtijd (min)" style="width:140px" onchange="F.min=this.value;saveF()"><input id="fkm" type="number" placeholder="Max km (rijden)" style="width:130px" onchange="F.km=this.value;saveF()">
+<label class="m"><input type="checkbox" id="fsp" onchange="F.spits=this.checked;saveF()"> rijtijd in spits</label></div>
 <div class="m" id="info"></div></header>
 <main id="list"></main>
 <script>
 const MAX=1050,WARN=1100;
+let F=JSON.parse(localStorage.wd_f||'{}');F.plaats=F.plaats||[];const saveF=()=>{localStorage.wd_f=JSON.stringify(F);render()};
+const fmtT=t=>{if(!t)return'';const d=/[+-]\d\d:\d\d$|Z$/.test(t)?new Date(t):null;return d?d.toLocaleString('nl-NL',{timeZone:'Europe/Amsterdam',weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}):t.replace('T',' ')};
+const rmin=l=>l.rit&&l.rit.min!=null?(F.spits?l.rit.min_spits:l.rit.min):1e9;
 let D={listings:[],nieuw:[]},cur=1,E=JSON.parse(localStorage.wd_edits||'{}'),S=JSON.parse(localStorage.wd_set||'{}');
 const eur=n=>'€'+Number(n).toLocaleString('nl-NL',{minimumFractionDigits:0,maximumFractionDigits:2});
 const ed=(id)=>E[id]||(E[id]={});const save=()=>localStorage.wd_edits=JSON.stringify(E);
@@ -36,6 +47,15 @@ function budget(l){const VASTE=+S.vaste||0,EXTRA=+S.extra||0,NIBUD=+S.nibud||0,w
  <div>Servicekosten${l.extra?' + parkeren':''}</div><div>${eur(l.service||0)}${l.extra?' + '+eur(l.extra):''}</div>
  <div>Woonlasten totaal</div><div><b>${eur(woon)}</b></div><div class="m">Vaste lasten + woon-extra's</div><div class="m">${eur(VASTE)} + ${eur(EXTRA)}</div>
  ${S.net?`<div>Over per maand</div><div class="${oc}"><b>${eur(Math.round(over))}</b> <span class="m">(Nibud ~${eur(NIBUD)})</span></div>`:'<div class="m" style="grid-column:span 2">Vul ⚙️ Mijn budget in voor de budgetcheck</div>'}</div>`}
+function rit(l){const r=l.rit;if(!r)return'';if(r.fout)return`<div class="m">🚗 Afstand onbekend (${r.fout})</div>`;
+ const c=r.min<=35?'ok':r.min<=50?'warn':'bad';return`<div style="margin-top:6px">🚗 Naar werk (Fokkerweg 300): <b class="${c}">${r.km} km · ±${r.min} min</b> <span class="m">(spits ±${r.min_spits} min · hemelsbreed ${r.hemelsbreed_km} km)</span></div>`}
+function instap(l){const k=l.kosten;if(!k)return'';const g=k.borg_bron=='geschat';
+ return`<details><summary>💶 Eerste betaling: <b>${eur(k.eerste_betaling)}</b>${g?` – ${eur(k.eerste_betaling_max)} <span class="warn">(borg geschat)</span>`:''}</summary><table class="k">
+ <tr><td>1e maand kale huur</td><td>${eur(k.huur)}</td></tr><tr><td>Servicekosten 1e maand</td><td>${k.service!=null?eur(k.service):'<span class="m">niet vermeld</span>'}</td></tr>
+ <tr><td>Borg ${g?'<span class="warn">geschat 1–2× kale huur</span>':'<span class="m">'+k.borg_bron+'</span>'}</td><td>${g?eur(k.borg)+' – '+eur(k.borg_max):eur(k.borg)}</td></tr>
+ ${k.eenmalig.map(x=>`<tr><td>${x.naam}</td><td>${eur(x.bedrag)}</td></tr>`).join('')}
+ <tr class="tot"><td>Totaal eerste betaling</td><td>${eur(k.eerste_betaling)}${g?' – '+eur(k.eerste_betaling_max):''}</td></tr></table>
+ ${k.notities.map(n=>`<div class="warn m">⚠️ ${n}</div>`).join('')}<div class="m">Bemiddelingskosten zijn in NL verboden voor huurders als de makelaar ook voor de verhuurder werkt; reken die nooit mee. De borg mag sinds 1 juli 2023 max. 2× de kale huur zijn.</div></details>`}
 function reactie(l){return `Beste verhuurder,
 
 Ik ben ${S.naam||'[naam]'} en reageer graag op de woning aan de ${l.adres||l.titel} in ${l.plaats}. Ik werk in vaste dienst met een bruto maandinkomen van €[bruto] en zoek een zelfstandige woning voor mezelf, voor de lange termijn. Ik rook niet, ben rustig en betrouwbaar${/parkeer/i.test(l.parkeren||'')&&/eigen/i.test(l.parkeren||'')?', en ik heb een auto en neem de parkeerplaats graag mee':''}. Ik kan per [datum] intrekken.
@@ -51,19 +71,26 @@ function card(l,i){const e=ed(l.url),st=e.status||'nieuw',v=l.verdict||'';
  <div>${v?`<span class="b ${v=='aanrader'?'ok':v=='prima'?'':v=='twijfel'?'warn':'bad'}">${v}</span>`:'<span class="b">nog geen buurtcheck</span>'}
  ${l.lbm?`<span class="b">LBM ${l.lbm_klasse} ${String(l.lbm).replace('.',',')}</span>`:''}${l.parkeren?`<span class="b">🚗 ${l.parkeren}</span>`:''}
  ${l.online===false?'<span class="b bad">waarschijnlijk weg</span>':l.online?'<span class="b ok">online 12-10</span>':''}</div>
- ${budget(l)}${l.review?`<div class="m">${l.review}</div>`:l.sub?`<div class="m">${l.sub}</div>`:''}
+ ${budget(l)}${rit(l)}${instap(l)}${l.review?`<div class="m">${l.review}</div>`:l.sub?`<div class="m">${l.sub}</div>`:''}
  <div class="row" style="margin-top:8px"><select onchange="ed('${l.url}').status=this.value;save();render()">${['nieuw','gereageerd','bezichtiging','afgewezen'].map(s=>`<option ${s==st?'selected':''}>${s}</option>`).join('')}</select>
  <a href="${l.url}" target="_blank">Advertentie ↗</a></div>
  <input placeholder="Notitie…" style="width:100%;margin-top:6px" value="${(e.note||'').replace(/"/g,'&quot;')}" onchange="ed('${l.url}').note=this.value;save()">
  <details><summary>Reactietekst</summary><textarea id="r${i}" onchange="ed('${l.url}').tekst=this.value;save()">${e.tekst||reactie(l)}</textarea>
  <button class="p" onclick="navigator.clipboard.writeText(document.getElementById('r${i}').value).then(()=>this.textContent='Gekopieerd ✔')">Kopieer</button>
  <span class="m"> Vul [bruto] zelf in. Je verstuurt hem zelf; dit dashboard neemt nooit contact op.</span></details></div>`}
-function render(){for(const k of ['net','vaste','extra','nibud','naam'])document.getElementById('s_'+k).value=S[k]||'';let L=cur==1?D.listings:D.nieuw;
- L=L.filter(l=>(!fs.value||(ed(l.url).status||'nieuw')==fs.value)&&(!pk.checked||/✔|eigen|gratis/i.test(l.parkeren||'')));
- if(cur==1){const o={aanrader:0,prima:1,twijfel:2,afraden:3};L=[...L].sort((a,b)=>(o[a.verdict]-o[b.verdict])||a.huur-b.huur)}
- list.innerHTML=(cur==2?`<div class="row">${location.port?'<button class="p" onclick="refresh(this)">🔄 Ververs aanbod nu</button>':''}<span class="m">${D.refresh?'Laatst: '+D.refresh.tijd.replace('T',' ')+' · +'+D.refresh.toegevoegd:''}</span></div>`:'')+(L.map(card).join('')||'<p class="m">Niets gevonden.</p>');
+function filters(L0){const regs=[...new Set([...D.listings,...D.nieuw].map(l=>l.regio).filter(Boolean))].sort();
+ fr.innerHTML='<option value="">Alle regio\'s</option>'+regs.map(r=>`<option ${r==F.regio?'selected':''}>${r}</option>`).join('');
+ const pls=[...new Set(L0.filter(l=>!F.regio||l.regio==F.regio).map(l=>l.plaats))].sort();
+ pl.innerHTML=pls.map(p=>`<label><input type="checkbox" ${F.plaats.includes(p)?'checked':''} onchange="F.plaats=this.checked?[...F.plaats,'${p}']:F.plaats.filter(x=>x!='${p}');saveF();pd.open=true"> ${p} <span class="m">(${L0.filter(l=>l.plaats==p).length})</span></label>`).join('')+'<button onclick="F.plaats=[];saveF()">Wis</button>';
+ ps.textContent=F.plaats.length?F.plaats.join(', '):'Alle plaatsen';so.value=F.sort||'';fmin.value=F.min||'';fkm.value=F.km||'';fsp.checked=!!F.spits}
+function render(){for(const k of ['net','vaste','extra','nibud','naam'])document.getElementById('s_'+k).value=S[k]||'';let L=cur==1?D.listings:D.nieuw;filters(L);
+ L=L.filter(l=>(!fs.value||(ed(l.url).status||'nieuw')==fs.value)&&(!pk.checked||/✔|eigen|gratis/i.test(l.parkeren||''))
+  &&(!F.regio||l.regio==F.regio)&&(!F.plaats.length||F.plaats.includes(l.plaats))&&(!F.min||rmin(l)<=+F.min)&&(!F.km||(l.rit&&l.rit.km!=null?l.rit.km:1e9)<=+F.km));
+ if(cur==1&&!F.sort){const o={aanrader:0,prima:1,twijfel:2,afraden:3};L=[...L].sort((a,b)=>(o[a.verdict]-o[b.verdict])||a.huur-b.huur)}
+ const key={rit:rmin,km:l=>l.rit&&l.rit.km!=null?l.rit.km:1e9,huur:l=>+l.huur,instap:l=>l.kosten?l.kosten.eerste_betaling:1e9}[F.sort];if(key)L=[...L].sort((a,b)=>key(a)-key(b));
+ list.innerHTML=(cur==2?`<div class="row">${location.port?'<button class="p" onclick="refresh(this)">🔄 Ververs aanbod nu</button>':''}<span class="m">${D.refresh?'Laatst ververst: '+fmtT(D.refresh.tijd)+' (NL-tijd) · +'+D.refresh.toegevoegd:''}</span></div>`:'')+(L.map(card).join('')||'<p class="m">Niets gevonden.</p>');
  nc.textContent=D.nieuw.length?`(${D.nieuw.length})`:'';
- info.textContent=`Huurplafond ${eur(MAX)} (waarschuwing t/m ${eur(WARN)}) · vrije sector/middenhuur · ZH, zuid-NH, Utrecht`}
+ info.textContent=`${L.length} woningen · bijgewerkt ${fmtT(D.bijgewerkt||(D.refresh||{}).tijd)} · Huurplafond ${eur(MAX)} (waarschuwing t/m ${eur(WARN)}) · vrije sector/middenhuur · ZH, zuid-NH, Utrecht`}
 async function load(){D=await (await fetch('data/listings.json?'+Date.now())).json();render()}
 async function refresh(b){b.disabled=1;b.textContent='Bezig (±1-2 min)…';const r=await (await fetch('api/refresh',{method:'POST'})).json();await load();if(!r.ok)alert(r.msg)}
 load();

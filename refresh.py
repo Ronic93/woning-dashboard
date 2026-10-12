@@ -3,6 +3,8 @@
 Alleen lezen; neemt NOOIT contact op met verhuurders. Pararius via headless Chrome
 (curl krijgt 403), ikwilhuren.nu via curl. Funda/Huurwoningen blokkeren of zijn JS-only."""
 import json,re,html,subprocess,datetime,os,sys,urllib.request
+from zoneinfo import ZoneInfo
+TZ=ZoneInfo('Europe/Amsterdam')
 D=os.path.dirname(os.path.abspath(__file__)); F=os.path.join(D,'data','listings.json')
 MAX=1100
 STEDEN=["rotterdam","den-haag","rijswijk","voorburg","leidschendam","delft","schiedam","vlaardingen","zoetermeer","leiden",
@@ -44,24 +46,45 @@ def ikwilhuren(pages=4):
               huur=num(c),m2=(re.search(r'(\d+) m<sup>',c) or [None,''])[1]+' m²',interieur='',plaats=plaats.title(),
               regio=REGIO.get(plaats,"Zuid-Holland"),bron="ikwilhuren.nu"))
     return out
-def main():
-    data=json.load(open(F)); known={l['url'] for l in data['listings']}|{l['url'] for l in data.get('nieuw',[])}
-    fresh=[];log=[]
-    steden=sys.argv[1:] or STEDEN
-    for s in steden:
-        try: r=pararius(s); fresh+=r; log.append(f"Pararius {s}: {len(r)}")
-        except Exception as e: log.append(f"Pararius {s}: fout {e}")
-    try: r=ikwilhuren(); fresh+=r; log.append(f"ikwilhuren: {len(r)} in regio")
-    except Exception as e: log.append(f"ikwilhuren: fout {e}")
-    now=datetime.datetime.now().isoformat(timespec='minutes'); added=0
-    old={l['url']:l for l in data.get('nieuw',[])}
+def git(*a,check=True): return subprocess.run(["git",*a],cwd=D,capture_output=True,text=True,check=check)
+def merge(data,fresh,now):
+    added=0; known={l['url'] for l in data['listings']}; old={l['url']:l for l in data.get('nieuw',[])}
     for l in fresh:
         if not l['huur'] or l['huur']>MAX or l['url'] in known and l['url'] not in old: continue
         if any(w in (l['titel']+l['sub']).lower() for w in ['kamer ','studio']) and 'appartement' not in l['titel'].lower(): continue
         if l['url'] not in old: l['gevonden']=now; old[l['url']]=l; added+=1
-        else: old[l['url']].update({k:v for k,v in l.items() if k!='gevonden'}); old[l['url']]['gezien']=now
+        else: old[l['url']].update({k:v for k,v in l.items() if k not in('gevonden','rit','geo','kosten')}); old[l['url']]['gezien']=now
     data['nieuw']=sorted(old.values(),key=lambda x:x.get('gevonden',''),reverse=True)[:150]
-    data['refresh']={"tijd":now,"toegevoegd":added,"log":log}
-    json.dump(data,open(F+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(F+'.tmp',F)
-    print(f"{now}: {added} nieuw toegevoegd"); print("\n".join(log))
-main()
+    return added
+def main():
+    push='--push' in sys.argv; args=[a for a in sys.argv[1:] if not a.startswith('--')]
+    if push: git("pull","--rebase","--autostash","-q")
+    fresh=[];log=[]
+    for s in (args or STEDEN):
+        try: r=pararius(s); fresh+=r; log.append(f"Pararius {s}: {len(r)}")
+        except Exception as e: log.append(f"Pararius {s}: fout {e}")
+    try: r=ikwilhuren(); fresh+=r; log.append(f"ikwilhuren: {len(r)} in regio")
+    except Exception as e: log.append(f"ikwilhuren: fout {e}")
+    import enrich
+    for attempt in range(3):
+        data=json.load(open(F)); now=datetime.datetime.now(TZ).isoformat(timespec='minutes')
+        added=merge(data,fresh,now); elog=list(log)
+        data['bestemming']=enrich.verrijk(data['listings']+data['nieuw'],elog)
+        data['refresh']={"tijd":now,"toegevoegd":added,"log":elog,"door":"box" if push else os.environ.get("GITHUB_ACTIONS") and "github" or "lokaal"}
+        data['bijgewerkt']=now
+        json.dump(data,open(F+'.tmp','w'),ensure_ascii=False,indent=1); os.replace(F+'.tmp',F)
+        print(f"{now}: {added} nieuw toegevoegd"); print("\n".join(elog))
+        if not push: return
+        git("add","data/listings.json")
+        if git("diff","--cached","--quiet",check=False).returncode==0: print("geen wijzigingen"); return
+        git("commit","-qm",f"aanbod refresh (box) {now}")
+        if git("push","-q",check=False).returncode==0: print("gepusht"); return
+        # remote is veranderd: remote-versie nemen en opnieuw samenvoegen (verrijking zit in cache van eigen run)
+        prev={l['url']:l for l in data['nieuw']+data['listings']}
+        git("reset","-q","HEAD~1"); git("checkout","HEAD","--","data/listings.json")
+        git("pull","--rebase","--autostash","-q")
+        for l in fresh:
+            for k in('rit','geo','kosten'):
+                if k in prev.get(l['url'],{}): l[k]=prev[l['url']][k]
+    sys.exit("push mislukt na 3 pogingen")
+if __name__=="__main__": main()
