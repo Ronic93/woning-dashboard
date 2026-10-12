@@ -115,11 +115,27 @@ def oordeel(l):
     if b["soc"]<=2: zorg.append("sociale samenhang zwak")
     if zwak: zorg.append(zwak)
     l["review"]=f"Buurt {b['naam']} ({b['gemeente']}): Leefbaarometer {KL.get(k,'')} ({str(b['lbm']).replace('.',',')})"+(" – let op: "+", ".join(zorg) if zorg else " – geen rode vlaggen in de cijfers")+". Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
+def ruimte(l):
+    """Kamers/slaapkamers/m² van de advertentiepagina; wordt één keer opgehaald (veld 'ruimte')."""
+    r=l.get("ruimte")
+    if r and not r.get("fout"): return
+    r={"kamers":None,"slaapkamers":None,"m2":None,"kamers_geschat":False}
+    try: t=pagetext(l["url"]) if l.get("url") else ""
+    except Exception: t=""
+    if len(t)<2000: l["ruimte"]={**r,"fout":"pagina niet geladen"}; return
+    g=lambda p:(int(m.group(1)) if (m:=re.search(p,t)) else None)
+    r["kamers"]=g(r'Aantal kamers\s*\|[\s|]*(\d+)'); r["slaapkamers"]=g(r'(?:Aantal s|S)laapkamers\s*\|[\s|]*(\d+)')
+    r["m2"]=g(r'Woonoppervlakte\s*\|[\s|]*(\d+)\s*m')
+    if r["kamers"] is None and r["slaapkamers"] is not None: r["kamers"],r["kamers_geschat"]=r["slaapkamers"]+1,True
+    if r["m2"] is None:
+        m=re.search(r'(\d+)',str(l.get("m2") or '')); r["m2"]=int(m.group(1)) if m else None
+    l["ruimte"]=r
 def verrijk(lijst,log,max_nieuw=400):
     set_dest(); n=0
     for l in lijst:
         if n>=max_nieuw: break
         need=not l.get("kosten") or "pagina niet geladen" in l["kosten"].get("notities",[]) or not (l.get("rit") and l["rit"].get("dest")==[DEST["lat"],DEST["lon"]])
-        afstand(l); kosten(l); buurt(l); oordeel(l); n+=need
+        need=need or not l.get('ruimte') or bool(l['ruimte'].get('fout'))
+        afstand(l); kosten(l); ruimte(l); buurt(l); oordeel(l); n+=need
     log.append(f"verrijkt: {n} (bestemming {DEST['adres']})")
     return {"adres":DEST["adres"],"lat":DEST["lat"],"lon":DEST["lon"]}

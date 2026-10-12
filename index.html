@@ -28,6 +28,7 @@ table.k{width:100%;font-size:14px;border-collapse:collapse;margin:4px 0}table.k 
 <details id="pd" class="ms"><summary id="ps">Alle plaatsen</summary><div id="pl" class="msl"></div></details>
 <select id="so" onchange="F.sort=this.value;saveF()"><option value="">Sorteer: standaard</option><option value="rit">Kortste rijtijd</option><option value="km">Kortste afstand</option><option value="huur">Laagste huur</option><option value="instap">Laagste instapkosten</option></select>
 <input id="fmin" type="number" placeholder="Max rijtijd (min)" style="width:140px" onchange="F.min=this.value;saveF()"><input id="fkm" type="number" placeholder="Max km (rijden)" style="width:130px" onchange="F.km=this.value;saveF()">
+<select id="fk" onchange="F.kamers=this.value;saveF()"><option value="">Kamers: alle</option><option value="1">1+ kamers</option><option value="2">2+ kamers</option><option value="3">3+ kamers</option></select>
 <label class="m"><input type="checkbox" id="fsp" onchange="F.spits=this.checked;saveF()"> rijtijd in spits</label></div>
 <div class="m" id="info"></div></header>
 <main id="list"></main>
@@ -35,6 +36,9 @@ table.k{width:100%;font-size:14px;border-collapse:collapse;margin:4px 0}table.k 
 const MAX=1050,WARN=1100;
 let F=JSON.parse(localStorage.wd_f||'{}');F.plaats=F.plaats||[];const saveF=()=>{localStorage.wd_f=JSON.stringify(F);render()};
 const fmtT=t=>{if(!t)return'';const d=/[+-]\d\d:\d\d$|Z$/.test(t)?new Date(t):null;return d?d.toLocaleString('nl-NL',{timeZone:'Europe/Amsterdam',weekday:'short',day:'numeric',month:'short',hour:'2-digit',minute:'2-digit'}):t.replace('T',' ')};
+const kam=l=>l.ruimte&&l.ruimte.kamers!=null?l.ruimte.kamers:null;
+function ruimteTxt(l){const r=l.ruimte||{},m2=r.m2??(parseInt(l.m2)||null);
+ return `<div style="font-weight:600;margin:4px 0">🛏️ ${r.kamers!=null?(r.kamers_geschat?'±':'')+r.kamers+' kamer'+(r.kamers==1?'':'s'):'<span class="m">kamers onbekend</span>'}${r.slaapkamers!=null?' · '+r.slaapkamers+' slaapkamer'+(r.slaapkamers==1?'':'s'):''} · ${m2?m2+' m²':'<span class="m">m² onbekend</span>'}</div>`}
 const rmin=l=>l.rit&&l.rit.min!=null?(F.spits?l.rit.min_spits:l.rit.min):1e9;
 let D={listings:[],nieuw:[]},cur=1,E=JSON.parse(localStorage.wd_edits||'{}'),S=JSON.parse(localStorage.wd_set||'{}');
 const eur=n=>'€'+Number(n).toLocaleString('nl-NL',{minimumFractionDigits:0,maximumFractionDigits:2});
@@ -71,7 +75,7 @@ function card(l,i){const e=ed(l.url),st=e.status||'nieuw',v=l.verdict||'';
  <div>${v?`<span class="b ${v=='aanrader'?'ok':v=='prima'?'':v=='twijfel'?'warn':'bad'}">${v}</span>`:'<span class="b">nog geen buurtcheck</span>'}
  ${l.lbm?`<span class="b">LBM ${l.lbm_klasse} ${String(l.lbm).replace('.',',')}</span>`:''}${l.parkeren?`<span class="b">🚗 ${l.parkeren}</span>`:''}
  ${l.online===false?'<span class="b bad">waarschijnlijk weg</span>':l.online?'<span class="b ok">online 12-10</span>':''}</div>
- ${budget(l)}${rit(l)}${instap(l)}${l.review?`<div class="m">${l.review}</div>`:l.sub?`<div class="m">${l.sub}</div>`:''}
+ ${ruimteTxt(l)}${budget(l)}${rit(l)}${instap(l)}${l.review?`<div class="m">${l.review}</div>`:l.sub?`<div class="m">${l.sub}</div>`:''}
  <div class="row" style="margin-top:8px"><select onchange="ed('${l.url}').status=this.value;save();render()">${['nieuw','gereageerd','bezichtiging','afgewezen'].map(s=>`<option ${s==st?'selected':''}>${s}</option>`).join('')}</select>
  <a href="${l.url}" target="_blank">Advertentie ↗</a></div>
  <input placeholder="Notitie…" style="width:100%;margin-top:6px" value="${(e.note||'').replace(/"/g,'&quot;')}" onchange="ed('${l.url}').note=this.value;save()">
@@ -82,10 +86,10 @@ function filters(L0){const regs=[...new Set([...D.listings,...D.nieuw].map(l=>l.
  fr.innerHTML='<option value="">Alle regio\'s</option>'+regs.map(r=>`<option ${r==F.regio?'selected':''}>${r}</option>`).join('');
  const pls=[...new Set(L0.filter(l=>!F.regio||l.regio==F.regio).map(l=>l.plaats))].sort();
  pl.innerHTML=pls.map(p=>`<label><input type="checkbox" ${F.plaats.includes(p)?'checked':''} onchange="F.plaats=this.checked?[...F.plaats,'${p}']:F.plaats.filter(x=>x!='${p}');saveF();pd.open=true"> ${p} <span class="m">(${L0.filter(l=>l.plaats==p).length})</span></label>`).join('')+'<button onclick="F.plaats=[];saveF()">Wis</button>';
- ps.textContent=F.plaats.length?F.plaats.join(', '):'Alle plaatsen';so.value=F.sort||'';fmin.value=F.min||'';fkm.value=F.km||'';fsp.checked=!!F.spits}
+ ps.textContent=F.plaats.length?F.plaats.join(', '):'Alle plaatsen';so.value=F.sort||'';fmin.value=F.min||'';fkm.value=F.km||'';fsp.checked=!!F.spits;fk.value=F.kamers||''}
 function render(){for(const k of ['net','vaste','extra','nibud','naam'])document.getElementById('s_'+k).value=S[k]||'';let L=cur==1?D.listings:D.nieuw;filters(L);
  L=L.filter(l=>(!fs.value||(ed(l.url).status||'nieuw')==fs.value)&&(!pk.checked||/✔|eigen|gratis/i.test(l.parkeren||''))
-  &&(!F.regio||l.regio==F.regio)&&(!F.plaats.length||F.plaats.includes(l.plaats))&&(!F.min||rmin(l)<=+F.min)&&(!F.km||(l.rit&&l.rit.km!=null?l.rit.km:1e9)<=+F.km));
+  &&(!F.regio||l.regio==F.regio)&&(!F.plaats.length||F.plaats.includes(l.plaats))&&(!F.min||rmin(l)<=+F.min)&&(!F.kamers||(kam(l)!=null&&kam(l)>=+F.kamers))&&(!F.km||(l.rit&&l.rit.km!=null?l.rit.km:1e9)<=+F.km));
  if(cur==1&&!F.sort){const o={aanrader:0,prima:1,twijfel:2,afraden:3};L=[...L].sort((a,b)=>(o[a.verdict]-o[b.verdict])||a.huur-b.huur)}
  const key={rit:rmin,km:l=>l.rit&&l.rit.km!=null?l.rit.km:1e9,huur:l=>+l.huur,instap:l=>l.kosten?l.kosten.eerste_betaling:1e9}[F.sort];if(key)L=[...L].sort((a,b)=>key(a)-key(b));
  list.innerHTML=(cur==2?`<div class="row">${location.port?'<button class="p" onclick="refresh(this)">🔄 Ververs aanbod nu</button>':''}<span class="m">${D.refresh?'Laatst ververst: '+fmtT(D.refresh.tijd)+' (NL-tijd) · +'+D.refresh.toegevoegd:''}</span></div>`:'')+(L.map(card).join('')||'<p class="m">Niets gevonden.</p>');
