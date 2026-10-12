@@ -28,10 +28,12 @@ def pararius(stad):
         href=re.search(r'href="(/[a-z-]+-te-huur/[^"]+)"',s)
         if not href: continue
         price=g(r'listing-search-item__price-main">(.*?)</span>') or g(r'listing-search-item__price">(.*?)</div>')
+        echt=href.group(1).split('/')[2]
+        if echt not in STEDEN: continue  # Pararius vult aan met andere steden; alleen gewenste plaatsen
         out.append(dict(url='https://www.pararius.nl'+href.group(1),titel=g(r'aria-label="([^"]*)"'),
           sub=g(r'listing-search-item__sub-title[^"]*">(.*?)</div>'),huur=num(price),
           m2=g(r'surface-area">.*?</span>(.*?)</li>'),interieur=g(r'interior">.*?</span>(.*?)</li>'),
-          plaats=stad.replace('-',' ').title(),regio=REGIO.get(stad,"Zuid-Holland"),bron="Pararius"))
+          plaats=echt.replace('-',' ').title(),regio=REGIO.get(echt,"Zuid-Holland"),bron="Pararius"))
     return out
 def ikwilhuren(pages=4):
     out=[]

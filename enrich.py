@@ -4,7 +4,7 @@ Alles wordt gecachet in de listing zelf, dus elke advertentie wordt maar één k
 import json,re,html,math,time,urllib.request,urllib.parse,subprocess
 UA="woning-dashboard/1.0 (prive huurzoektocht; github.com/Ronic93/woning-dashboard)"
 DEST={"adres":"Fokkerweg 300, Oude Meer","lat":None,"lon":None}
-_last={"pdok":0,"osrm":0,"page":0}
+_last={"pdok":0,"osrm":0,"page":0,"lbm":0}
 def _get(url,kind,gap,headers=None,timeout=30):
     w=_last[kind]+gap-time.time()
     if w>0: time.sleep(w)
@@ -81,11 +81,36 @@ def kosten(l,refetch=False):
     k["eerste_betaling"]=round(huur+(k["service"] or 0)+(k["borg"] or 0)+sum(x["bedrag"] for x in k["eenmalig"]),2)
     if k["borg_bron"]=="geschat": k["eerste_betaling_max"]=round(k["eerste_betaling"]+huur,2)
     l["kosten"]=k
+KL={1:"Zeer onvoldoende",2:"Ruim onvoldoende",3:"Onvoldoende",4:"Zwak",5:"Voldoende",6:"Ruim voldoende",7:"Goed",8:"Zeer goed",9:"Uitstekend"}
+def buurt(l):
+    """Leefbaarometer 3.0 (meting 2024) buurtscore via de openbare WFS van het ministerie van BZK."""
+    if l.get("buurt") or not l.get("geo"): return
+    la,lo=l["geo"]["lat"],l["geo"]["lon"]
+    u=("https://geo.leefbaarometer.nl/lbm3/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=lbm3:buurtscore24"
+       f"&outputFormat=application/json&count=1&propertyName=name,gemeente,lbm,kscore,konv,ksoc&bbox={la},{lo},{la},{lo},urn:ogc:def:crs:EPSG::4326")
+    try:
+        f=json.loads(_get(u,"lbm",0.5))["features"]
+        if not f: return
+        p=f[0]["properties"]; l["buurt"]={"naam":p["name"],"gemeente":p["gemeente"],"lbm":round(p["lbm"],2),"klasse":p["kscore"],"onv":p["konv"],"soc":p["ksoc"]}
+    except Exception: pass
+def oordeel(l):
+    """Automatisch buurtoordeel voor nieuw aanbod (handmatige oordelen in 'Mijn lijst' blijven staan)."""
+    b=l.get("buurt")
+    if not b or (l.get("verdict") and not l.get("verdict_auto")): return
+    k=b["klasse"]; v="aanrader" if k>=8 else "prima" if k>=6 else "twijfel" if k==5 else "afraden"
+    stap=["aanrader","prima","twijfel","afraden"]
+    if b["onv"]<=2 and v!="afraden": v=stap[stap.index(v)+1]
+    l.update(verdict=v,verdict_auto=True,lbm=b["lbm"],lbm_klasse=KL.get(k,""))
+    zorg=[]
+    if b["onv"]<=2: zorg.append("veiligheid scoort zwak (overlast/criminaliteit)")
+    elif b["onv"]<=3: zorg.append("veiligheid onder het gemiddelde")
+    if b["soc"]<=2: zorg.append("sociale samenhang zwak")
+    l["review"]=f"Buurt {b['naam']} ({b['gemeente']}): Leefbaarometer {KL.get(k,'')} ({str(b['lbm']).replace('.',',')})"+(" – let op: "+", ".join(zorg) if zorg else " – geen rode vlaggen in de cijfers")+". Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
 def verrijk(lijst,log,max_nieuw=400):
     set_dest(); n=0
     for l in lijst:
         if n>=max_nieuw: break
         need=not l.get("kosten") or "pagina niet geladen" in l["kosten"].get("notities",[]) or not (l.get("rit") and l["rit"].get("dest")==[DEST["lat"],DEST["lon"]])
-        afstand(l); kosten(l); n+=need
+        afstand(l); kosten(l); buurt(l); oordeel(l); n+=need
     log.append(f"verrijkt: {n} (bestemming {DEST['adres']})")
     return {"adres":DEST["adres"],"lat":DEST["lat"],"lon":DEST["lon"]}
