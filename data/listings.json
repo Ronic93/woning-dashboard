@@ -737,7 +737,8 @@
    "plaats": "Delft",
    "regio": "Zuid-Holland",
    "bron": "ikwilhuren.nu",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T09:45"
   },
   {
    "url": "https://ikwilhuren.nu/object/utrecht-3561vl-118-f-taagdreef-7ca7b89fcbd18f2bb8c81090fdb42eb7/",
@@ -749,16 +750,40 @@
    "plaats": "Utrecht",
    "regio": "Utrecht",
    "bron": "ikwilhuren.nu",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T09:45"
   }
  ],
  "refresh": {
-  "tijd": "2026-10-12T08:59",
-  "toegevoegd": 37,
+  "tijd": "2026-10-12T09:45",
+  "toegevoegd": 0,
   "log": [
-   "Pararius rotterdam: 30",
-   "Pararius den-haag: 28",
-   "ikwilhuren: 21 in regio"
+   "Pararius rotterdam: 0",
+   "Pararius den-haag: 0",
+   "Pararius rijswijk: 0",
+   "Pararius voorburg: 0",
+   "Pararius leidschendam: 0",
+   "Pararius delft: 0",
+   "Pararius schiedam: 0",
+   "Pararius vlaardingen: 0",
+   "Pararius zoetermeer: 0",
+   "Pararius leiden: 0",
+   "Pararius dordrecht: 0",
+   "Pararius capelle-aan-den-ijssel: 0",
+   "Pararius barendrecht: 0",
+   "Pararius gouda: 0",
+   "Pararius alphen-aan-den-rijn: 0",
+   "Pararius utrecht: 0",
+   "Pararius nieuwegein: 0",
+   "Pararius houten: 0",
+   "Pararius zeist: 0",
+   "Pararius amersfoort: 0",
+   "Pararius haarlem: 0",
+   "Pararius amstelveen: 0",
+   "Pararius hoofddorp: 0",
+   "Pararius sliedrecht: 0",
+   "Pararius spijkenisse: 0",
+   "ikwilhuren: 19 in regio"
   ]
  }
 }
