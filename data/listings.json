@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-10-12T11:49+02:00",
+ "bijgewerkt": "2026-10-12T12:03+02:00",
  "listings": [
   {
    "id": "1",
@@ -730,6 +730,863 @@
  ],
  "nieuw": [
   {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/f2b2c0f7/august-allebeplein",
+   "titel": "Appartement August Allebéplein 474",
+   "sub": "1062 AC Amsterdam (Overtoomse Veld)",
+   "huur": 915.0,
+   "m2": "28 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Muiden",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.36352,
+    "lon": 4.83984,
+    "match": "August Allebéplein 474, 1062AC Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 9.1,
+    "km": 14.1,
+    "min": 16,
+    "min_spits": 22,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 915.0,
+    "service": null,
+    "borg": 915.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1830.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/1d926b12/elizabeth-cady-stantonplein",
+   "titel": "Appartement Elizabeth Cady Stantonplein 521",
+   "sub": "1102 BL Amsterdam (Amsterdamse Poort e.o.)",
+   "huur": 815.0,
+   "m2": "27 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Muiden",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.31579,
+    "lon": 4.95239,
+    "match": "Elizabeth Cady Stantonplein 521, 1102BL Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 11.9,
+    "km": 15.8,
+    "min": 17,
+    "min_spits": 23,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 815.0,
+    "service": null,
+    "borg": 815.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1630.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/0770d504/elizabeth-cady-stantonplein",
+   "titel": "Appartement Elizabeth Cady Stantonplein 614",
+   "sub": "1102 BL Amsterdam (Amsterdamse Poort e.o.)",
+   "huur": 832.0,
+   "m2": "27 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Muiden",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.31569,
+    "lon": 4.95241,
+    "match": "Elizabeth Cady Stantonplein 614, 1102BL Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 11.9,
+    "km": 15.9,
+    "min": 17,
+    "min_spits": 23,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 832.0,
+    "service": null,
+    "borg": 832.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1664.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/e8d679ef/elizabeth-cady-stantonplein",
+   "titel": "Appartement Elizabeth Cady Stantonplein 153",
+   "sub": "1102 BL Amsterdam (Amsterdamse Poort e.o.)",
+   "huur": 872.0,
+   "m2": "34 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Muiden",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.31607,
+    "lon": 4.95235,
+    "match": "Elizabeth Cady Stantonplein 153, 1102BL Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 11.9,
+    "km": 15.8,
+    "min": 17,
+    "min_spits": 23,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 872.0,
+    "service": null,
+    "borg": 872.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1744.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/9e1a29f2/elizabeth-cady-stantonplein",
+   "titel": "Appartement Elizabeth Cady Stantonplein 519",
+   "sub": "1102 BL Amsterdam (Amsterdamse Poort e.o.)",
+   "huur": 799.0,
+   "m2": "28 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Muiden",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.31577,
+    "lon": 4.9524,
+    "match": "Elizabeth Cady Stantonplein 519, 1102BL Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 11.9,
+    "km": 15.8,
+    "min": 17,
+    "min_spits": 23,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 799.0,
+    "service": null,
+    "borg": 799.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1598.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/0c24e9fe/elizabeth-cady-stantonplein",
+   "titel": "Appartement Elizabeth Cady Stantonplein 255",
+   "sub": "1102 BL Amsterdam (Amsterdamse Poort e.o.)",
+   "huur": 784.0,
+   "m2": "27 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Badhoevedorp",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.31599,
+    "lon": 4.95237,
+    "match": "Elizabeth Cady Stantonplein 255, 1102BL Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 11.9,
+    "km": 15.8,
+    "min": 17,
+    "min_spits": 23,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 784.0,
+    "service": null,
+    "borg": 784.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1568.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/60aa1b6a/august-allebeplein",
+   "titel": "Appartement August Allebéplein 850",
+   "sub": "1062 AC Amsterdam (Overtoomse Veld)",
+   "huur": 915.0,
+   "m2": "28 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Badhoevedorp",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.36353,
+    "lon": 4.84012,
+    "match": "August Allebéplein 850, 1062AC Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 9.1,
+    "km": 14.1,
+    "min": 16,
+    "min_spits": 22,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 915.0,
+    "service": null,
+    "borg": 915.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1830.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/dd3468b1/beemsterstraat",
+   "titel": "Appartement Beemsterstraat 546 H 3",
+   "sub": "1024 BV Amsterdam (Waterlandpleinbuurt)",
+   "huur": 1077.0,
+   "m2": "66 m²",
+   "interieur": "Kaal",
+   "plaats": "Amsterdam",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.39638,
+    "lon": 4.95129,
+    "match": "Beemsterstraat 546H-3, 1024BV Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 16.5,
+    "km": 26.5,
+    "min": 25,
+    "min_spits": 33,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1077.0,
+    "service": null,
+    "borg": 1077.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 2154.0,
+    "eerste_betaling": 2154.0,
+    "eerste_betaling_max": 3231.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/almere/9e3e75b3/daan-hoeksemastraat",
+   "titel": "Appartement Daan Hoeksemastraat 61 B",
+   "sub": "1336 BJ Almere (Stripheldenbuurt Noordwest)",
+   "huur": 1000.0,
+   "m2": "43 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Naarden",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.40376,
+    "lon": 5.31524,
+    "match": "Daan Hoeksemastraat 61B, 1336BJ Almere",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 38.3,
+    "km": 50.7,
+    "min": 42,
+    "min_spits": 57,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1000.0,
+    "service": null,
+    "borg": 1800.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2800.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/huis-te-huur/almere/d5a20e0e/groep-meelhuysenstraat",
+   "titel": "Huis Groep Meelhuysenstraat 26",
+   "sub": "1318 CX Almere (Verzetswijk Oost)",
+   "huur": 640.0,
+   "m2": "18 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Naarden",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.37961,
+    "lon": 5.24819,
+    "match": "Groep Meelhuysenstraat 26, 1318CX Almere",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 33.2,
+    "km": 43.5,
+    "min": 39,
+    "min_spits": 53,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 640.0,
+    "service": 30.0,
+    "borg": 640.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1310.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/almere/eb7d4a69/frambozenstraat",
+   "titel": "Appartement Frambozenstraat",
+   "sub": "1326 HC Almere (Parkwijk Zuidoost)",
+   "huur": 987.0,
+   "m2": "22 m²",
+   "interieur": "",
+   "plaats": "Naarden",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.37126,
+    "lon": 5.25174,
+    "match": "Frambozenstraat, 1326HC Almere",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 33.1,
+    "km": 42.4,
+    "min": 37,
+    "min_spits": 50,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 987.0,
+    "service": null,
+    "borg": 1976.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2963.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/almere/9c32258e/amsterdamweg",
+   "titel": "Appartement Amsterdamweg",
+   "sub": "1324 RR Almere (Stedenwijk Midden-noord)",
+   "huur": 953.0,
+   "m2": "18 m²",
+   "interieur": "",
+   "plaats": "Muiden",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.36814,
+    "lon": 5.20866,
+    "match": "Amsterdamweg, 1324RR Almere",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 30.2,
+    "km": 38.9,
+    "min": 35,
+    "min_spits": 47,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 953.0,
+    "service": null,
+    "borg": 1907.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2860.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/almere/154dbd7b/enschedepad",
+   "titel": "Appartement Enschedepad",
+   "sub": "1324 GB Almere (Stedenwijk Midden-oost)",
+   "huur": 960.0,
+   "m2": "21 m²",
+   "interieur": "",
+   "plaats": "Muiden",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.36469,
+    "lon": 5.20982,
+    "match": "Enschedepad, 1324GB Almere",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 30.2,
+    "km": 38.6,
+    "min": 34,
+    "min_spits": 47,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 960.0,
+    "service": null,
+    "borg": 1921.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2881.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/huis-te-huur/alkmaar/ee93eb3a/rogier-van-der-weydestraat",
+   "titel": "Huis Rogier van der Weydestraat 1 55",
+   "sub": "1817 MJ Alkmaar (Bergerhof en Blaeustraatkwartier)",
+   "huur": 1042.0,
+   "m2": "46 m²",
+   "interieur": "",
+   "plaats": "Purmerend",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.64149,
+    "lon": 4.72786,
+    "match": "Rogier van der Weydestraat 1A-55, 1817MJ Alkmaar",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 39.3,
+    "km": 47.7,
+    "min": 40,
+    "min_spits": 54,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1042.0,
+    "service": null,
+    "borg": 1042.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2084.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/huis-te-huur/alkmaar/f83994f7/rogier-van-der-weydestraat",
+   "titel": "Huis Rogier van der Weydestraat 1 1",
+   "sub": "1817 MJ Alkmaar (Bergerhof en Blaeustraatkwartier)",
+   "huur": 1056.0,
+   "m2": "54 m²",
+   "interieur": "",
+   "plaats": "Purmerend",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.64141,
+    "lon": 4.72804,
+    "match": "Rogier van der Weydestraat 1A-1, 1817MJ Alkmaar",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 39.3,
+    "km": 47.7,
+    "min": 40,
+    "min_spits": 54,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1056.0,
+    "service": null,
+    "borg": 1056.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2112.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/huis-te-huur/alkmaar/c8cdefa3/rogier-van-der-weydestraat",
+   "titel": "Huis Rogier van der Weydestraat 1 4",
+   "sub": "1817 MJ Alkmaar (Bergerhof en Blaeustraatkwartier)",
+   "huur": 960.0,
+   "m2": "29 m²",
+   "interieur": "",
+   "plaats": "Purmerend",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.64141,
+    "lon": 4.72781,
+    "match": "Rogier van der Weydestraat 1A-4, 1817MJ Alkmaar",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 39.3,
+    "km": 47.7,
+    "min": 40,
+    "min_spits": 54,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 960.0,
+    "service": null,
+    "borg": 960.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1920.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/huis-te-huur/alkmaar/b4fa2b7e/rogier-van-der-weydestraat",
+   "titel": "Huis Rogier van der Weydestraat 1 71",
+   "sub": "1817 MJ Alkmaar (Bergerhof en Blaeustraatkwartier)",
+   "huur": 1029.0,
+   "m2": "48 m²",
+   "interieur": "",
+   "plaats": "Purmerend",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.64151,
+    "lon": 4.72777,
+    "match": "Rogier van der Weydestraat 1A-71, 1817MJ Alkmaar",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 39.3,
+    "km": 47.8,
+    "min": 40,
+    "min_spits": 54,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1029.0,
+    "service": null,
+    "borg": 1029.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2058.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/huis-te-huur/alkmaar/78910f9b/rogier-van-der-weydestraat",
+   "titel": "Huis Rogier van der Weydestraat 1 46",
+   "sub": "1817 MJ Alkmaar (Bergerhof en Blaeustraatkwartier)",
+   "huur": 1001.0,
+   "m2": "45 m²",
+   "interieur": "",
+   "plaats": "Purmerend",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.64147,
+    "lon": 4.72764,
+    "match": "Rogier van der Weydestraat 1A-46, 1817MJ Alkmaar",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 39.3,
+    "km": 47.8,
+    "min": 40,
+    "min_spits": 54,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1001.0,
+    "service": null,
+    "borg": 1001.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2002.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/huis-te-huur/alkmaar/c8451e15/rogier-van-der-weydestraat",
+   "titel": "Huis Rogier van der Weydestraat 1 24",
+   "sub": "1817 MJ Alkmaar (Bergerhof en Blaeustraatkwartier)",
+   "huur": 1001.0,
+   "m2": "34 m²",
+   "interieur": "",
+   "plaats": "Purmerend",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.64145,
+    "lon": 4.728,
+    "match": "Rogier van der Weydestraat 1A-24, 1817MJ Alkmaar",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 39.3,
+    "km": 47.7,
+    "min": 40,
+    "min_spits": 54,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1001.0,
+    "service": null,
+    "borg": 1001.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2002.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/huis-te-huur/alkmaar/92b22305/rogier-van-der-weydestraat",
+   "titel": "Huis Rogier van der Weydestraat 1 17",
+   "sub": "1817 MJ Alkmaar (Bergerhof en Blaeustraatkwartier)",
+   "huur": 967.0,
+   "m2": "35 m²",
+   "interieur": "",
+   "plaats": "Purmerend",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.64143,
+    "lon": 4.72768,
+    "match": "Rogier van der Weydestraat 1A-17, 1817MJ Alkmaar",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 39.3,
+    "km": 47.8,
+    "min": 40,
+    "min_spits": 54,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 967.0,
+    "service": null,
+    "borg": 967.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1934.0
+   }
+  },
+  {
+   "url": "https://ikwilhuren.nu/object/amsterdam-1025xl-1810-buikslotermeerplein-e89b84c7228b4db3cf5e7dd8e0d8d230/",
+   "titel": "Appartement Buikslotermeerplein 1810",
+   "sub": "1025XL Amsterdam",
+   "huur": 1043.0,
+   "m2": "53 m²",
+   "interieur": "",
+   "plaats": "Amsterdam",
+   "regio": "Amsterdam e.o.",
+   "bron": "ikwilhuren.nu",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.4009,
+    "lon": 4.93208,
+    "match": "Buikslotermeerplein 1810, 1025XL Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 16.0,
+    "km": 28.7,
+    "min": 26,
+    "min_spits": 35,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1043.0,
+    "service": 60.0,
+    "borg": 0.0,
+    "borg_bron": "advertentie (vast inkomen)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1103.0
+   }
+  },
+  {
+   "url": "https://ikwilhuren.nu/object/amsterdam-1102ak-350-develstein-fa62cb9a73e0e45b3dc00aa673c3eb6b/",
+   "titel": "Appartement Develstein 350",
+   "sub": "1102AK Amsterdam",
+   "huur": 1043.0,
+   "m2": "57 m²",
+   "interieur": "",
+   "plaats": "Amsterdam",
+   "regio": "Amsterdam e.o.",
+   "bron": "ikwilhuren.nu",
+   "gevonden": "2026-10-12T12:03+02:00",
+   "geo": {
+    "lat": 52.3221,
+    "lon": 4.95747,
+    "match": "Develstein 350, 1102AK Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 12.4,
+    "km": 17.0,
+    "min": 19,
+    "min_spits": 26,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1043.0,
+    "service": 45.0,
+    "borg": 0.0,
+    "borg_bron": "advertentie (vast inkomen)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1088.0
+   }
+  },
+  {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/5c7364ff/erasmusplein",
    "titel": "Appartement Erasmusplein",
    "sub": "2532 EV Den Haag (Moerwijk-Oost)",
@@ -740,7 +1597,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.05024,
     "lon": 4.30102,
@@ -779,7 +1636,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.00985,
     "lon": 4.36068,
@@ -818,7 +1675,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.0097,
     "lon": 4.36068,
@@ -857,7 +1714,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.01329,
     "lon": 4.35962,
@@ -921,7 +1778,8 @@
     "eenmalig": [],
     "notities": [],
     "eerste_betaling": 1890.0
-   }
+   },
+   "gezien": "2026-10-12T12:03+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/schiedam/82d228b1/schimmelpenninckstraat",
@@ -959,7 +1817,8 @@
     "eenmalig": [],
     "notities": [],
     "eerste_betaling": 900.0
-   }
+   },
+   "gezien": "2026-10-12T12:03+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/leiden/835ba817/noordeinde",
@@ -968,11 +1827,11 @@
    "huur": 895.0,
    "m2": "34 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Hoofddorp",
+   "plaats": "Aalsmeer",
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.1603,
     "lon": 4.48398,
@@ -1009,11 +1868,11 @@
    "huur": 946.0,
    "m2": "36 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Hoofddorp",
+   "plaats": "Aalsmeer",
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.16147,
     "lon": 4.47925,
@@ -1048,11 +1907,11 @@
    "huur": 795.0,
    "m2": "27 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Hoofddorp",
+   "plaats": "Aalsmeer",
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.16049,
     "lon": 4.4949,
@@ -1091,7 +1950,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 51.85324,
     "lon": 4.31659,
@@ -1157,7 +2016,8 @@
     "borg_max": 830.0,
     "eerste_betaling": 830.0,
     "eerste_betaling_max": 1245.0
-   }
+   },
+   "gezien": "2026-10-12T12:03+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/2773522a/jacob-van-campenplein",
@@ -1195,7 +2055,8 @@
     "eenmalig": [],
     "notities": [],
     "eerste_betaling": 1580.0
-   }
+   },
+   "gezien": "2026-10-12T12:03+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/utrecht/e69547e3/vleutenseweg",
@@ -1204,11 +2065,11 @@
    "huur": 825.0,
    "m2": "50 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Houten",
-   "regio": "Utrecht",
+   "plaats": "Naarden",
+   "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.09347,
     "lon": 5.09441,
@@ -1243,11 +2104,11 @@
    "huur": 1000.0,
    "m2": "50 m²",
    "interieur": "",
-   "plaats": "Houten",
-   "regio": "Utrecht",
+   "plaats": "Bussum",
+   "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.06297,
     "lon": 5.14723,
@@ -1282,11 +2143,11 @@
    "huur": 884.0,
    "m2": "40 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Houten",
-   "regio": "Utrecht",
+   "plaats": "Naarden",
+   "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.22109,
     "lon": 5.17636,
@@ -1321,11 +2182,11 @@
    "huur": 875.0,
    "m2": "45 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Houten",
-   "regio": "Utrecht",
+   "plaats": "Naarden",
+   "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.22063,
     "lon": 5.1687,
@@ -1360,11 +2221,11 @@
    "huur": 1095.0,
    "m2": "44 m²",
    "interieur": "",
-   "plaats": "Amersfoort",
-   "regio": "Utrecht",
+   "plaats": "Naarden",
+   "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.15494,
     "lon": 5.37364,
@@ -1401,11 +2262,11 @@
    "huur": 640.0,
    "m2": "19 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Zeist",
-   "regio": "Utrecht",
+   "plaats": "Naarden",
+   "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.09036,
     "lon": 5.23813,
@@ -1440,11 +2301,11 @@
    "huur": 981.0,
    "m2": "42 m²",
    "interieur": "",
-   "plaats": "Amersfoort",
-   "regio": "Utrecht",
+   "plaats": "Naarden",
+   "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.15728,
     "lon": 5.39876,
@@ -1481,7 +2342,7 @@
    "huur": 775.0,
    "m2": "27 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Hoofddorp",
+   "plaats": "Naarden",
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
@@ -1510,7 +2371,8 @@
     "eenmalig": [],
     "notities": [],
     "eerste_betaling": 1550.0
-   }
+   },
+   "gezien": "2026-10-12T12:03+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/5b241adb/august-allebeplein",
@@ -1519,7 +2381,7 @@
    "huur": 915.0,
    "m2": "28 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Hoofddorp",
+   "plaats": "Naarden",
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
@@ -1548,7 +2410,8 @@
     "eenmalig": [],
     "notities": [],
     "eerste_betaling": 1830.0
-   }
+   },
+   "gezien": "2026-10-12T12:03+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/5344482d/elizabeth-cady-stantonplein",
@@ -1557,7 +2420,7 @@
    "huur": 815.0,
    "m2": "27 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Hoofddorp",
+   "plaats": "Naarden",
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
@@ -1586,7 +2449,8 @@
     "eenmalig": [],
     "notities": [],
     "eerste_betaling": 1630.0
-   }
+   },
+   "gezien": "2026-10-12T12:03+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/a545ecd9/elizabeth-cady-stantonplein",
@@ -1595,7 +2459,7 @@
    "huur": 799.0,
    "m2": "27 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Hoofddorp",
+   "plaats": "Naarden",
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
@@ -1624,7 +2488,8 @@
     "eenmalig": [],
     "notities": [],
     "eerste_betaling": 1598.0
-   }
+   },
+   "gezien": "2026-10-12T12:03+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/23e5f8b5/nilda-pintostraat",
@@ -1633,7 +2498,7 @@
    "huur": 1097.0,
    "m2": "55 m²",
    "interieur": "Gestoffeerd of gemeubileerd",
-   "plaats": "Hoofddorp",
+   "plaats": "Naarden",
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
@@ -1662,7 +2527,8 @@
     "eenmalig": [],
     "notities": [],
     "eerste_betaling": 3292.0
-   }
+   },
+   "gezien": "2026-10-12T12:03+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/64cc2bad/august-allebeplein",
@@ -1671,7 +2537,7 @@
    "huur": 915.0,
    "m2": "28 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Hoofddorp",
+   "plaats": "Naarden",
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
@@ -1700,7 +2566,8 @@
     "eenmalig": [],
     "notities": [],
     "eerste_betaling": 1830.0
-   }
+   },
+   "gezien": "2026-10-12T12:03+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/5bf9bff9/august-allebeplein",
@@ -1709,7 +2576,7 @@
    "huur": 915.0,
    "m2": "28 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Hoofddorp",
+   "plaats": "Naarden",
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
@@ -1738,7 +2605,8 @@
     "eenmalig": [],
     "notities": [],
     "eerste_betaling": 1830.0
-   }
+   },
+   "gezien": "2026-10-12T12:03+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/c99fb842/groenhoven",
@@ -1747,7 +2615,7 @@
    "huur": 899.0,
    "m2": "54 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Hoofddorp",
+   "plaats": "Naarden",
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
@@ -1776,7 +2644,8 @@
     "eenmalig": [],
     "notities": [],
     "eerste_betaling": 2688.0
-   }
+   },
+   "gezien": "2026-10-12T12:03+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/bf9f7010/august-allebeplein",
@@ -1785,7 +2654,7 @@
    "huur": 915.0,
    "m2": "29 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Hoofddorp",
+   "plaats": "Naarden",
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
@@ -1814,7 +2683,8 @@
     "eenmalig": [],
     "notities": [],
     "eerste_betaling": 1830.0
-   }
+   },
+   "gezien": "2026-10-12T12:03+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/6f33c114/august-allebeplein",
@@ -1823,7 +2693,7 @@
    "huur": 915.0,
    "m2": "28 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Hoofddorp",
+   "plaats": "Naarden",
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
@@ -1852,7 +2722,8 @@
     "eenmalig": [],
     "notities": [],
     "eerste_betaling": 1830.0
-   }
+   },
+   "gezien": "2026-10-12T12:03+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/ba446136/august-allebeplein",
@@ -1861,7 +2732,7 @@
    "huur": 915.0,
    "m2": "28 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Hoofddorp",
+   "plaats": "Naarden",
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
@@ -1890,7 +2761,8 @@
     "eenmalig": [],
     "notities": [],
     "eerste_betaling": 1830.0
-   }
+   },
+   "gezien": "2026-10-12T12:03+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/0585163d/elizabeth-cady-stantonplein",
@@ -1899,7 +2771,7 @@
    "huur": 855.0,
    "m2": "34 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Hoofddorp",
+   "plaats": "Naarden",
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
@@ -1928,7 +2800,8 @@
     "eenmalig": [],
     "notities": [],
     "eerste_betaling": 1710.0
-   }
+   },
+   "gezien": "2026-10-12T12:03+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/8cd9a0b1/august-allebeplein",
@@ -1937,7 +2810,7 @@
    "huur": 915.0,
    "m2": "28 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Hoofddorp",
+   "plaats": "Naarden",
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
@@ -1966,7 +2839,8 @@
     "eenmalig": [],
     "notities": [],
     "eerste_betaling": 1830.0
-   }
+   },
+   "gezien": "2026-10-12T12:03+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/ccac1f4e/elizabeth-cady-stantonplein",
@@ -1975,7 +2849,7 @@
    "huur": 832.0,
    "m2": "27 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Hoofddorp",
+   "plaats": "Naarden",
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
@@ -2004,7 +2878,8 @@
     "eenmalig": [],
     "notities": [],
     "eerste_betaling": 1664.0
-   }
+   },
+   "gezien": "2026-10-12T12:03+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/a81409db/elizabeth-cady-stantonplein",
@@ -2013,7 +2888,7 @@
    "huur": 848.0,
    "m2": "27 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Hoofddorp",
+   "plaats": "Naarden",
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
@@ -2042,7 +2917,8 @@
     "eenmalig": [],
     "notities": [],
     "eerste_betaling": 1696.0
-   }
+   },
+   "gezien": "2026-10-12T12:03+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/7498b778/elizabeth-cady-stantonplein",
@@ -2051,7 +2927,7 @@
    "huur": 815.0,
    "m2": "27 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Hoofddorp",
+   "plaats": "Naarden",
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
@@ -2080,7 +2956,8 @@
     "eenmalig": [],
     "notities": [],
     "eerste_betaling": 1630.0
-   }
+   },
+   "gezien": "2026-10-12T12:03+02:00"
   },
   {
    "url": "https://www.pararius.nl/huis-te-huur/zaandam/5abfcd18/kraakstraat",
@@ -2089,7 +2966,7 @@
    "huur": 450.0,
    "m2": "54 m²",
    "interieur": "Kaal",
-   "plaats": "Hoofddorp",
+   "plaats": "Muiden",
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
@@ -2120,7 +2997,8 @@
     "borg_max": 900.0,
     "eerste_betaling": 900.0,
     "eerste_betaling_max": 1350.0
-   }
+   },
+   "gezien": "2026-10-12T12:03+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/cfccbd99/spanjaardstraat",
@@ -2133,7 +3011,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 51.90933,
     "lon": 4.4461,
@@ -2174,7 +3052,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 51.93033,
     "lon": 4.49662,
@@ -2213,7 +3091,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 51.89507,
     "lon": 4.49214,
@@ -2252,7 +3130,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 51.88643,
     "lon": 4.4743,
@@ -2291,7 +3169,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 51.88659,
     "lon": 4.49666,
@@ -2330,7 +3208,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 51.88659,
     "lon": 4.49666,
@@ -2369,7 +3247,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 51.88659,
     "lon": 4.49666,
@@ -2408,7 +3286,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 51.92722,
     "lon": 4.50168,
@@ -2447,7 +3325,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 51.87058,
     "lon": 4.48725,
@@ -2486,7 +3364,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 51.92337,
     "lon": 4.4949,
@@ -2525,7 +3403,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 51.91735,
     "lon": 4.45953,
@@ -2566,7 +3444,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 51.92162,
     "lon": 4.49098,
@@ -2605,7 +3483,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 51.89151,
     "lon": 4.51209,
@@ -2646,7 +3524,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 51.89278,
     "lon": 4.46433,
@@ -2685,7 +3563,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 51.92546,
     "lon": 4.49249,
@@ -2765,7 +3643,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.08358,
     "lon": 4.29542,
@@ -2806,7 +3684,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.07208,
     "lon": 4.31535,
@@ -2847,7 +3725,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.06188,
     "lon": 4.32796,
@@ -2888,7 +3766,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.07421,
     "lon": 4.31541,
@@ -2929,7 +3807,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.07033,
     "lon": 4.28113,
@@ -2970,7 +3848,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.07033,
     "lon": 4.28113,
@@ -3011,7 +3889,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.07327,
     "lon": 4.2744,
@@ -3052,7 +3930,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.0781,
     "lon": 4.28146,
@@ -3091,7 +3969,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.068,
     "lon": 4.33156,
@@ -3130,7 +4008,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.05936,
     "lon": 4.31115,
@@ -3169,7 +4047,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.06803,
     "lon": 4.33117,
@@ -3208,7 +4086,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.0734,
     "lon": 4.27707,
@@ -3247,7 +4125,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.0751,
     "lon": 4.323,
@@ -3286,7 +4164,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.07404,
     "lon": 4.27207,
@@ -3325,7 +4203,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.06152,
     "lon": 4.33041,
@@ -3366,7 +4244,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.05964,
     "lon": 4.31082,
@@ -3405,7 +4283,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.07792,
     "lon": 4.28603,
@@ -3444,7 +4322,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.07153,
     "lon": 4.28816,
@@ -3485,7 +4363,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.08467,
     "lon": 4.28117,
@@ -3524,7 +4402,7 @@
    "regio": "Zuid-Holland",
    "bron": "ikwilhuren.nu",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T12:03+02:00",
    "geo": {
     "lat": 52.00413,
     "lon": 4.35888,
@@ -3593,8 +4471,8 @@
   }
  ],
  "refresh": {
-  "tijd": "2026-10-12T11:49+02:00",
-  "toegevoegd": 36,
+  "tijd": "2026-10-12T12:03+02:00",
+  "toegevoegd": 22,
   "log": [
    "Pararius rotterdam: 30",
    "Pararius den-haag: 29",
@@ -3616,13 +4494,32 @@
    "Pararius houten: 20",
    "Pararius zeist: 3",
    "Pararius amersfoort: 3",
-   "Pararius haarlem: 4",
-   "Pararius amstelveen: 1",
-   "Pararius hoofddorp: 30",
    "Pararius sliedrecht: 1",
    "Pararius spijkenisse: 2",
-   "ikwilhuren: 19 in regio",
-   "verrijkt: 89 (bestemming Fokkerweg 300, Oude Meer)"
+   "Pararius amsterdam: 28",
+   "Pararius amstelveen: 1",
+   "Pararius diemen: 30",
+   "Pararius duivendrecht: 30",
+   "Pararius ouderkerk-aan-de-amstel: 30",
+   "Pararius weesp: 30",
+   "Pararius hoofddorp: 30",
+   "Pararius nieuw-vennep: 30",
+   "Pararius badhoevedorp: 30",
+   "Pararius haarlem: 4",
+   "Pararius heemstede: 1",
+   "Pararius zaandam: 1",
+   "Pararius koog-aan-de-zaan: 30",
+   "Pararius purmerend: 30",
+   "Pararius landsmeer: 30",
+   "Pararius uithoorn: 30",
+   "Pararius aalsmeer: 30",
+   "Pararius abcoude: 30",
+   "Pararius muiden: 30",
+   "Pararius hilversum: 3",
+   "Pararius bussum: 30",
+   "Pararius naarden: 30",
+   "ikwilhuren: 32 in regio",
+   "verrijkt: 22 (bestemming Fokkerweg 300, Oude Meer)"
   ],
   "door": "box"
  },
