@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-10-12T07:45",
+ "bijgewerkt": "2026-10-12T11:49+02:00",
  "listings": [
   {
    "id": "1",
@@ -18,7 +18,33 @@
    "beschikbaar": "per direct",
    "review": "de beste buurtscore van de hele lijst, weinig criminaliteit en samen met Rijswijk het goedkoopst in totaal (±€1.059). Minpunten: 50 m² is klein als de kinderen langskomen, en het is per direct beschikbaar, dus snel zijn.",
    "bron": "seed 8-12 okt",
-   "extra": 0
+   "extra": 0,
+   "geo": {
+    "lat": 52.07258,
+    "lon": 4.37529,
+    "match": "Vlietwijck 104, 2271EX Voorburg",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 36.8,
+    "km": 40.9,
+    "min": 35,
+    "min_spits": 48,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 980.91,
+    "service": 78.0,
+    "borg": 980.91,
+    "borg_bron": "advertentie (1× huur)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2039.82
+   }
   },
   {
    "id": "2",
@@ -37,7 +63,33 @@
    "beschikbaar": "volgorde binnenkomst",
    "review": "een rustige, veilige nieuwbouwbuurt, nieuw en energiezuinig, en meer m² dan Voorburg. Minpunten:",
    "bron": "seed 8-12 okt",
-   "extra": 0
+   "extra": 0,
+   "geo": {
+    "lat": 52.0229,
+    "lon": 4.33963,
+    "match": "Grote Vuurvlinderstraat 261, 2288HM Rijswijk",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 42.4,
+    "km": 47.7,
+    "min": 40,
+    "min_spits": 54,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1025.0,
+    "service": 0.0,
+    "borg": 1090.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2115.0
+   }
   },
   {
    "id": "3",
@@ -56,7 +108,33 @@
    "beschikbaar": "",
    "review": "voor Rotterdam de beste combinatie van buurt en prijs. De buurt is groen en levendig, met hoge scores op alle drie de indexen, en ligt dicht bij alles.",
    "bron": "seed 8-12 okt",
-   "extra": 0
+   "extra": 0,
+   "geo": {
+    "lat": 51.9279,
+    "lon": 4.50802,
+    "match": "Oudedijk 188A, 3061AS Rotterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 44.4,
+    "km": 63.5,
+    "min": 54,
+    "min_spits": 73,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1050.0,
+    "service": 0.0,
+    "borg": 2099.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 3149.0
+   }
   },
   {
    "id": "4a",
@@ -75,7 +153,33 @@
    "beschikbaar": "per direct",
    "review": "een degelijke, gemiddelde buurt zonder rode vlaggen, met gratis parkeren en heel veel ruimte voor je geld (81 m², ruim genoeg voor de kinderen). Het is geen topbuurt en het OV is matig.",
    "bron": "seed 8-12 okt",
-   "extra": 0
+   "extra": 0,
+   "geo": {
+    "lat": 51.93166,
+    "lon": 4.34561,
+    "match": "Jean Monnetring 209, 3137DC Vlaardingen",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 49.8,
+    "km": 61.2,
+    "min": 50,
+    "min_spits": 68,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1044.0,
+    "service": 60.0,
+    "borg": 0.0,
+    "borg_bron": "advertentie (vast inkomen)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1104.0
+   }
   },
   {
    "id": "4b",
@@ -94,7 +198,33 @@
    "beschikbaar": "1 nov",
    "review": "een degelijke, gemiddelde buurt zonder rode vlaggen, met gratis parkeren en heel veel ruimte voor je geld (81 m², ruim genoeg voor de kinderen). Het is geen topbuurt en het OV is matig.",
    "bron": "seed 8-12 okt",
-   "extra": 0
+   "extra": 0,
+   "geo": {
+    "lat": 51.93166,
+    "lon": 4.34561,
+    "match": "Jean Monnetring 193, 3137DC Vlaardingen",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 49.8,
+    "km": 61.2,
+    "min": 50,
+    "min_spits": 68,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1036.0,
+    "service": 60.0,
+    "borg": 0.0,
+    "borg_bron": "advertentie (vast inkomen)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1096.0
+   }
   },
   {
    "id": "5",
@@ -113,7 +243,33 @@
    "beschikbaar": "1 nov",
    "review": "nette centrumligging, goedkope vergunning, OV voor de deur. Wel krap: €1.114 all-in voor 53 m².",
    "bron": "seed 8-12 okt",
-   "extra": 0
+   "extra": 0,
+   "geo": {
+    "lat": 52.06001,
+    "lon": 4.49026,
+    "match": "Engelandlaan 180, 2711DW Zoetermeer",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 32.4,
+    "km": 39.2,
+    "min": 36,
+    "min_spits": 48,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1077.0,
+    "service": 37.0,
+    "borg": 2154.0,
+    "borg_bron": "advertentie (2× huur)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 3268.0
+   }
   },
   {
    "id": "6",
@@ -132,7 +288,33 @@
    "beschikbaar": "",
    "review": "goedkoop, in een uitstekende stad en centraal tussen Rotterdam en Amsterdam. Minder handig met een auto, en klein.",
    "bron": "seed 8-12 okt",
-   "extra": 0
+   "extra": 0,
+   "geo": {
+    "lat": 52.1588,
+    "lon": 4.48958,
+    "match": "Breestraat, Leiden",
+    "nauwkeurig": "weg"
+   },
+   "rit": {
+    "hemelsbreed_km": 24.7,
+    "km": 29.4,
+    "min": 30,
+    "min_spits": 41,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 837.0,
+    "service": 0.0,
+    "borg": 1087.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1924.0
+   }
   },
   {
    "id": "7",
@@ -151,7 +333,33 @@
    "beschikbaar": "",
    "review": "veilig, goedkoop en rustig. Minpunten: label D (hogere energiekosten), snelweggeluid en verder van alles.",
    "bron": "seed 8-12 okt",
-   "extra": 0
+   "extra": 0,
+   "geo": {
+    "lat": 51.82559,
+    "lon": 4.76474,
+    "match": "Geulstraat 8, 3363HS Sliedrecht",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 51.6,
+    "km": 87.0,
+    "min": 70,
+    "min_spits": 95,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 932.0,
+    "service": 100.0,
+    "borg": 932.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1964.0
+   }
   },
   {
    "id": "8",
@@ -170,7 +378,35 @@
    "beschikbaar": "waarschijnlijk verouderd",
    "review": "een prima woonbuurt met een eigen parkeerplek. Wel een druk centrum, en de advertentie staat er al sinds juni met \"per 1-9\". De kans is groot dat hij al weg is.",
    "bron": "seed 8-12 okt",
-   "extra": 0
+   "extra": 0,
+   "geo": {
+    "lat": 51.91642,
+    "lon": 4.48676,
+    "match": "Jufferstraat, Rotterdam",
+    "nauwkeurig": "weg"
+   },
+   "rit": {
+    "hemelsbreed_km": 46.2,
+    "km": 61.7,
+    "min": 53,
+    "min_spits": 72,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1075.0,
+    "service": 25.0,
+    "borg": 1075.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 2150.0,
+    "eerste_betaling": 2175.0,
+    "eerste_betaling_max": 3250.0
+   }
   },
   {
    "id": "9",
@@ -189,7 +425,33 @@
    "beschikbaar": "huisvestingsvergunning nodig",
    "review": "de buurt zelf is goed. Maar Den Haag eist bij huur onder €932,93 een huisvestingsvergunning met een inkomensgrens van €51.537 per jaar, en daar zit je waarschijnlijk boven. Zonder die vergunning kun je hier niet wonen.",
    "bron": "seed 8-12 okt",
-   "extra": 0
+   "extra": 0,
+   "geo": {
+    "lat": 52.07075,
+    "lon": 4.28381,
+    "match": "Loosduinseweg, 's-Gravenhage",
+    "nauwkeurig": "weg"
+   },
+   "rit": {
+    "hemelsbreed_km": 41.8,
+    "km": 48.7,
+    "min": 43,
+    "min_spits": 58,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 850.0,
+    "service": 0.0,
+    "borg": 1700.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2550.0
+   }
   },
   {
    "id": "10",
@@ -208,7 +470,33 @@
    "beschikbaar": "",
    "review": "geen slechte buurt, maar wel de duurste Rotterdamse optie (all-in ±€1.112), zonder lift, bij de snelweg en met dalende tevredenheid. Voor bijna hetzelfde geld zit je in Kralingen.",
    "bron": "seed 8-12 okt",
-   "extra": 0
+   "extra": 0,
+   "geo": {
+    "lat": 51.87937,
+    "lon": 4.55953,
+    "match": "Quadenoord 72, 3079XE Rotterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 48.1,
+    "km": 73.2,
+    "min": 60,
+    "min_spits": 81,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1083.88,
+    "service": 27.7,
+    "borg": 1083.88,
+    "borg_bron": "advertentie (1× huur)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2195.46
+   }
   },
   {
    "id": "11",
@@ -227,7 +515,35 @@
    "beschikbaar": "16 okt",
    "review": "goedkoop, goed OV en een nieuw label A. Maar je zei dat je geen slechte buurt wilt, en de buurt zit op overlast-indicatoren en beleving duidelijk onder het gemiddelde. Ga zelf 's avonds kijken.",
    "bron": "seed 8-12 okt",
-   "extra": 0
+   "extra": 0,
+   "geo": {
+    "lat": 51.90128,
+    "lon": 4.49788,
+    "match": "Pretorialaan 24D, 3072EN Rotterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 47.4,
+    "km": 63.6,
+    "min": 56,
+    "min_spits": 76,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 920.0,
+    "service": 0.0,
+    "borg": 920.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 1840.0,
+    "eerste_betaling": 1840.0,
+    "eerste_betaling_max": 2760.0
+   }
   },
   {
    "id": "12",
@@ -246,7 +562,35 @@
    "beschikbaar": "1 nov",
    "review": "een goede woning met een eigen parkeerplek, maar de buurt scoort zwak met bovengemiddelde criminaliteit. All-in met parkeren kost het ±€1.187.",
    "bron": "seed 8-12 okt",
-   "extra": 57
+   "extra": 57,
+   "geo": {
+    "lat": 52.04373,
+    "lon": 4.28599,
+    "match": "Erasmusweg 1179L, 2542PV 's-Gravenhage",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 43.6,
+    "km": 50.6,
+    "min": 45,
+    "min_spits": 60,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1070.14,
+    "service": 74.5,
+    "borg": 1070.14,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 2140.28,
+    "eerste_betaling": 2214.78,
+    "eerste_betaling_max": 3284.92
+   }
   },
   {
    "id": "13",
@@ -265,7 +609,33 @@
    "beschikbaar": "16 dec",
    "review": "een nieuwe woning op een gemiddelde plek, maar duur all-in (€1.147), met onzeker parkeren en ver van Rotterdam.",
    "bron": "seed 8-12 okt",
-   "extra": 0
+   "extra": 0,
+   "geo": {
+    "lat": 52.02673,
+    "lon": 5.0859,
+    "match": "Tinnegieterstede 68, 3431HX Nieuwegein",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 35.8,
+    "km": 47.7,
+    "min": 40,
+    "min_spits": 54,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1057.13,
+    "service": 90.0,
+    "borg": 0.0,
+    "borg_bron": "advertentie (vast inkomen)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1147.13
+   }
   },
   {
    "id": "14",
@@ -284,7 +654,33 @@
    "beschikbaar": "",
    "review": "veel m² voor je geld en een top-OV-ligging, maar dit is de zwakste en dalende buurt van je Rotterdamse lijst, met meer geweld. De woning is ook open voor studenten en woningdelers.",
    "bron": "seed 8-12 okt",
-   "extra": 0
+   "extra": 0,
+   "geo": {
+    "lat": 51.91043,
+    "lon": 4.44391,
+    "match": "Schiedamseweg 101B, 3026AE Rotterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 48.1,
+    "km": 61.3,
+    "min": 52,
+    "min_spits": 70,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 985.0,
+    "service": 0.0,
+    "borg": 1970.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2955.0
+   }
   },
   {
    "id": "15",
@@ -303,10 +699,1429 @@
    "beschikbaar": "loting",
    "review": "het nieuwbouwcomplex zelf is prima, maar de buurt scoort zwak en er is recente, structurele overlast in de wijk. Bovendien is het een loting.",
    "bron": "seed 8-12 okt",
-   "extra": 0
+   "extra": 0,
+   "geo": {
+    "lat": 52.10918,
+    "lon": 5.11497,
+    "match": "Vader Rijndreef 154, 3561XA Utrecht",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 30.2,
+    "km": 43.7,
+    "min": 39,
+    "min_spits": 53,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 986.68,
+    "service": 65.0,
+    "borg": 0.0,
+    "borg_bron": "advertentie (vast inkomen)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1051.68
+   }
   }
  ],
  "nieuw": [
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/den-haag/5c7364ff/erasmusplein",
+   "titel": "Appartement Erasmusplein",
+   "sub": "2532 EV Den Haag (Moerwijk-Oost)",
+   "huur": 809.0,
+   "m2": "45 m²",
+   "interieur": "Gemeubileerd",
+   "plaats": "Zoetermeer",
+   "regio": "Zuid-Holland",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.05024,
+    "lon": 4.30102,
+    "match": "Erasmusplein, 2532EV 's-Gravenhage",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 42.3,
+    "km": 49.1,
+    "min": 42,
+    "min_spits": 57,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 809.0,
+    "service": null,
+    "borg": 1619.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2428.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/delft/9d4b0aa1/brabantse-turfmarkt",
+   "titel": "Appartement Brabantse Turfmarkt 47 1",
+   "sub": "2611 CL Delft (Centrum)",
+   "huur": 771.0,
+   "m2": "52 m²",
+   "interieur": "Gemeubileerd",
+   "plaats": "Alphen Aan Den Rijn",
+   "regio": "Zuid-Holland",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.00985,
+    "lon": 4.36068,
+    "match": "Brabantse Turfmarkt 47, 2611CL Delft",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 42.4,
+    "km": 49.3,
+    "min": 42,
+    "min_spits": 56,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 771.0,
+    "service": null,
+    "borg": 1542.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2313.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/delft/5dd753a0/brabantse-turfmarkt",
+   "titel": "Appartement Brabantse Turfmarkt 33 E",
+   "sub": "2611 CL Delft (Centrum)",
+   "huur": 791.0,
+   "m2": "46 m²",
+   "interieur": "Gemeubileerd",
+   "plaats": "Alphen Aan Den Rijn",
+   "regio": "Zuid-Holland",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.0097,
+    "lon": 4.36068,
+    "match": "Brabantse Turfmarkt 33E, 2611CL Delft",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 42.4,
+    "km": 49.3,
+    "min": 41,
+    "min_spits": 56,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 791.0,
+    "service": null,
+    "borg": 1582.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2373.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/delft/9fc87c98/vrouwjuttenland",
+   "titel": "Appartement Vrouwjuttenland 34 1",
+   "sub": "2611 LC Delft (Centrum-Oost)",
+   "huur": 1054.0,
+   "m2": "45 m²",
+   "interieur": "Gemeubileerd",
+   "plaats": "Alphen Aan Den Rijn",
+   "regio": "Zuid-Holland",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.01329,
+    "lon": 4.35962,
+    "match": "Vrouwjuttenland 34, 2611LC Delft",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 42.2,
+    "km": 49.0,
+    "min": 41,
+    "min_spits": 56,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1054.0,
+    "service": null,
+    "borg": 2990.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 4044.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/schiedam/114a6c08/westvest",
+   "titel": "Appartement Westvest",
+   "sub": "3111 BV Schiedam (Walvisbuurt)",
+   "huur": 630.0,
+   "m2": "7 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Schiedam",
+   "regio": "Zuid-Holland",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 51.91368,
+    "lon": 4.40054,
+    "match": "Westvest, 3111BV Schiedam",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 49.3,
+    "km": 61.3,
+    "min": 50,
+    "min_spits": 68,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 630.0,
+    "service": null,
+    "borg": 1260.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1890.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/schiedam/82d228b1/schimmelpenninckstraat",
+   "titel": "Appartement Schimmelpenninckstraat",
+   "sub": "3119 TP Schiedam (Staatsliedenbuurt)",
+   "huur": 350.0,
+   "m2": "72 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Schiedam",
+   "regio": "Zuid-Holland",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 51.92268,
+    "lon": 4.3855,
+    "match": "Schimmelpenninckstraat, 3119TP Schiedam",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 49.0,
+    "km": 60.5,
+    "min": 50,
+    "min_spits": 67,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 350.0,
+    "service": null,
+    "borg": 550.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 900.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/leiden/835ba817/noordeinde",
+   "titel": "Appartement Noordeinde 42 BG",
+   "sub": "2311 CE Leiden (Academiewijk)",
+   "huur": 895.0,
+   "m2": "34 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Hoofddorp",
+   "regio": "Noord-Holland (zuid)",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.1603,
+    "lon": 4.48398,
+    "match": "Noordeinde 42, 2311CE Leiden",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 24.9,
+    "km": 29.1,
+    "min": 30,
+    "min_spits": 40,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 895.0,
+    "service": null,
+    "borg": 895.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 1790.0,
+    "eerste_betaling": 1790.0,
+    "eerste_betaling_max": 2685.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/leiden/581649ab/morsweg",
+   "titel": "Appartement Morsweg 17 A",
+   "sub": "2312 AA Leiden (Transvaalbuurt)",
+   "huur": 946.0,
+   "m2": "36 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Hoofddorp",
+   "regio": "Noord-Holland (zuid)",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.16147,
+    "lon": 4.47925,
+    "match": "Morsweg 17A, 2312AA Leiden",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 25.1,
+    "km": 32.5,
+    "min": 29,
+    "min_spits": 39,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 946.0,
+    "service": null,
+    "borg": 1893.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2839.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/leiden/72bb4eae/haarlemmerstraat",
+   "titel": "Appartement Haarlemmerstraat",
+   "sub": "2312 GH Leiden (Marewijk)",
+   "huur": 795.0,
+   "m2": "27 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Hoofddorp",
+   "regio": "Noord-Holland (zuid)",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.16049,
+    "lon": 4.4949,
+    "match": "Haarlemmerstraat, 2312GH Leiden",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 24.3,
+    "km": 28.3,
+    "min": 28,
+    "min_spits": 38,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 795.0,
+    "service": 40.0,
+    "borg": 1500.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2335.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/spijkenisse/59734f1b/winston-churchilllaan",
+   "titel": "Appartement Winston Churchilllaan 13 J",
+   "sub": "3202 GN Spijkenisse (Schiekamp-Zuid)",
+   "huur": 1070.0,
+   "m2": "70 m²",
+   "interieur": "",
+   "plaats": "Spijkenisse",
+   "regio": "Zuid-Holland",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 51.85324,
+    "lon": 4.31659,
+    "match": "Winston Churchilllaan 13J, 3202GN Spijkenisse",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 58.1,
+    "km": 72.8,
+    "min": 59,
+    "min_spits": 79,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1070.0,
+    "service": 41.0,
+    "borg": 2140.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 3251.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/oud-beijerland/cb212276/slobbegors",
+   "titel": "Appartement Slobbegors",
+   "sub": "3261 EN Oud-Beijerland (Oud-Beijerland Oosterse Gorzenwijk)",
+   "huur": 415.0,
+   "m2": "82 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Barendrecht",
+   "regio": "Zuid-Holland",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 51.8275,
+    "lon": 4.41705,
+    "match": "Slobbegors, 3261EN Oud-Beijerland",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 57.1,
+    "km": 85.8,
+    "min": 70,
+    "min_spits": 94,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 415.0,
+    "service": null,
+    "borg": 415.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 830.0,
+    "eerste_betaling": 830.0,
+    "eerste_betaling_max": 1245.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/2773522a/jacob-van-campenplein",
+   "titel": "Appartement Jacob van Campenplein 172",
+   "sub": "3067 LE Rotterdam (Het Lage Land)",
+   "huur": 768.0,
+   "m2": "95 m²",
+   "interieur": "",
+   "plaats": "Alphen Aan Den Rijn",
+   "regio": "Zuid-Holland",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 51.94343,
+    "lon": 4.53752,
+    "match": "Jacob van Campenplein 172, 3067LE Rotterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 42.0,
+    "km": 66.1,
+    "min": 55,
+    "min_spits": 74,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 768.0,
+    "service": 44.0,
+    "borg": 768.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1580.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/utrecht/e69547e3/vleutenseweg",
+   "titel": "Appartement Vleutenseweg",
+   "sub": "3532 HT Utrecht (Lombok-West)",
+   "huur": 825.0,
+   "m2": "50 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Houten",
+   "regio": "Utrecht",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.09347,
+    "lon": 5.09441,
+    "match": "Vleutenseweg, 3532HT Utrecht",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 30.4,
+    "km": 41.3,
+    "min": 37,
+    "min_spits": 50,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 825.0,
+    "service": null,
+    "borg": 1650.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2475.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/huis-te-huur/utrecht/7c297eb4/mereveldseweg",
+   "titel": "Huis Mereveldseweg 4",
+   "sub": "3585 LH Utrecht (Maarschalkerweerd en Mereveld)",
+   "huur": 1000.0,
+   "m2": "50 m²",
+   "interieur": "",
+   "plaats": "Houten",
+   "regio": "Utrecht",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.06297,
+    "lon": 5.14723,
+    "match": "Mereveldseweg 4, 3585LH Utrecht",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 35.4,
+    "km": 47.9,
+    "min": 41,
+    "min_spits": 56,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1000.0,
+    "service": null,
+    "borg": 2700.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 3700.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/hilversum/d6a5a310/kapelstraat",
+   "titel": "Appartement Kapelstraat 31 appartement 6",
+   "sub": "1211 LX Hilversum (Centrum)",
+   "huur": 884.0,
+   "m2": "40 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Houten",
+   "regio": "Utrecht",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.22109,
+    "lon": 5.17636,
+    "match": "Kapelstraat 31, 1211LX Hilversum",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 27.8,
+    "km": 36.5,
+    "min": 36,
+    "min_spits": 48,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 884.0,
+    "service": null,
+    "borg": 1708.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2592.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/hilversum/810d89a4/2e-oosterstraat",
+   "titel": "Appartement 2e Oosterstraat 7 A",
+   "sub": "1211 LG Hilversum (Havenstraatbuurt)",
+   "huur": 875.0,
+   "m2": "45 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Houten",
+   "regio": "Utrecht",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.22063,
+    "lon": 5.1687,
+    "match": "2e Oosterstraat 7A, 1211LG Hilversum",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 27.3,
+    "km": 35.8,
+    "min": 35,
+    "min_spits": 47,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 875.0,
+    "service": null,
+    "borg": 1750.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2625.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amersfoort/d646f81f/piet-mondriaanplein",
+   "titel": "Appartement Piet Mondriaanplein",
+   "sub": "3812 GZ Amersfoort (Piet Mondriaanlaan e.o.)",
+   "huur": 1095.0,
+   "m2": "44 m²",
+   "interieur": "",
+   "plaats": "Amersfoort",
+   "regio": "Utrecht",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.15494,
+    "lon": 5.37364,
+    "match": "Piet Mondriaanplein, 3812GZ Amersfoort",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 42.9,
+    "km": 59.7,
+    "min": 52,
+    "min_spits": 70,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1095.0,
+    "service": null,
+    "borg": 1095.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 2190.0,
+    "eerste_betaling": 2190.0,
+    "eerste_betaling_max": 3285.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/zeist/aabc1fa5/van-reenenweg",
+   "titel": "Appartement Van Reenenweg",
+   "sub": "3702 SH Zeist (Centrumschil-Noord)",
+   "huur": 640.0,
+   "m2": "19 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Zeist",
+   "regio": "Utrecht",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.09036,
+    "lon": 5.23813,
+    "match": "Van Reenenweg, 3702SH Zeist",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 38.1,
+    "km": 54.2,
+    "min": 49,
+    "min_spits": 67,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 640.0,
+    "service": null,
+    "borg": 640.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1280.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amersfoort/494aca8f/hogeweg",
+   "titel": "Appartement Hogeweg",
+   "sub": "3814 CC Amersfoort (Kruiskamp-Zuid)",
+   "huur": 981.0,
+   "m2": "42 m²",
+   "interieur": "",
+   "plaats": "Amersfoort",
+   "regio": "Utrecht",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.15728,
+    "lon": 5.39876,
+    "match": "Hogeweg, 3814CC Amersfoort",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 44.4,
+    "km": 62.7,
+    "min": 51,
+    "min_spits": 69,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 981.0,
+    "service": null,
+    "borg": 981.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 1962.0,
+    "eerste_betaling": 1962.0,
+    "eerste_betaling_max": 2943.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/7c2976cb/elizabeth-cady-stantonplein",
+   "titel": "Appartement Elizabeth Cady Stantonplein 306",
+   "sub": "1102 BL Amsterdam (Amsterdamse Poort e.o.)",
+   "huur": 775.0,
+   "m2": "27 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Hoofddorp",
+   "regio": "Noord-Holland (zuid)",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.31573,
+    "lon": 4.95256,
+    "match": "Elizabeth Cady Stantonplein 306, 1102BL Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 11.9,
+    "km": 15.9,
+    "min": 17,
+    "min_spits": 23,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 775.0,
+    "service": null,
+    "borg": 775.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1550.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/5b241adb/august-allebeplein",
+   "titel": "Appartement August Allebéplein 556",
+   "sub": "1062 AC Amsterdam (Overtoomse Veld)",
+   "huur": 915.0,
+   "m2": "28 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Hoofddorp",
+   "regio": "Noord-Holland (zuid)",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.36353,
+    "lon": 4.83986,
+    "match": "August Allebéplein 556, 1062AC Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 9.1,
+    "km": 14.1,
+    "min": 16,
+    "min_spits": 22,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 915.0,
+    "service": null,
+    "borg": 915.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1830.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/5344482d/elizabeth-cady-stantonplein",
+   "titel": "Appartement Elizabeth Cady Stantonplein 256",
+   "sub": "1102 BL Amsterdam (Amsterdamse Poort e.o.)",
+   "huur": 815.0,
+   "m2": "27 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Hoofddorp",
+   "regio": "Noord-Holland (zuid)",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.31599,
+    "lon": 4.95237,
+    "match": "Elizabeth Cady Stantonplein 256, 1102BL Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 11.9,
+    "km": 15.8,
+    "min": 17,
+    "min_spits": 23,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 815.0,
+    "service": null,
+    "borg": 815.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1630.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/a545ecd9/elizabeth-cady-stantonplein",
+   "titel": "Appartement Elizabeth Cady Stantonplein 618",
+   "sub": "1102 BL Amsterdam (Amsterdamse Poort e.o.)",
+   "huur": 799.0,
+   "m2": "27 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Hoofddorp",
+   "regio": "Noord-Holland (zuid)",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.3157,
+    "lon": 4.9524,
+    "match": "Elizabeth Cady Stantonplein 618, 1102BL Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 11.9,
+    "km": 15.9,
+    "min": 17,
+    "min_spits": 23,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 799.0,
+    "service": null,
+    "borg": 799.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1598.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/23e5f8b5/nilda-pintostraat",
+   "titel": "Appartement Nilda Pintostraat",
+   "sub": "1103 ML Amsterdam (Ganzenhoef e.o.)",
+   "huur": 1097.0,
+   "m2": "55 m²",
+   "interieur": "Gestoffeerd of gemeubileerd",
+   "plaats": "Hoofddorp",
+   "regio": "Noord-Holland (zuid)",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.32123,
+    "lon": 4.9661,
+    "match": "Nilda Pintostraat, 1103ML Amsterdam",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 12.9,
+    "km": 20.2,
+    "min": 19,
+    "min_spits": 26,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1097.0,
+    "service": null,
+    "borg": 2195.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 3292.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/64cc2bad/august-allebeplein",
+   "titel": "Appartement August Allebéplein 422",
+   "sub": "1062 AC Amsterdam (Overtoomse Veld)",
+   "huur": 915.0,
+   "m2": "28 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Hoofddorp",
+   "regio": "Noord-Holland (zuid)",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.36352,
+    "lon": 4.8398,
+    "match": "August Allebéplein 422, 1062AC Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 9.1,
+    "km": 14.1,
+    "min": 16,
+    "min_spits": 22,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 915.0,
+    "service": null,
+    "borg": 915.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1830.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/5bf9bff9/august-allebeplein",
+   "titel": "Appartement August Allebéplein 862",
+   "sub": "1062 AC Amsterdam (Overtoomse Veld)",
+   "huur": 915.0,
+   "m2": "28 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Hoofddorp",
+   "regio": "Noord-Holland (zuid)",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.36353,
+    "lon": 4.84013,
+    "match": "August Allebéplein 862, 1062AC Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 9.1,
+    "km": 14.1,
+    "min": 16,
+    "min_spits": 22,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 915.0,
+    "service": null,
+    "borg": 915.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1830.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/c99fb842/groenhoven",
+   "titel": "Appartement Groenhoven 528",
+   "sub": "1103 LR Amsterdam (Geerdinkhof/Kantershof)",
+   "huur": 899.0,
+   "m2": "54 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Hoofddorp",
+   "regio": "Noord-Holland (zuid)",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.32578,
+    "lon": 4.97671,
+    "match": "Groenhoven 528, 1103LR Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 13.8,
+    "km": 21.2,
+    "min": 22,
+    "min_spits": 30,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 899.0,
+    "service": null,
+    "borg": 1789.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2688.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/bf9f7010/august-allebeplein",
+   "titel": "Appartement August Allebéplein 776",
+   "sub": "1062 AC Amsterdam (Overtoomse Veld)",
+   "huur": 915.0,
+   "m2": "29 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Hoofddorp",
+   "regio": "Noord-Holland (zuid)",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.36353,
+    "lon": 4.84,
+    "match": "August Allebéplein 776, 1062AC Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 9.1,
+    "km": 14.1,
+    "min": 16,
+    "min_spits": 22,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 915.0,
+    "service": null,
+    "borg": 915.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1830.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/6f33c114/august-allebeplein",
+   "titel": "Appartement August Allebéplein 738",
+   "sub": "1062 AC Amsterdam (Overtoomse Veld)",
+   "huur": 915.0,
+   "m2": "28 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Hoofddorp",
+   "regio": "Noord-Holland (zuid)",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.36353,
+    "lon": 4.83997,
+    "match": "August Allebéplein 738, 1062AC Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 9.1,
+    "km": 14.1,
+    "min": 16,
+    "min_spits": 22,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 915.0,
+    "service": null,
+    "borg": 915.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1830.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/ba446136/august-allebeplein",
+   "titel": "Appartement August Allebéplein 140",
+   "sub": "1062 AC Amsterdam (Overtoomse Veld)",
+   "huur": 915.0,
+   "m2": "28 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Hoofddorp",
+   "regio": "Noord-Holland (zuid)",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.36352,
+    "lon": 4.83968,
+    "match": "August Allebéplein 140, 1062AC Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 9.1,
+    "km": 14.2,
+    "min": 16,
+    "min_spits": 22,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 915.0,
+    "service": null,
+    "borg": 915.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1830.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/0585163d/elizabeth-cady-stantonplein",
+   "titel": "Appartement Elizabeth Cady Stantonplein 753",
+   "sub": "1102 BL Amsterdam (Amsterdamse Poort e.o.)",
+   "huur": 855.0,
+   "m2": "34 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Hoofddorp",
+   "regio": "Noord-Holland (zuid)",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.31586,
+    "lon": 4.95223,
+    "match": "Elizabeth Cady Stantonplein 753, 1102BL Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 11.9,
+    "km": 15.8,
+    "min": 17,
+    "min_spits": 23,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 855.0,
+    "service": null,
+    "borg": 855.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1710.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/8cd9a0b1/august-allebeplein",
+   "titel": "Appartement August Allebéplein 816",
+   "sub": "1062 AC Amsterdam (Overtoomse Veld)",
+   "huur": 915.0,
+   "m2": "28 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Hoofddorp",
+   "regio": "Noord-Holland (zuid)",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.36353,
+    "lon": 4.84006,
+    "match": "August Allebéplein 816, 1062AC Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 9.1,
+    "km": 14.1,
+    "min": 16,
+    "min_spits": 22,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 915.0,
+    "service": null,
+    "borg": 915.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1830.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/ccac1f4e/elizabeth-cady-stantonplein",
+   "titel": "Appartement Elizabeth Cady Stantonplein 346",
+   "sub": "1102 BL Amsterdam (Amsterdamse Poort e.o.)",
+   "huur": 832.0,
+   "m2": "27 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Hoofddorp",
+   "regio": "Noord-Holland (zuid)",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.31591,
+    "lon": 4.9524,
+    "match": "Elizabeth Cady Stantonplein 346, 1102BL Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 11.9,
+    "km": 15.8,
+    "min": 17,
+    "min_spits": 23,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 832.0,
+    "service": null,
+    "borg": 832.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1664.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/a81409db/elizabeth-cady-stantonplein",
+   "titel": "Appartement Elizabeth Cady Stantonplein 148",
+   "sub": "1102 BL Amsterdam (Amsterdamse Poort e.o.)",
+   "huur": 848.0,
+   "m2": "27 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Hoofddorp",
+   "regio": "Noord-Holland (zuid)",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.31604,
+    "lon": 4.95239,
+    "match": "Elizabeth Cady Stantonplein 148, 1102BL Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 11.9,
+    "km": 15.8,
+    "min": 17,
+    "min_spits": 23,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 848.0,
+    "service": null,
+    "borg": 848.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1696.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/7498b778/elizabeth-cady-stantonplein",
+   "titel": "Appartement Elizabeth Cady Stantonplein 15",
+   "sub": "1102 BL Amsterdam (Amsterdamse Poort e.o.)",
+   "huur": 815.0,
+   "m2": "27 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Hoofddorp",
+   "regio": "Noord-Holland (zuid)",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.31585,
+    "lon": 4.95261,
+    "match": "Elizabeth Cady Stantonplein 15, 1102BL Amsterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 11.9,
+    "km": 15.9,
+    "min": 17,
+    "min_spits": 23,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 815.0,
+    "service": null,
+    "borg": 815.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1630.0
+   }
+  },
+  {
+   "url": "https://www.pararius.nl/huis-te-huur/zaandam/5abfcd18/kraakstraat",
+   "titel": "Huis Kraakstraat",
+   "sub": "1503 BT Zaandam (Peldersveld West)",
+   "huur": 450.0,
+   "m2": "54 m²",
+   "interieur": "Kaal",
+   "plaats": "Hoofddorp",
+   "regio": "Noord-Holland (zuid)",
+   "bron": "Pararius",
+   "gevonden": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.44657,
+    "lon": 4.84374,
+    "match": "Kraakstraat, 1503BT Zaandam",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 17.9,
+    "km": 27.9,
+    "min": 27,
+    "min_spits": 37,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 450.0,
+    "service": null,
+    "borg": 450.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 900.0,
+    "eerste_betaling": 900.0,
+    "eerste_betaling_max": 1350.0
+   }
+  },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/cfccbd99/spanjaardstraat",
    "titel": "Appartement Spanjaardstraat",
@@ -314,10 +2129,39 @@
    "huur": 950.0,
    "m2": "60 m²",
    "interieur": "Gemeubileerd",
-   "plaats": "Rotterdam",
+   "plaats": "Barendrecht",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 51.90933,
+    "lon": 4.4461,
+    "match": "Spanjaardstraat, 3025TP Rotterdam",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 48.1,
+    "km": 60.6,
+    "min": 52,
+    "min_spits": 70,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 950.0,
+    "service": null,
+    "borg": 950.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 1900.0,
+    "eerste_betaling": 1900.0,
+    "eerste_betaling_max": 2850.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/f9a73954/boezemsingel",
@@ -326,10 +2170,37 @@
    "huur": 1077.0,
    "m2": "64 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Rotterdam",
+   "plaats": "Barendrecht",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 51.93033,
+    "lon": 4.49662,
+    "match": "Boezemsingel, 3034ED Rotterdam",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 44.5,
+    "km": 62.8,
+    "min": 52,
+    "min_spits": 71,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1077.0,
+    "service": null,
+    "borg": 2154.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 3231.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/36b665bb/mijnsherenlaan",
@@ -338,10 +2209,37 @@
    "huur": 1077.0,
    "m2": "47 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Rotterdam",
+   "plaats": "Barendrecht",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 51.89507,
+    "lon": 4.49214,
+    "match": "Mijnsherenlaan, 3081GD Rotterdam",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 48.2,
+    "km": 64.7,
+    "min": 57,
+    "min_spits": 77,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1077.0,
+    "service": null,
+    "borg": 2154.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 3231.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/9e09bf55/korhaanstraat",
@@ -350,10 +2248,37 @@
    "huur": 970.0,
    "m2": "48 m²",
    "interieur": "Kaal",
-   "plaats": "Rotterdam",
+   "plaats": "Barendrecht",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 51.88643,
+    "lon": 4.4743,
+    "match": "Korhaanstraat, 3083XK Rotterdam",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 49.5,
+    "km": 64.0,
+    "min": 56,
+    "min_spits": 76,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 970.0,
+    "service": null,
+    "borg": 2119.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 3089.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/1f09fa3c/tandwielstraat",
@@ -362,10 +2287,37 @@
    "huur": 915.0,
    "m2": "33 m²",
    "interieur": "",
-   "plaats": "Rotterdam",
+   "plaats": "Barendrecht",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 51.88659,
+    "lon": 4.49666,
+    "match": "Tandwielstraat 811, 3083AV Rotterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 48.9,
+    "km": 65.0,
+    "min": 57,
+    "min_spits": 77,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 915.0,
+    "service": 131.0,
+    "borg": 1000.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2046.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/5af15f9f/tandwielstraat",
@@ -374,10 +2326,37 @@
    "huur": 810.0,
    "m2": "25 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Rotterdam",
+   "plaats": "Barendrecht",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 51.88659,
+    "lon": 4.49666,
+    "match": "Tandwielstraat 677, 3083AV Rotterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 48.9,
+    "km": 65.0,
+    "min": 57,
+    "min_spits": 77,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 810.0,
+    "service": 131.0,
+    "borg": 1500.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2441.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/8673d18a/tandwielstraat",
@@ -386,10 +2365,37 @@
    "huur": 810.0,
    "m2": "24 m²",
    "interieur": "Gemeubileerd",
-   "plaats": "Rotterdam",
+   "plaats": "Barendrecht",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 51.88659,
+    "lon": 4.49666,
+    "match": "Tandwielstraat 775, 3083AV Rotterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 48.9,
+    "km": 65.0,
+    "min": 57,
+    "min_spits": 77,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 810.0,
+    "service": 131.0,
+    "borg": 1500.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2441.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/45bdc2e7/frits-ruysstraat",
@@ -398,10 +2404,37 @@
    "huur": 995.0,
    "m2": "50 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Rotterdam",
+   "plaats": "Barendrecht",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 51.92722,
+    "lon": 4.50168,
+    "match": "Frits Ruysstraat, 3061MC Rotterdam",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 44.6,
+    "km": 63.4,
+    "min": 53,
+    "min_spits": 72,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 995.0,
+    "service": null,
+    "borg": 1920.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2915.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/78c2888d/ruigenhoek",
@@ -410,10 +2443,37 @@
    "huur": 864.0,
    "m2": "61 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Rotterdam",
+   "plaats": "Barendrecht",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 51.87058,
+    "lon": 4.48725,
+    "match": "Ruigenhoek, 3085EN Rotterdam",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 50.8,
+    "km": 71.7,
+    "min": 59,
+    "min_spits": 80,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 864.0,
+    "service": null,
+    "borg": 1658.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2522.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/e361dedc/hoogstraat",
@@ -422,10 +2482,37 @@
    "huur": 988.0,
    "m2": "49 m²",
    "interieur": "Kaal",
-   "plaats": "Rotterdam",
+   "plaats": "Barendrecht",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 51.92337,
+    "lon": 4.4949,
+    "match": "Hoogstraat, 3011PD Rotterdam",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 45.2,
+    "km": 62.2,
+    "min": 53,
+    "min_spits": 72,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 988.0,
+    "service": 50.0,
+    "borg": 2276.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 3314.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/83063d6c/claes-de-vrieselaan",
@@ -437,7 +2524,36 @@
    "plaats": "Rotterdam",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 51.91735,
+    "lon": 4.45953,
+    "match": "Claes de Vrieselaan 16B, 3021JN Rotterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 46.9,
+    "km": 60.3,
+    "min": 50,
+    "min_spits": 68,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1041.0,
+    "service": null,
+    "borg": 1041.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 2082.0,
+    "eerste_betaling": 2082.0,
+    "eerste_betaling_max": 3123.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/8a460081/mariniersweg",
@@ -449,7 +2565,34 @@
    "plaats": "Rotterdam",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 51.92162,
+    "lon": 4.49098,
+    "match": "Mariniersweg 224, 3011ZZ Rotterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 45.5,
+    "km": 61.5,
+    "min": 52,
+    "min_spits": 70,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 727.0,
+    "service": 40.0,
+    "borg": 727.0,
+    "borg_bron": "advertentie (1× huur)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1494.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/fb57518c/randstraat",
@@ -461,7 +2604,36 @@
    "plaats": "Rotterdam",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 51.89151,
+    "lon": 4.51209,
+    "match": "Randstraat 5, 3074BE Rotterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 48.0,
+    "km": 66.1,
+    "min": 59,
+    "min_spits": 80,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1082.0,
+    "service": null,
+    "borg": 1082.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 2164.0,
+    "eerste_betaling": 2164.0,
+    "eerste_betaling_max": 3246.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/efe06c84/rietdijk",
@@ -473,7 +2645,34 @@
    "plaats": "Rotterdam",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 51.89278,
+    "lon": 4.46433,
+    "match": "Rietdijk, 3082DS Rotterdam",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 49.2,
+    "km": 64.4,
+    "min": 56,
+    "min_spits": 76,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1035.0,
+    "service": null,
+    "borg": 2070.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 3105.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/99062757/brussestraat",
@@ -485,7 +2684,34 @@
    "plaats": "Rotterdam",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 51.92546,
+    "lon": 4.49249,
+    "match": "Brussestraat 9B, 3031SH Rotterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 45.1,
+    "km": 61.5,
+    "min": 52,
+    "min_spits": 71,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 947.0,
+    "service": null,
+    "borg": 1890.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2837.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/fe96d280/van-malsenstraat",
@@ -497,7 +2723,36 @@
    "plaats": "Rotterdam",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 51.89154,
+    "lon": 4.51184,
+    "match": "Van Malsenstraat 68B, 3074PX Rotterdam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 48.0,
+    "km": 66.5,
+    "min": 60,
+    "min_spits": 81,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 959.0,
+    "service": null,
+    "borg": 959.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 1918.0,
+    "eerste_betaling": 1918.0,
+    "eerste_betaling_max": 2877.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/5e1ecbcc/hugo-de-grootstraat",
@@ -506,10 +2761,39 @@
    "huur": 982.0,
    "m2": "32 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Den Haag",
+   "plaats": "Zoetermeer",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.08358,
+    "lon": 4.29542,
+    "match": "Hugo de Grootstraat 49A, 2518EC 's-Gravenhage",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 40.4,
+    "km": 48.3,
+    "min": 42,
+    "min_spits": 57,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 982.0,
+    "service": null,
+    "borg": 982.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 1964.0,
+    "eerste_betaling": 1964.0,
+    "eerste_betaling_max": 2946.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/5747bd9e/van-der-duynstraat",
@@ -518,10 +2802,39 @@
    "huur": 913.0,
    "m2": "28 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Den Haag",
+   "plaats": "Alphen Aan Den Rijn",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.07208,
+    "lon": 4.31535,
+    "match": "Van der Duynstraat 189, 2515NJ 's-Gravenhage",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 40.0,
+    "km": 46.1,
+    "min": 39,
+    "min_spits": 52,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 913.0,
+    "service": null,
+    "borg": 913.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 1826.0,
+    "eerste_betaling": 1826.0,
+    "eerste_betaling_max": 2739.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/7c0f3d72/van-musschenbroekstraat",
@@ -530,10 +2843,39 @@
    "huur": 1094.0,
    "m2": "41 m²",
    "interieur": "Gemeubileerd",
-   "plaats": "Den Haag",
+   "plaats": "Alphen Aan Den Rijn",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.06188,
+    "lon": 4.32796,
+    "match": "Van Musschenbroekstraat 213A, 2522AM 's-Gravenhage",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 40.1,
+    "km": 45.1,
+    "min": 39,
+    "min_spits": 52,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1094.0,
+    "service": null,
+    "borg": 1094.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 2188.0,
+    "eerste_betaling": 2188.0,
+    "eerste_betaling_max": 3282.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/962ad649/wagenstraat",
@@ -542,10 +2884,39 @@
    "huur": 1075.0,
    "m2": "47 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Den Haag",
+   "plaats": "Alphen Aan Den Rijn",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.07421,
+    "lon": 4.31541,
+    "match": "Wagenstraat 155A, 2512AV 's-Gravenhage",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 39.9,
+    "km": 45.6,
+    "min": 38,
+    "min_spits": 51,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1075.0,
+    "service": null,
+    "borg": 1075.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 2150.0,
+    "eerste_betaling": 2150.0,
+    "eerste_betaling_max": 3225.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/59208bdf/noorderbeekdwarsstraat",
@@ -554,10 +2925,39 @@
    "huur": 829.0,
    "m2": "38 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Den Haag",
+   "plaats": "Zoetermeer",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.07033,
+    "lon": 4.28113,
+    "match": "Noorderbeekdwarsstraat 5, 2562XM 's-Gravenhage",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 42.0,
+    "km": 48.9,
+    "min": 44,
+    "min_spits": 59,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 829.0,
+    "service": null,
+    "borg": 829.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 1658.0,
+    "eerste_betaling": 1658.0,
+    "eerste_betaling_max": 2487.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/1f845740/noorderbeekdwarsstraat",
@@ -566,10 +2966,39 @@
    "huur": 946.0,
    "m2": "40 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Den Haag",
+   "plaats": "Zoetermeer",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.07033,
+    "lon": 4.28113,
+    "match": "Noorderbeekdwarsstraat 3, 2562XM 's-Gravenhage",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 42.0,
+    "km": 48.9,
+    "min": 44,
+    "min_spits": 59,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 946.0,
+    "service": null,
+    "borg": 946.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 1892.0,
+    "eerste_betaling": 1892.0,
+    "eerste_betaling_max": 2838.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/ef599c56/fahrenheitstraat",
@@ -578,10 +3007,39 @@
    "huur": 850.0,
    "m2": "30 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Den Haag",
+   "plaats": "Zoetermeer",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.07327,
+    "lon": 4.2744,
+    "match": "Fahrenheitstraat 228C, 2561EH 's-Gravenhage",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 42.2,
+    "km": 49.8,
+    "min": 44,
+    "min_spits": 59,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 850.0,
+    "service": null,
+    "borg": 850.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 1700.0,
+    "eerste_betaling": 1700.0,
+    "eerste_betaling_max": 2550.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/f3015848/copernicusstraat",
@@ -590,10 +3048,37 @@
    "huur": 885.0,
    "m2": "30 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Den Haag",
+   "plaats": "Vlaardingen",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.0781,
+    "lon": 4.28146,
+    "match": "Copernicusstraat, 2561XA 's-Gravenhage",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 41.5,
+    "km": 48.9,
+    "min": 43,
+    "min_spits": 58,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 885.0,
+    "service": 10.0,
+    "borg": 1770.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2665.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/5dd56ffd/laakweg",
@@ -602,10 +3087,37 @@
    "huur": 932.0,
    "m2": "23 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Den Haag",
+   "plaats": "Alphen Aan Den Rijn",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.068,
+    "lon": 4.33156,
+    "match": "Laakweg 24R, 2521SC 's-Gravenhage",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 39.4,
+    "km": 44.1,
+    "min": 37,
+    "min_spits": 50,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 932.0,
+    "service": null,
+    "borg": 1590.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2522.0
+   }
   },
   {
    "url": "https://www.pararius.nl/huis-te-huur/den-haag/30e0ba85/waldorpstraat",
@@ -617,7 +3129,34 @@
    "plaats": "Den Haag",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.05936,
+    "lon": 4.31115,
+    "match": "Waldorpstraat 962, 2521CW 's-Gravenhage",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 41.1,
+    "km": 46.7,
+    "min": 40,
+    "min_spits": 54,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 823.0,
+    "service": null,
+    "borg": 823.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1646.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/71f02b3b/laakweg",
@@ -626,10 +3165,37 @@
    "huur": 917.0,
    "m2": "24 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Den Haag",
+   "plaats": "Alphen Aan Den Rijn",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.06803,
+    "lon": 4.33117,
+    "match": "Laakweg 21G, 2521SC 's-Gravenhage",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 39.4,
+    "km": 44.6,
+    "min": 38,
+    "min_spits": 51,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 917.0,
+    "service": null,
+    "borg": 1562.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2479.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/f7702967/weimarstraat",
@@ -641,7 +3207,34 @@
    "plaats": "Den Haag",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.0734,
+    "lon": 4.27707,
+    "match": "Weimarstraat 316C, 2562HT 's-Gravenhage",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 42.0,
+    "km": 49.7,
+    "min": 44,
+    "min_spits": 60,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 470.0,
+    "service": null,
+    "borg": 940.0,
+    "borg_bron": "advertentie (2× huur)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1410.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/e6c53e83/vechtstraat",
@@ -650,10 +3243,37 @@
    "huur": 759.0,
    "m2": "22 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Den Haag",
+   "plaats": "Alphen Aan Den Rijn",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.0751,
+    "lon": 4.323,
+    "match": "Vechtstraat 10A, 2515SR 's-Gravenhage",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 39.4,
+    "km": 45.1,
+    "min": 38,
+    "min_spits": 51,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 759.0,
+    "service": null,
+    "borg": 1518.0,
+    "borg_bron": "advertentie (2× huur)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2277.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/c6c774bd/nicolaas-tulpstraat",
@@ -665,7 +3285,34 @@
    "plaats": "Den Haag",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.07404,
+    "lon": 4.27207,
+    "match": "Nicolaas Tulpstraat 62B, 2563XN 's-Gravenhage",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 42.3,
+    "km": 50.2,
+    "min": 45,
+    "min_spits": 61,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 710.0,
+    "service": null,
+    "borg": 1420.0,
+    "borg_bron": "advertentie (2× huur)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2130.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/47905566/pasteurstraat",
@@ -674,10 +3321,39 @@
    "huur": 942.0,
    "m2": "60 m²",
    "interieur": "Gestoffeerd",
-   "plaats": "Den Haag",
+   "plaats": "Alphen Aan Den Rijn",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.06152,
+    "lon": 4.33041,
+    "match": "Pasteurstraat 148, 2522RP 's-Gravenhage",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 39.9,
+    "km": 44.9,
+    "min": 39,
+    "min_spits": 52,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 942.0,
+    "service": null,
+    "borg": 942.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 1884.0,
+    "eerste_betaling": 1884.0,
+    "eerste_betaling_max": 2826.0
+   }
   },
   {
    "url": "https://www.pararius.nl/huis-te-huur/den-haag/9a826e24/waldorpstraat",
@@ -689,7 +3365,34 @@
    "plaats": "Den Haag",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.05964,
+    "lon": 4.31082,
+    "match": "Waldorpstraat 828, 2521CW 's-Gravenhage",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 41.1,
+    "km": 46.6,
+    "min": 39,
+    "min_spits": 53,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 809.0,
+    "service": null,
+    "borg": 809.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1618.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/f2e3a8b2/van-bylandtstraat",
@@ -701,7 +3404,34 @@
    "plaats": "Den Haag",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.07792,
+    "lon": 4.28603,
+    "match": "Van Bylandtstraat 81D, 2562GJ 's-Gravenhage",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 41.3,
+    "km": 48.8,
+    "min": 43,
+    "min_spits": 58,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 787.0,
+    "service": null,
+    "borg": 1574.0,
+    "borg_bron": "advertentie (2× huur)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2361.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/dac12eec/loosduinsekade",
@@ -713,7 +3443,36 @@
    "plaats": "Den Haag",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.07153,
+    "lon": 4.28816,
+    "match": "Loosduinsekade 136, 2571BT 's-Gravenhage",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 41.6,
+    "km": 48.5,
+    "min": 43,
+    "min_spits": 58,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1013.0,
+    "service": null,
+    "borg": 1013.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 2026.0,
+    "eerste_betaling": 2026.0,
+    "eerste_betaling_max": 3039.0
+   }
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/79dad862/groot-hertoginnelaan",
@@ -725,7 +3484,34 @@
    "plaats": "Den Haag",
    "regio": "Zuid-Holland",
    "bron": "Pararius",
-   "gevonden": "2026-10-12T08:59"
+   "gevonden": "2026-10-12T08:59",
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.08467,
+    "lon": 4.28117,
+    "match": "Groot Hertoginnelaan, 2517ED 's-Gravenhage",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 41.1,
+    "km": 49.0,
+    "min": 43,
+    "min_spits": 58,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 848.0,
+    "service": 10.0,
+    "borg": 1695.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2553.0
+   }
   },
   {
    "url": "https://ikwilhuren.nu/object/delft-2627cd-52-de-groene-haven-4161198de6e05166aa9c60e2b76bdacf/",
@@ -738,7 +3524,33 @@
    "regio": "Zuid-Holland",
    "bron": "ikwilhuren.nu",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T09:45"
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.00413,
+    "lon": 4.35888,
+    "match": "De Groene Haven 52, 2627CD Delft",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 43.0,
+    "km": 49.5,
+    "min": 41,
+    "min_spits": 56,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1063.0,
+    "service": 80.0,
+    "borg": 0.0,
+    "borg_bron": "advertentie (vast inkomen)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1143.0
+   }
   },
   {
    "url": "https://ikwilhuren.nu/object/utrecht-3561vl-118-f-taagdreef-7ca7b89fcbd18f2bb8c81090fdb42eb7/",
@@ -751,39 +3563,72 @@
    "regio": "Utrecht",
    "bron": "ikwilhuren.nu",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T09:45"
+   "gezien": "2026-10-12T11:49+02:00",
+   "geo": {
+    "lat": 52.10957,
+    "lon": 5.1151,
+    "match": "Taagdreef 118F, 3561VL Utrecht",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 30.2,
+    "km": 43.7,
+    "min": 39,
+    "min_spits": 53,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 987.0,
+    "service": 65.0,
+    "borg": 0.0,
+    "borg_bron": "advertentie (vast inkomen)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1052.0
+   }
   }
  ],
  "refresh": {
-  "tijd": "2026-10-12T09:45",
-  "toegevoegd": 0,
+  "tijd": "2026-10-12T11:49+02:00",
+  "toegevoegd": 36,
   "log": [
-   "Pararius rotterdam: 0",
-   "Pararius den-haag: 0",
-   "Pararius rijswijk: 0",
-   "Pararius voorburg: 0",
-   "Pararius leidschendam: 0",
-   "Pararius delft: 0",
-   "Pararius schiedam: 0",
-   "Pararius vlaardingen: 0",
-   "Pararius zoetermeer: 0",
-   "Pararius leiden: 0",
-   "Pararius dordrecht: 0",
-   "Pararius capelle-aan-den-ijssel: 0",
-   "Pararius barendrecht: 0",
-   "Pararius gouda: 0",
-   "Pararius alphen-aan-den-rijn: 0",
-   "Pararius utrecht: 0",
-   "Pararius nieuwegein: 0",
-   "Pararius houten: 0",
-   "Pararius zeist: 0",
-   "Pararius amersfoort: 0",
-   "Pararius haarlem: 0",
-   "Pararius amstelveen: 0",
-   "Pararius hoofddorp: 0",
-   "Pararius sliedrecht: 0",
-   "Pararius spijkenisse: 0",
-   "ikwilhuren: 19 in regio"
-  ]
+   "Pararius rotterdam: 30",
+   "Pararius den-haag: 29",
+   "Pararius rijswijk: 1",
+   "Pararius voorburg: 1",
+   "Pararius leidschendam: 1",
+   "Pararius delft: 6",
+   "Pararius schiedam: 6",
+   "Pararius vlaardingen: 30",
+   "Pararius zoetermeer: 30",
+   "Pararius leiden: 8",
+   "Pararius dordrecht: 2",
+   "Pararius capelle-aan-den-ijssel: 2",
+   "Pararius barendrecht: 30",
+   "Pararius gouda: 1",
+   "Pararius alphen-aan-den-rijn: 30",
+   "Pararius utrecht: 10",
+   "Pararius nieuwegein: 19",
+   "Pararius houten: 20",
+   "Pararius zeist: 3",
+   "Pararius amersfoort: 3",
+   "Pararius haarlem: 4",
+   "Pararius amstelveen: 1",
+   "Pararius hoofddorp: 30",
+   "Pararius sliedrecht: 1",
+   "Pararius spijkenisse: 2",
+   "ikwilhuren: 19 in regio",
+   "verrijkt: 89 (bestemming Fokkerweg 300, Oude Meer)"
+  ],
+  "door": "box"
+ },
+ "bestemming": {
+  "adres": "Fokkerweg 300, Oude Meer",
+  "lat": 52.28955927,
+  "lon": 4.78308264
  }
 }
