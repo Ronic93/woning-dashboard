@@ -93,5 +93,6 @@ function render(){for(const k of ['net','vaste','extra','nibud','naam'])document
  info.textContent=`${L.length} woningen · bijgewerkt ${fmtT(D.bijgewerkt||(D.refresh||{}).tijd)} · Huurplafond ${eur(MAX)} (waarschuwing t/m ${eur(WARN)}) · vrije sector/middenhuur · ZH, zuid-NH, Utrecht`}
 async function load(){D=await (await fetch('data/listings.json?'+Date.now())).json();render()}
 async function refresh(b){b.disabled=1;b.textContent='Bezig (±1-2 min)…';const r=await (await fetch('api/refresh',{method:'POST'})).json();await load();if(!r.ok)alert(r.msg)}
+{const h=new URLSearchParams(location.hash.slice(1));if(h.get('regio')!=null){F.regio=h.get('regio');F.plaats=[]}if(h.get('sort'))F.sort=h.get('sort');if(h.get('tab')==2)cur=2;t1.className=cur==1?'on':'';t2.className=cur==2?'on':''}
 load();
 </script></body></html>

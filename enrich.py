@@ -81,13 +81,18 @@ def kosten(l,refetch=False):
     k["eerste_betaling"]=round(huur+(k["service"] or 0)+(k["borg"] or 0)+sum(x["bedrag"] for x in k["eenmalig"]),2)
     if k["borg_bron"]=="geschat": k["eerste_betaling_max"]=round(k["eerste_betaling"]+huur,2)
     l["kosten"]=k
+# Postcodes met bekende reputatie/overlast (aanvulling op de cijfers; buurt kan per straat sterk verschillen)
+WEAK={**{p:"Bijlmer (Zuidoost): wisselend per straat, 's avonds minder prettig" for p in ["1102","1103","1104"]},
+      **{p:"Nieuw-West (Slotermeer/Geuzenveld/Osdorp): wisselend, deels overlast" for p in ["1064","1067","1068","1069"]},
+      **{p:"Noord (Banne/Vogelbuurt/Waterlandplein): wisselend, deels overlast" for p in ["1023","1024","1025","1034"]},
+      **{p:"Zaandam Poelenburg/Peldersveld: bekend als probleemwijk" for p in ["1505"]}}
 KL={1:"Zeer onvoldoende",2:"Ruim onvoldoende",3:"Onvoldoende",4:"Zwak",5:"Voldoende",6:"Ruim voldoende",7:"Goed",8:"Zeer goed",9:"Uitstekend"}
 def buurt(l):
     """Leefbaarometer 3.0 (meting 2024) buurtscore via de openbare WFS van het ministerie van BZK."""
     if l.get("buurt") or not l.get("geo"): return
     la,lo=l["geo"]["lat"],l["geo"]["lon"]
-    u=("https://geo.leefbaarometer.nl/lbm3/ows?service=WFS&version=2.0.0&request=GetFeature&typeNames=lbm3:buurtscore24"
-       f"&outputFormat=application/json&count=1&propertyName=name,gemeente,lbm,kscore,konv,ksoc&bbox={la},{lo},{la},{lo},urn:ogc:def:crs:EPSG::4326")
+    u=("https://geo.leefbaarometer.nl/lbm3/ows?service=WFS&version=1.1.0&request=GetFeature&typeName=lbm3:buurtscore24"
+       f"&outputFormat=application/json&maxFeatures=1&propertyName=name,gemeente,lbm,kscore,konv,ksoc&cql_filter=INTERSECTS(geom,SRID=4326;POINT({lo}%20{la}))")
     try:
         f=json.loads(_get(u,"lbm",0.5))["features"]
         if not f: return
@@ -100,11 +105,15 @@ def oordeel(l):
     k=b["klasse"]; v="aanrader" if k>=8 else "prima" if k>=6 else "twijfel" if k==5 else "afraden"
     stap=["aanrader","prima","twijfel","afraden"]
     if b["onv"]<=2 and v!="afraden": v=stap[stap.index(v)+1]
+    pc=re.search(r'\b(\d{4})\s?[A-Z]{2}\b',(l.get("sub") or "")+" "+l.get("geo",{}).get("match",""))
+    zwak=pc and pc.group(1) in WEAK and WEAK[pc.group(1)]
+    if zwak and stap.index(v)<stap.index("twijfel"): v="twijfel"
     l.update(verdict=v,verdict_auto=True,lbm=b["lbm"],lbm_klasse=KL.get(k,""))
     zorg=[]
     if b["onv"]<=2: zorg.append("veiligheid scoort zwak (overlast/criminaliteit)")
     elif b["onv"]<=3: zorg.append("veiligheid onder het gemiddelde")
     if b["soc"]<=2: zorg.append("sociale samenhang zwak")
+    if zwak: zorg.append(zwak)
     l["review"]=f"Buurt {b['naam']} ({b['gemeente']}): Leefbaarometer {KL.get(k,'')} ({str(b['lbm']).replace('.',',')})"+(" – let op: "+", ".join(zorg) if zorg else " – geen rode vlaggen in de cijfers")+". Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
 def verrijk(lijst,log,max_nieuw=400):
     set_dest(); n=0
