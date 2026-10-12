@@ -30,6 +30,10 @@ table.k{width:100%;font-size:14px;border-collapse:collapse;margin:4px 0}table.k 
 <input id="fmin" type="number" placeholder="Max rijtijd (min)" style="width:140px" onchange="F.min=this.value;saveF()"><input id="fkm" type="number" placeholder="Max km (rijden)" style="width:130px" onchange="F.km=this.value;saveF()">
 <select id="fk" onchange="F.kamers=this.value;saveF()"><option value="">Kamers: alle</option><option value="1">1+ kamers</option><option value="2">2+ kamers</option><option value="3">3+ kamers</option></select>
 <label class="m"><input type="checkbox" id="fsp" onchange="F.spits=this.checked;saveF()"> rijtijd in spits</label></div>
+<div class="row" style="margin-top:6px"><button class="p" id="vb" onclick="vernieuw(this)">🔄 Vernieuwen</button><span class="m" id="bw"></span></div>
+<details id="zd"><summary>🔎 Nieuwe zoekactie starten (GitHub)</summary><div class="m" style="margin:6px 0">Start de zoekrobot op GitHub (±1–2 min). Let op: GitHub haalt alleen <b>ikwilhuren.nu</b> op; Pararius blokkeert GitHub en komt via de dagelijkse run op mijn computer. Nodig: een eigen GitHub-token (fine-grained, alleen deze repo, Actions: read &amp; write). Het token wordt <b>alleen op dit toestel</b> bewaard, nergens anders.</div>
+<div class="row"><input id="tk" type="password" placeholder="github_pat_…" style="flex:1;min-width:180px"><button onclick="saveTok()">Bewaar</button><button onclick="localStorage.removeItem('wd_tok');tk.value='';zs.textContent='Token verwijderd'">Wis</button></div>
+<div class="row" style="margin-top:6px"><button class="p" id="zb" onclick="zoek(this)">▶️ Start zoekactie</button><span class="m" id="zs"></span></div></details>
 <div class="m" id="info"></div></header>
 <main id="list"></main>
 <script>
@@ -95,8 +99,32 @@ function render(){for(const k of ['net','vaste','extra','nibud','naam'])document
  list.innerHTML=(cur==2?`<div class="row">${location.port?'<button class="p" onclick="refresh(this)">🔄 Ververs aanbod nu</button>':''}<span class="m">${D.refresh?'Laatst ververst: '+fmtT(D.refresh.tijd)+' (NL-tijd) · +'+D.refresh.toegevoegd:''}</span></div>`:'')+(L.map(card).join('')||'<p class="m">Niets gevonden.</p>');
  nc.textContent=D.nieuw.length?`(${D.nieuw.length})`:'';
  info.textContent=`${L.length} woningen · bijgewerkt ${fmtT(D.bijgewerkt||(D.refresh||{}).tijd)} · Huurplafond ${eur(MAX)} (waarschuwing t/m ${eur(WARN)}) · vrije sector/middenhuur · ZH, zuid-NH, Utrecht`}
-async function load(){D=await (await fetch('data/listings.json?'+Date.now())).json();render()}
+const REPO='Ronic93/woning-dashboard',WF='refresh.yml',API='https://api.github.com/repos/'+REPO;
+const stamp=d=>Date.parse((d&&(d.bijgewerkt||(d.refresh||{}).tijd))||0)||0;
+async function getJ(u,h){try{const r=await fetch(u,{cache:'no-store',headers:h||{}});return r.ok?await r.json():null}catch(e){return null}}
+async function load(deep){const t=Date.now();let c=[getJ('data/listings.json?'+t)];
+ if(deep){const tok=localStorage.wd_tok;c.push(getJ(`https://raw.githubusercontent.com/${REPO}/main/data/listings.json?${t}`));
+  c.push(getJ(`${API}/contents/data/listings.json?ref=main&t=${t}`,{Accept:'application/vnd.github.raw+json',...(tok?{Authorization:'Bearer '+tok}:{})}))}
+ const r=(await Promise.all(c)).filter(Boolean);if(!r.length)throw new Error('geen data');
+ D=r.sort((a,b)=>stamp(b)-stamp(a))[0];render();bw.textContent='Bijgewerkt: '+fmtT(D.bijgewerkt||(D.refresh||{}).tijd)+' (NL-tijd)';return D}
+async function vernieuw(b){b.disabled=1;b.textContent='Laden…';try{await load(true);b.textContent='✔ Vernieuwd'}catch(e){b.textContent='⚠️ Mislukt, probeer opnieuw'}setTimeout(()=>{b.textContent='🔄 Vernieuwen';b.disabled=0},2500)}
+function saveTok(){const v=tk.value.trim();if(!/^(github_pat_|ghp_)/.test(v)){zs.textContent='Dit lijkt geen GitHub-token';return}localStorage.wd_tok=v;tk.value='';tk.placeholder='✔ token bewaard op dit toestel';zs.textContent='Token bewaard'}
+async function zoek(b){const tok=localStorage.wd_tok;if(!tok){zs.textContent='Plak eerst je token en tik op Bewaar';return}
+ const H={Authorization:'Bearer '+tok,Accept:'application/vnd.github+json','X-GitHub-Api-Version':'2022-11-28'};b.disabled=1;const t0=Date.now()-5000,before=stamp(D);
+ try{const r=await fetch(`${API}/actions/workflows/${WF}/dispatches`,{method:'POST',headers:{...H,'Content-Type':'application/json'},body:JSON.stringify({ref:'main'})});
+  if(r.status!=204){zs.textContent=r.status==401?'Token ongeldig of verlopen':r.status==403||r.status==404?'Token mist rechten (Actions: read & write op deze repo)':'Fout '+r.status;b.disabled=0;return}
+  zs.textContent='Gestart, wachten op GitHub…';let run=null;
+  for(let i=0;i<60;i++){await new Promise(x=>setTimeout(x,i<3?4000:8000));
+   const j=await getJ(`${API}/actions/workflows/${WF}/runs?event=workflow_dispatch&per_page=5`,H);
+   run=j&&j.workflow_runs.find(x=>Date.parse(x.created_at)>=t0);if(!run)continue;
+   zs.textContent='Zoekrobot: '+({queued:'in de wachtrij',in_progress:'bezig'}[run.status]||run.status)+'…';
+   if(run.status=='completed')break}
+  if(!run||run.status!='completed'){zs.textContent='Duurt lang; tik later op 🔄 Vernieuwen';b.disabled=0;return}
+  if(run.conclusion!='success'){zs.innerHTML=`Run mislukt (${run.conclusion}) – <a href="${run.html_url}" target="_blank">details</a>`;b.disabled=0;return}
+  zs.textContent='Klaar, data laden…';for(let i=0;i<8;i++){await load(true);if(stamp(D)>before)break;await new Promise(x=>setTimeout(x,8000))}
+  zs.textContent=stamp(D)>before?`✔ Klaar · +${(D.refresh||{}).toegevoegd||0} nieuw (ikwilhuren)`:'✔ Run klaar; data nog niet zichtbaar, tik over een minuut op 🔄 Vernieuwen'}
+ catch(e){zs.textContent='Fout: '+e.message}b.disabled=0}
 async function refresh(b){b.disabled=1;b.textContent='Bezig (±1-2 min)…';const r=await (await fetch('api/refresh',{method:'POST'})).json();await load();if(!r.ok)alert(r.msg)}
 {const h=new URLSearchParams(location.hash.slice(1));if(h.get('regio')!=null){F.regio=h.get('regio');F.plaats=[]}if(h.get('sort'))F.sort=h.get('sort');if(h.get('tab')==2)cur=2;t1.className=cur==1?'on':'';t2.className=cur==2?'on':''}
-load();
+load().catch(()=>bw.textContent='Data laden mislukt');if(localStorage.wd_tok)tk.placeholder='✔ token bewaard op dit toestel';
 </script></body></html>
