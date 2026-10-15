@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-10-14T14:11+02:00",
+ "bijgewerkt": "2026-10-15T08:50+02:00",
  "listings": [
   {
    "id": "1",
@@ -954,6 +954,181 @@
  ],
  "nieuw": [
   {
+   "url": "https://www.pararius.nl/appartement-te-huur/voorburg/a32e392e/van-halewijnplein",
+   "titel": "Appartement van Halewijnplein",
+   "sub": "2274 VC Voorburg (Voorburg Noord zuid)",
+   "huur": 906.0,
+   "m2": "35 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Voorburg",
+   "regio": "Zuid-Holland",
+   "bron": "Pararius",
+   "gevonden": "2026-10-15T08:50+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
+   "geo": {
+    "lat": 52.07178,
+    "lon": 4.35192,
+    "match": "van Halewijnplein, 2274VC Voorburg",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 38.1,
+    "km": 42.8,
+    "min": 35,
+    "min_spits": 47,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 906.0,
+    "service": null,
+    "borg": 906.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 1812.0,
+    "eerste_betaling": 1812.0,
+    "eerste_betaling_max": 2718.0
+   },
+   "ruimte": {
+    "kamers": 3,
+    "slaapkamers": 2,
+    "m2": 35,
+    "kamers_geschat": false
+   },
+   "buurt": {
+    "naam": "Voorburg Noord zuid",
+    "gemeente": "Leidschendam-Voorburg",
+    "lbm": 4.24,
+    "klasse": 8,
+    "onv": 5,
+    "soc": 5
+   },
+   "verdict": "aanrader",
+   "verdict_auto": true,
+   "lbm": 4.24,
+   "lbm_klasse": "Zeer goed",
+   "review": "Buurt Voorburg Noord zuid (Leidschendam-Voorburg): Leefbaarometer Zeer goed (4,24) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/delft/a763a7b6/oude-delft",
+   "titel": "Appartement Oude Delft",
+   "sub": "2611 HD Delft (Centrum-West)",
+   "huur": 995.0,
+   "m2": "45 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Delft",
+   "regio": "Zuid-Holland",
+   "bron": "Pararius",
+   "gevonden": "2026-10-15T08:50+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
+   "geo": {
+    "lat": 52.01348,
+    "lon": 4.35438,
+    "match": "Oude Delft, 2611HD Delft",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 42.4,
+    "km": 47.8,
+    "min": 41,
+    "min_spits": 55,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 995.0,
+    "service": null,
+    "borg": 2000.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2995.0
+   },
+   "ruimte": {
+    "kamers": 2,
+    "slaapkamers": 1,
+    "m2": 45,
+    "kamers_geschat": false
+   },
+   "buurt": {
+    "naam": "Centrum-West",
+    "gemeente": "Delft",
+    "lbm": 4.29,
+    "klasse": 9,
+    "onv": 5,
+    "soc": 5
+   },
+   "verdict": "aanrader",
+   "verdict_auto": true,
+   "lbm": 4.29,
+   "lbm_klasse": "Uitstekend",
+   "review": "Buurt Centrum-West (Delft): Leefbaarometer Uitstekend (4,29) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
+  },
+  {
+   "url": "https://ikwilhuren.nu/object/utrecht-3563av-56-d-kaap-hoorndreef-39de3cc108002c025eb1afec90573b44/",
+   "titel": "Appartement Kaap Hoorndreef 56 D",
+   "sub": "3563AV Utrecht",
+   "huur": 1050.0,
+   "m2": "53 m²",
+   "interieur": "",
+   "plaats": "Utrecht",
+   "regio": "Utrecht",
+   "bron": "ikwilhuren.nu",
+   "gevonden": "2026-10-15T08:50+02:00",
+   "geo": {
+    "lat": 52.11478,
+    "lon": 5.10614,
+    "match": "Kaap Hoorndreef 56D, 3563AV Utrecht",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 29.4,
+    "km": 42.6,
+    "min": 38,
+    "min_spits": 52,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1050.0,
+    "service": 40.0,
+    "borg": 0.0,
+    "borg_bron": "advertentie (vast inkomen)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1090.0
+   },
+   "ruimte": {
+    "kamers": null,
+    "slaapkamers": null,
+    "m2": 53,
+    "kamers_geschat": false
+   },
+   "buurt": {
+    "naam": "Vechtzoom-zuid",
+    "gemeente": "Utrecht",
+    "lbm": 3.86,
+    "klasse": 4,
+    "onv": 2,
+    "soc": 4
+   },
+   "verdict": "afraden",
+   "verdict_auto": true,
+   "lbm": 3.86,
+   "lbm_klasse": "Zwak",
+   "review": "Buurt Vechtzoom-zuid (Utrecht): Leefbaarometer Zwak (3,86) – let op: veiligheid scoort zwak (overlast/criminaliteit). Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
+  },
+  {
    "url": "https://ikwilhuren.nu/object/leiden-2321ks-73-betaplein-a60c36dfe590092f7a0321ed4312a4b1/",
    "titel": "Appartement Betaplein 73",
    "sub": "2321KS Leiden",
@@ -1010,7 +1185,8 @@
    "verdict_auto": true,
    "lbm": 3.89,
    "lbm_klasse": "Zwak",
-   "review": "Buurt Cronestein (Leiden): Leefbaarometer Zwak (3,89) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
+   "review": "Buurt Cronestein (Leiden): Leefbaarometer Zwak (3,89) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
+   "gezien": "2026-10-15T08:50+02:00"
   },
   {
    "url": "https://ikwilhuren.nu/object/utrecht-3563av-62-e-kaap-hoorndreef-458bdf65fe094560f3fb283db0c234f4/",
@@ -1067,7 +1243,8 @@
    "verdict_auto": true,
    "lbm": 3.86,
    "lbm_klasse": "Zwak",
-   "review": "Buurt Vechtzoom-zuid (Utrecht): Leefbaarometer Zwak (3,86) – let op: veiligheid scoort zwak (overlast/criminaliteit). Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
+   "review": "Buurt Vechtzoom-zuid (Utrecht): Leefbaarometer Zwak (3,86) – let op: veiligheid scoort zwak (overlast/criminaliteit). Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
+   "gezien": "2026-10-15T08:50+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/73f30820/akeleistraat",
@@ -1140,7 +1317,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-14T08:58+02:00",
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.08001,
     "lon": 4.30215,
@@ -1198,7 +1375,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-14T08:58+02:00",
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.29366,
     "lon": 4.86249,
@@ -1363,7 +1540,7 @@
    "lbm": 3.75,
    "lbm_klasse": "Ruim onvoldoende",
    "review": "Buurt Oud Mathenesse (Rotterdam): Leefbaarometer Ruim onvoldoende (3,75) – let op: veiligheid scoort zwak (overlast/criminaliteit). Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
-   "gezien": "2026-10-14T08:58+02:00"
+   "gezien": "2026-10-15T08:50+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/leiden/80fe3e73/hooigracht",
@@ -1494,7 +1671,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-13T08:51+02:00",
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.07723,
     "lon": 4.30199,
@@ -1552,7 +1729,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-13T08:51+02:00",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 51.99736,
     "lon": 4.35413,
@@ -1730,7 +1907,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T16:29+02:00",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 51.89133,
     "lon": 4.46959,
@@ -1788,7 +1965,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T16:29+02:00",
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.07836,
     "lon": 4.2817,
@@ -1904,7 +2081,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T12:03+02:00",
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.36352,
     "lon": 4.83984,
@@ -1962,7 +2139,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T12:03+02:00",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.31579,
     "lon": 4.95239,
@@ -2020,7 +2197,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T12:03+02:00",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.31569,
     "lon": 4.95241,
@@ -2078,7 +2255,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T12:03+02:00",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.31607,
     "lon": 4.95235,
@@ -2136,7 +2313,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T12:03+02:00",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.31577,
     "lon": 4.9524,
@@ -2194,7 +2371,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T12:03+02:00",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.31599,
     "lon": 4.95237,
@@ -2338,7 +2515,7 @@
     "eerste_betaling": 2154.0,
     "eerste_betaling_max": 3231.0
    },
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "buurt": {
     "naam": "Werengouw-Midden",
     "gemeente": "Amsterdam",
@@ -2544,7 +2721,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.00985,
     "lon": 4.36068,
@@ -2602,7 +2779,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.0097,
     "lon": 4.36068,
@@ -2660,7 +2837,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.01329,
     "lon": 4.35962,
@@ -2744,7 +2921,7 @@
     "notities": [],
     "eerste_betaling": 1890.0
    },
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "buurt": {
     "naam": "Walvisbuurt",
     "gemeente": "Schiedam",
@@ -2802,7 +2979,7 @@
     "notities": [],
     "eerste_betaling": 900.0
    },
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "buurt": {
     "naam": "Staatsliedenbuurt",
     "gemeente": "Schiedam",
@@ -2834,7 +3011,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.1603,
     "lon": 4.48398,
@@ -2894,7 +3071,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.16147,
     "lon": 4.47925,
@@ -2952,7 +3129,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.16049,
     "lon": 4.4949,
@@ -3010,7 +3187,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 51.85324,
     "lon": 4.31659,
@@ -3184,7 +3361,7 @@
    "regio": "Utrecht",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.06297,
     "lon": 5.14723,
@@ -3242,7 +3419,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.22109,
     "lon": 5.17636,
@@ -3300,7 +3477,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.22063,
     "lon": 5.1687,
@@ -3358,7 +3535,7 @@
    "regio": "Utrecht",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.15494,
     "lon": 5.37364,
@@ -3418,7 +3595,7 @@
    "regio": "Utrecht",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.09036,
     "lon": 5.23813,
@@ -3476,7 +3653,7 @@
    "regio": "Utrecht",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.15728,
     "lon": 5.39876,
@@ -3562,7 +3739,7 @@
     "notities": [],
     "eerste_betaling": 1550.0
    },
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -3678,7 +3855,7 @@
     "notities": [],
     "eerste_betaling": 1630.0
    },
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -3736,7 +3913,7 @@
     "notities": [],
     "eerste_betaling": 1598.0
    },
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -3794,7 +3971,7 @@
     "notities": [],
     "eerste_betaling": 3292.0
    },
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "buurt": {
     "naam": "G-buurt-West",
     "gemeente": "Amsterdam",
@@ -3968,7 +4145,7 @@
     "notities": [],
     "eerste_betaling": 2688.0
    },
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "buurt": {
     "naam": "G-buurt-Oost",
     "gemeente": "Amsterdam",
@@ -4142,7 +4319,7 @@
     "notities": [],
     "eerste_betaling": 1830.0
    },
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "buurt": {
     "naam": "Overtoomse Veld-Zuid",
     "gemeente": "Amsterdam",
@@ -4200,7 +4377,7 @@
     "notities": [],
     "eerste_betaling": 1710.0
    },
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -4316,7 +4493,7 @@
     "notities": [],
     "eerste_betaling": 1664.0
    },
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -4374,7 +4551,7 @@
     "notities": [],
     "eerste_betaling": 1696.0
    },
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -4432,7 +4609,7 @@
     "notities": [],
     "eerste_betaling": 1630.0
    },
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -4492,7 +4669,7 @@
     "eerste_betaling": 900.0,
     "eerste_betaling_max": 1350.0
    },
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "buurt": {
     "naam": "Peldersveld West",
     "gemeente": "Zaanstad",
@@ -4524,7 +4701,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 51.90933,
     "lon": 4.4461,
@@ -4584,7 +4761,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 51.93033,
     "lon": 4.49662,
@@ -4642,7 +4819,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 51.89507,
     "lon": 4.49214,
@@ -4758,7 +4935,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 51.88659,
     "lon": 4.49666,
@@ -4816,7 +4993,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 51.88659,
     "lon": 4.49666,
@@ -4874,7 +5051,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 51.88659,
     "lon": 4.49666,
@@ -4932,7 +5109,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 51.92722,
     "lon": 4.50168,
@@ -5106,7 +5283,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T08:58+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 51.91735,
     "lon": 4.45953,
@@ -5224,7 +5401,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-13T08:51+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 51.89151,
     "lon": 4.51209,
@@ -5400,7 +5577,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-12T11:49+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 51.89154,
     "lon": 4.51184,
@@ -5460,7 +5637,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.08358,
     "lon": 4.29542,
@@ -5520,7 +5697,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.07208,
     "lon": 4.31535,
@@ -5580,7 +5757,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.06188,
     "lon": 4.32796,
@@ -5640,7 +5817,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.07421,
     "lon": 4.31541,
@@ -5700,7 +5877,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.07033,
     "lon": 4.28113,
@@ -5760,7 +5937,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.07033,
     "lon": 4.28113,
@@ -5820,7 +5997,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.07327,
     "lon": 4.2744,
@@ -5938,7 +6115,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.068,
     "lon": 4.33156,
@@ -5996,7 +6173,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.05936,
     "lon": 4.31115,
@@ -6054,7 +6231,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.06803,
     "lon": 4.33117,
@@ -6112,7 +6289,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.0734,
     "lon": 4.27707,
@@ -6170,7 +6347,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.0751,
     "lon": 4.323,
@@ -6228,7 +6405,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.07404,
     "lon": 4.27207,
@@ -6286,7 +6463,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.06152,
     "lon": 4.33041,
@@ -6346,7 +6523,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.05964,
     "lon": 4.31082,
@@ -6404,7 +6581,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-14T14:11+02:00",
+   "gezien": "2026-10-15T08:50+02:00",
    "geo": {
     "lat": 52.07792,
     "lon": 4.28603,
@@ -6687,57 +6864,57 @@
   }
  ],
  "refresh": {
-  "tijd": "2026-10-14T14:11+02:00",
-  "toegevoegd": 2,
+  "tijd": "2026-10-15T08:50+02:00",
+  "toegevoegd": 3,
   "log": [
-   "Pararius rotterdam: 0",
+   "Pararius rotterdam: 30",
    "Pararius den-haag: 30",
-   "Pararius rijswijk: 0",
-   "Pararius voorburg: 0",
+   "Pararius rijswijk: 1",
+   "Pararius voorburg: 1",
    "Pararius leidschendam: 1",
-   "Pararius delft: 0",
-   "Pararius schiedam: 0",
-   "Pararius vlaardingen: 0",
-   "Pararius zoetermeer: 0",
-   "Pararius leiden: 0",
-   "Pararius dordrecht: 0",
-   "Pararius capelle-aan-den-ijssel: 0",
-   "Pararius barendrecht: 0",
-   "Pararius gouda: 0",
-   "Pararius alphen-aan-den-rijn: 0",
-   "Pararius utrecht: 0",
-   "Pararius nieuwegein: 0",
-   "Pararius houten: 0",
-   "Pararius zeist: 0",
-   "Pararius amersfoort: 0",
-   "Pararius sliedrecht: 0",
-   "Pararius spijkenisse: 0",
-   "Pararius amsterdam: 0",
-   "Pararius amstelveen: 0",
-   "Pararius diemen: 0",
-   "Pararius duivendrecht: 0",
-   "Pararius ouderkerk-aan-de-amstel: 0",
-   "Pararius weesp: 0",
-   "Pararius hoofddorp: 0",
-   "Pararius nieuw-vennep: 0",
-   "Pararius badhoevedorp: 0",
-   "Pararius haarlem: 0",
-   "Pararius heemstede: 0",
-   "Pararius zaandam: 0",
+   "Pararius delft: 6",
+   "Pararius schiedam: 8",
+   "Pararius vlaardingen: 30",
+   "Pararius zoetermeer: 29",
+   "Pararius leiden: 8",
+   "Pararius dordrecht: 2",
+   "Pararius capelle-aan-den-ijssel: 2",
+   "Pararius barendrecht: 29",
+   "Pararius gouda: 1",
+   "Pararius alphen-aan-den-rijn: 28",
+   "Pararius utrecht: 9",
+   "Pararius nieuwegein: 17",
+   "Pararius houten: 18",
+   "Pararius zeist: 3",
+   "Pararius amersfoort: 3",
+   "Pararius sliedrecht: 1",
+   "Pararius spijkenisse: 2",
+   "Pararius amsterdam: 21",
+   "Pararius amstelveen: 2",
+   "Pararius diemen: 24",
+   "Pararius duivendrecht: 25",
+   "Pararius ouderkerk-aan-de-amstel: 27",
+   "Pararius weesp: 24",
+   "Pararius hoofddorp: 28",
+   "Pararius nieuw-vennep: 28",
+   "Pararius badhoevedorp: 28",
+   "Pararius haarlem: 4",
+   "Pararius heemstede: 1",
+   "Pararius zaandam: 1",
    "Pararius koog-aan-de-zaan: 23",
-   "Pararius purmerend: 0",
-   "Pararius landsmeer: 0",
-   "Pararius uithoorn: 0",
-   "Pararius aalsmeer: 0",
-   "Pararius abcoude: 0",
-   "Pararius muiden: 0",
-   "Pararius hilversum: 0",
-   "Pararius bussum: 0",
-   "Pararius naarden: 0",
-   "ikwilhuren: 31 in regio",
-   "verrijkt: 2 (bestemming Fokkerweg 300, Oude Meer)"
+   "Pararius purmerend: 19",
+   "Pararius landsmeer: 26",
+   "Pararius uithoorn: 29",
+   "Pararius aalsmeer: 27",
+   "Pararius abcoude: 25",
+   "Pararius muiden: 24",
+   "Pararius hilversum: 3",
+   "Pararius bussum: 24",
+   "Pararius naarden: 24",
+   "ikwilhuren: 29 in regio",
+   "verrijkt: 3 (bestemming Fokkerweg 300, Oude Meer)"
   ],
-  "door": "github"
+  "door": "box"
  },
  "bestemming": {
   "adres": "Fokkerweg 300, Oude Meer",
