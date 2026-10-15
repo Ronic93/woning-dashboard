@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
  "bijgewerkt": "2026-10-15T13:49+02:00",
+=======
+ "bijgewerkt": "2026-10-15T19:28+02:00",
+>>>>>>> Stashed changes
  "listings": [
   {
    "id": "1",
@@ -954,6 +958,122 @@
  ],
  "nieuw": [
   {
+   "url": "https://www.pararius.nl/appartement-te-huur/hilversum/ab3453e2/1e-oosterstraat",
+   "titel": "Appartement 1e Oosterstraat 79",
+   "sub": "1211 LA Hilversum (Havenstraatbuurt)",
+   "huur": 900.0,
+   "m2": "47 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Hilversum",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-15T19:28+02:00",
+   "gezien": "2026-10-15T19:28+02:00",
+   "geo": {
+    "lat": 52.22065,
+    "lon": 5.17092,
+    "match": "1e Oosterstraat 79, 1211LA Hilversum",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 27.5,
+    "km": 35.9,
+    "min": 35,
+    "min_spits": 48,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 900.0,
+    "service": null,
+    "borg": 1800.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2700.0
+   },
+   "ruimte": {
+    "kamers": 2,
+    "slaapkamers": 1,
+    "m2": 47,
+    "kamers_geschat": false
+   },
+   "buurt": {
+    "naam": "Havenstraatbuurt",
+    "gemeente": "Hilversum",
+    "lbm": 4.14,
+    "klasse": 7,
+    "onv": 4,
+    "soc": 4
+   },
+   "verdict": "prima",
+   "verdict_auto": true,
+   "lbm": 4.14,
+   "lbm_klasse": "Goed",
+   "review": "Buurt Havenstraatbuurt (Hilversum): Leefbaarometer Goed (4,14) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/leiden/ff9f6984/sophiastraat",
+   "titel": "Appartement Sophiastraat",
+   "sub": "2316 PS Leiden (Noorderkwartier)",
+   "huur": 810.0,
+   "m2": "48 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Leiden",
+   "regio": "Zuid-Holland",
+   "bron": "Pararius",
+   "gevonden": "2026-10-15T19:28+02:00",
+   "gezien": "2026-10-15T19:28+02:00",
+   "geo": {
+    "lat": 52.16509,
+    "lon": 4.5032,
+    "match": "Sophiastraat, 2316PS Leiden",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 23.6,
+    "km": 27.1,
+    "min": 26,
+    "min_spits": 35,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 810.0,
+    "service": null,
+    "borg": 1545.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2355.0
+   },
+   "ruimte": {
+    "kamers": 1,
+    "slaapkamers": 1,
+    "m2": 48,
+    "kamers_geschat": false
+   },
+   "buurt": {
+    "naam": "Noorderkwartier",
+    "gemeente": "Leiden",
+    "lbm": 4.05,
+    "klasse": 6,
+    "onv": 3,
+    "soc": 3
+   },
+   "verdict": "prima",
+   "verdict_auto": true,
+   "lbm": 4.05,
+   "lbm_klasse": "Ruim voldoende",
+   "review": "Buurt Noorderkwartier (Leiden): Leefbaarometer Ruim voldoende (4,05) – let op: veiligheid onder het gemiddelde. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
+  },
+  {
    "url": "https://www.pararius.nl/appartement-te-huur/voorburg/a32e392e/van-halewijnplein",
    "titel": "Appartement van Halewijnplein",
    "sub": "2274 VC Voorburg (Voorburg Noord zuid)",
@@ -1363,64 +1483,6 @@
    "lbm": 4.33,
    "lbm_klasse": "Uitstekend",
    "review": "Buurt Zeeheldenkwartier ('s-Gravenhage): Leefbaarometer Uitstekend (4,33) – let op: veiligheid onder het gemiddelde. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
-  },
-  {
-   "url": "https://www.pararius.nl/appartement-te-huur/amstelveen/d15f6bba/franciscus-van-assisielaan",
-   "titel": "Appartement Franciscus van Assisiëlaan 101",
-   "sub": "1185 CH Amstelveen (Augustinuspark)",
-   "huur": 960.0,
-   "m2": "72 m²",
-   "interieur": "Gestoffeerd",
-   "plaats": "Amstelveen",
-   "regio": "Amsterdam e.o.",
-   "bron": "Pararius",
-   "gevonden": "2026-10-14T08:58+02:00",
-   "gezien": "2026-10-15T08:50+02:00",
-   "geo": {
-    "lat": 52.29366,
-    "lon": 4.86249,
-    "match": "Franciscus van Assisiëlaan 101, 1185CH Amstelveen",
-    "nauwkeurig": "adres"
-   },
-   "rit": {
-    "hemelsbreed_km": 5.4,
-    "km": 9.1,
-    "min": 11,
-    "min_spits": 16,
-    "bron": "OSRM",
-    "dest": [
-     52.28955927,
-     4.78308264
-    ]
-   },
-   "kosten": {
-    "huur": 960.0,
-    "service": null,
-    "borg": 1921.0,
-    "borg_bron": "advertentie",
-    "eenmalig": [],
-    "notities": [],
-    "eerste_betaling": 2881.0
-   },
-   "ruimte": {
-    "kamers": 3,
-    "slaapkamers": 2,
-    "m2": 72,
-    "kamers_geschat": false
-   },
-   "buurt": {
-    "naam": "Augustinuspark",
-    "gemeente": "Amstelveen",
-    "lbm": 4.1,
-    "klasse": 6,
-    "onv": 5,
-    "soc": 4
-   },
-   "verdict": "prima",
-   "verdict_auto": true,
-   "lbm": 4.1,
-   "lbm_klasse": "Ruim voldoende",
-   "review": "Buurt Augustinuspark (Amstelveen): Leefbaarometer Ruim voldoende (4,1) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/7e75a840/jasmijnstraat",
@@ -2081,7 +2143,11 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T12:03+02:00",
+<<<<<<< Updated upstream
    "gezien": "2026-10-15T13:49+02:00",
+=======
+   "gezien": "2026-10-15T19:28+02:00",
+>>>>>>> Stashed changes
    "geo": {
     "lat": 52.36352,
     "lon": 4.83984,
@@ -2139,7 +2205,11 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T12:03+02:00",
+<<<<<<< Updated upstream
    "gezien": "2026-10-15T13:49+02:00",
+=======
+   "gezien": "2026-10-15T19:28+02:00",
+>>>>>>> Stashed changes
    "geo": {
     "lat": 52.31579,
     "lon": 4.95239,
@@ -2255,7 +2325,11 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T12:03+02:00",
+<<<<<<< Updated upstream
    "gezien": "2026-10-15T13:49+02:00",
+=======
+   "gezien": "2026-10-15T19:28+02:00",
+>>>>>>> Stashed changes
    "geo": {
     "lat": 52.31607,
     "lon": 4.95235,
@@ -2313,7 +2387,11 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T12:03+02:00",
+<<<<<<< Updated upstream
    "gezien": "2026-10-15T13:49+02:00",
+=======
+   "gezien": "2026-10-15T19:28+02:00",
+>>>>>>> Stashed changes
    "geo": {
     "lat": 52.31577,
     "lon": 4.9524,
@@ -2371,7 +2449,11 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T12:03+02:00",
+<<<<<<< Updated upstream
    "gezien": "2026-10-15T13:49+02:00",
+=======
+   "gezien": "2026-10-15T19:28+02:00",
+>>>>>>> Stashed changes
    "geo": {
     "lat": 52.31599,
     "lon": 4.95237,
@@ -2515,7 +2597,11 @@
     "eerste_betaling": 2154.0,
     "eerste_betaling_max": 3231.0
    },
+<<<<<<< Updated upstream
    "gezien": "2026-10-15T13:49+02:00",
+=======
+   "gezien": "2026-10-15T19:28+02:00",
+>>>>>>> Stashed changes
    "buurt": {
     "naam": "Werengouw-Midden",
     "gemeente": "Amsterdam",
@@ -3011,7 +3097,11 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
+<<<<<<< Updated upstream
    "gezien": "2026-10-15T13:49+02:00",
+=======
+   "gezien": "2026-10-15T19:28+02:00",
+>>>>>>> Stashed changes
    "geo": {
     "lat": 52.1603,
     "lon": 4.48398,
@@ -3071,7 +3161,11 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
+<<<<<<< Updated upstream
    "gezien": "2026-10-15T13:49+02:00",
+=======
+   "gezien": "2026-10-15T19:28+02:00",
+>>>>>>> Stashed changes
    "geo": {
     "lat": 52.16147,
     "lon": 4.47925,
@@ -3129,7 +3223,11 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
+<<<<<<< Updated upstream
    "gezien": "2026-10-15T13:49+02:00",
+=======
+   "gezien": "2026-10-15T19:28+02:00",
+>>>>>>> Stashed changes
    "geo": {
     "lat": 52.16049,
     "lon": 4.4949,
@@ -3419,7 +3517,11 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
+<<<<<<< Updated upstream
    "gezien": "2026-10-15T13:49+02:00",
+=======
+   "gezien": "2026-10-15T19:28+02:00",
+>>>>>>> Stashed changes
    "geo": {
     "lat": 52.22109,
     "lon": 5.17636,
@@ -3477,7 +3579,11 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
+<<<<<<< Updated upstream
    "gezien": "2026-10-15T13:49+02:00",
+=======
+   "gezien": "2026-10-15T19:28+02:00",
+>>>>>>> Stashed changes
    "geo": {
     "lat": 52.22063,
     "lon": 5.1687,
@@ -3739,7 +3845,11 @@
     "notities": [],
     "eerste_betaling": 1550.0
    },
+<<<<<<< Updated upstream
    "gezien": "2026-10-15T13:49+02:00",
+=======
+   "gezien": "2026-10-15T19:28+02:00",
+>>>>>>> Stashed changes
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -3855,7 +3965,11 @@
     "notities": [],
     "eerste_betaling": 1630.0
    },
+<<<<<<< Updated upstream
    "gezien": "2026-10-15T13:49+02:00",
+=======
+   "gezien": "2026-10-15T19:28+02:00",
+>>>>>>> Stashed changes
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -3913,7 +4027,11 @@
     "notities": [],
     "eerste_betaling": 1598.0
    },
+<<<<<<< Updated upstream
    "gezien": "2026-10-15T13:49+02:00",
+=======
+   "gezien": "2026-10-15T19:28+02:00",
+>>>>>>> Stashed changes
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -3971,7 +4089,11 @@
     "notities": [],
     "eerste_betaling": 3292.0
    },
+<<<<<<< Updated upstream
    "gezien": "2026-10-15T13:49+02:00",
+=======
+   "gezien": "2026-10-15T19:28+02:00",
+>>>>>>> Stashed changes
    "buurt": {
     "naam": "G-buurt-West",
     "gemeente": "Amsterdam",
@@ -4145,7 +4267,11 @@
     "notities": [],
     "eerste_betaling": 2688.0
    },
+<<<<<<< Updated upstream
    "gezien": "2026-10-15T13:49+02:00",
+=======
+   "gezien": "2026-10-15T19:28+02:00",
+>>>>>>> Stashed changes
    "buurt": {
     "naam": "G-buurt-Oost",
     "gemeente": "Amsterdam",
@@ -4319,7 +4445,11 @@
     "notities": [],
     "eerste_betaling": 1830.0
    },
+<<<<<<< Updated upstream
    "gezien": "2026-10-15T13:49+02:00",
+=======
+   "gezien": "2026-10-15T19:28+02:00",
+>>>>>>> Stashed changes
    "buurt": {
     "naam": "Overtoomse Veld-Zuid",
     "gemeente": "Amsterdam",
@@ -4493,7 +4623,11 @@
     "notities": [],
     "eerste_betaling": 1664.0
    },
+<<<<<<< Updated upstream
    "gezien": "2026-10-15T13:49+02:00",
+=======
+   "gezien": "2026-10-15T19:28+02:00",
+>>>>>>> Stashed changes
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -4669,7 +4803,11 @@
     "eerste_betaling": 900.0,
     "eerste_betaling_max": 1350.0
    },
+<<<<<<< Updated upstream
    "gezien": "2026-10-15T13:49+02:00",
+=======
+   "gezien": "2026-10-15T19:28+02:00",
+>>>>>>> Stashed changes
    "buurt": {
     "naam": "Peldersveld West",
     "gemeente": "Zaanstad",
@@ -6864,6 +7002,7 @@
   }
  ],
  "refresh": {
+<<<<<<< Updated upstream
   "tijd": "2026-10-15T13:49+02:00",
   "toegevoegd": 0,
   "log": [
@@ -6915,6 +7054,26 @@
    "verrijkt: 0 (bestemming Fokkerweg 300, Oude Meer)"
   ],
   "door": "github"
+=======
+  "tijd": "2026-10-15T19:28+02:00",
+  "toegevoegd": 2,
+  "log": [
+   "Pararius amsterdam: 17",
+   "Pararius amstelveen: 1",
+   "Pararius diemen: 24",
+   "Pararius hoofddorp: 28",
+   "Pararius haarlem: 4",
+   "Pararius zaandam: 1",
+   "Pararius badhoevedorp: 24",
+   "Pararius weesp: 24",
+   "Pararius uithoorn: 29",
+   "Pararius aalsmeer: 27",
+   "Pararius hilversum: 5",
+   "ikwilhuren: fout HTTP Error 500: Internal Server Error",
+   "verrijkt: 2 (bestemming Fokkerweg 300, Oude Meer)"
+  ],
+  "door": "lokaal"
+>>>>>>> Stashed changes
  },
  "bestemming": {
   "adres": "Fokkerweg 300, Oude Meer",
