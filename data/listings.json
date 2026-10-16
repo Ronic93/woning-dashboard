@@ -1,9 +1,5 @@
 {
-<<<<<<< Updated upstream
- "bijgewerkt": "2026-10-15T13:49+02:00",
-=======
  "bijgewerkt": "2026-10-15T19:28+02:00",
->>>>>>> Stashed changes
  "listings": [
   {
    "id": "1",
@@ -2143,11 +2139,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T12:03+02:00",
-<<<<<<< Updated upstream
-   "gezien": "2026-10-15T13:49+02:00",
-=======
    "gezien": "2026-10-15T19:28+02:00",
->>>>>>> Stashed changes
    "geo": {
     "lat": 52.36352,
     "lon": 4.83984,
@@ -2205,11 +2197,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T12:03+02:00",
-<<<<<<< Updated upstream
-   "gezien": "2026-10-15T13:49+02:00",
-=======
    "gezien": "2026-10-15T19:28+02:00",
->>>>>>> Stashed changes
    "geo": {
     "lat": 52.31579,
     "lon": 4.95239,
@@ -2325,11 +2313,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T12:03+02:00",
-<<<<<<< Updated upstream
-   "gezien": "2026-10-15T13:49+02:00",
-=======
    "gezien": "2026-10-15T19:28+02:00",
->>>>>>> Stashed changes
    "geo": {
     "lat": 52.31607,
     "lon": 4.95235,
@@ -2387,11 +2371,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T12:03+02:00",
-<<<<<<< Updated upstream
-   "gezien": "2026-10-15T13:49+02:00",
-=======
    "gezien": "2026-10-15T19:28+02:00",
->>>>>>> Stashed changes
    "geo": {
     "lat": 52.31577,
     "lon": 4.9524,
@@ -2449,11 +2429,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T12:03+02:00",
-<<<<<<< Updated upstream
-   "gezien": "2026-10-15T13:49+02:00",
-=======
    "gezien": "2026-10-15T19:28+02:00",
->>>>>>> Stashed changes
    "geo": {
     "lat": 52.31599,
     "lon": 4.95237,
@@ -2597,11 +2573,7 @@
     "eerste_betaling": 2154.0,
     "eerste_betaling_max": 3231.0
    },
-<<<<<<< Updated upstream
-   "gezien": "2026-10-15T13:49+02:00",
-=======
    "gezien": "2026-10-15T19:28+02:00",
->>>>>>> Stashed changes
    "buurt": {
     "naam": "Werengouw-Midden",
     "gemeente": "Amsterdam",
@@ -3097,11 +3069,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-<<<<<<< Updated upstream
-   "gezien": "2026-10-15T13:49+02:00",
-=======
    "gezien": "2026-10-15T19:28+02:00",
->>>>>>> Stashed changes
    "geo": {
     "lat": 52.1603,
     "lon": 4.48398,
@@ -3161,11 +3129,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-<<<<<<< Updated upstream
-   "gezien": "2026-10-15T13:49+02:00",
-=======
    "gezien": "2026-10-15T19:28+02:00",
->>>>>>> Stashed changes
    "geo": {
     "lat": 52.16147,
     "lon": 4.47925,
@@ -3223,11 +3187,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-<<<<<<< Updated upstream
-   "gezien": "2026-10-15T13:49+02:00",
-=======
    "gezien": "2026-10-15T19:28+02:00",
->>>>>>> Stashed changes
    "geo": {
     "lat": 52.16049,
     "lon": 4.4949,
@@ -3517,11 +3477,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-<<<<<<< Updated upstream
-   "gezien": "2026-10-15T13:49+02:00",
-=======
    "gezien": "2026-10-15T19:28+02:00",
->>>>>>> Stashed changes
    "geo": {
     "lat": 52.22109,
     "lon": 5.17636,
@@ -3579,11 +3535,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-<<<<<<< Updated upstream
-   "gezien": "2026-10-15T13:49+02:00",
-=======
    "gezien": "2026-10-15T19:28+02:00",
->>>>>>> Stashed changes
    "geo": {
     "lat": 52.22063,
     "lon": 5.1687,
@@ -3845,11 +3797,7 @@
     "notities": [],
     "eerste_betaling": 1550.0
    },
-<<<<<<< Updated upstream
-   "gezien": "2026-10-15T13:49+02:00",
-=======
    "gezien": "2026-10-15T19:28+02:00",
->>>>>>> Stashed changes
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -3965,11 +3913,7 @@
     "notities": [],
     "eerste_betaling": 1630.0
    },
-<<<<<<< Updated upstream
-   "gezien": "2026-10-15T13:49+02:00",
-=======
    "gezien": "2026-10-15T19:28+02:00",
->>>>>>> Stashed changes
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -4027,11 +3971,7 @@
     "notities": [],
     "eerste_betaling": 1598.0
    },
-<<<<<<< Updated upstream
-   "gezien": "2026-10-15T13:49+02:00",
-=======
    "gezien": "2026-10-15T19:28+02:00",
->>>>>>> Stashed changes
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -4089,11 +4029,7 @@
     "notities": [],
     "eerste_betaling": 3292.0
    },
-<<<<<<< Updated upstream
-   "gezien": "2026-10-15T13:49+02:00",
-=======
    "gezien": "2026-10-15T19:28+02:00",
->>>>>>> Stashed changes
    "buurt": {
     "naam": "G-buurt-West",
     "gemeente": "Amsterdam",
@@ -4267,11 +4203,7 @@
     "notities": [],
     "eerste_betaling": 2688.0
    },
-<<<<<<< Updated upstream
-   "gezien": "2026-10-15T13:49+02:00",
-=======
    "gezien": "2026-10-15T19:28+02:00",
->>>>>>> Stashed changes
    "buurt": {
     "naam": "G-buurt-Oost",
     "gemeente": "Amsterdam",
@@ -4445,11 +4377,7 @@
     "notities": [],
     "eerste_betaling": 1830.0
    },
-<<<<<<< Updated upstream
-   "gezien": "2026-10-15T13:49+02:00",
-=======
    "gezien": "2026-10-15T19:28+02:00",
->>>>>>> Stashed changes
    "buurt": {
     "naam": "Overtoomse Veld-Zuid",
     "gemeente": "Amsterdam",
@@ -4623,11 +4551,7 @@
     "notities": [],
     "eerste_betaling": 1664.0
    },
-<<<<<<< Updated upstream
-   "gezien": "2026-10-15T13:49+02:00",
-=======
    "gezien": "2026-10-15T19:28+02:00",
->>>>>>> Stashed changes
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -4803,11 +4727,7 @@
     "eerste_betaling": 900.0,
     "eerste_betaling_max": 1350.0
    },
-<<<<<<< Updated upstream
-   "gezien": "2026-10-15T13:49+02:00",
-=======
    "gezien": "2026-10-15T19:28+02:00",
->>>>>>> Stashed changes
    "buurt": {
     "naam": "Peldersveld West",
     "gemeente": "Zaanstad",
@@ -7002,59 +6922,6 @@
   }
  ],
  "refresh": {
-<<<<<<< Updated upstream
-  "tijd": "2026-10-15T13:49+02:00",
-  "toegevoegd": 0,
-  "log": [
-   "Pararius rotterdam: 30",
-   "Pararius den-haag: 0",
-   "Pararius rijswijk: 1",
-   "Pararius voorburg: 1",
-   "Pararius leidschendam: 0",
-   "Pararius delft: 0",
-   "Pararius schiedam: 0",
-   "Pararius vlaardingen: 0",
-   "Pararius zoetermeer: 0",
-   "Pararius leiden: 0",
-   "Pararius dordrecht: 0",
-   "Pararius capelle-aan-den-ijssel: 0",
-   "Pararius barendrecht: 0",
-   "Pararius gouda: 0",
-   "Pararius alphen-aan-den-rijn: 0",
-   "Pararius utrecht: 0",
-   "Pararius nieuwegein: 0",
-   "Pararius houten: 20",
-   "Pararius zeist: 0",
-   "Pararius amersfoort: 0",
-   "Pararius sliedrecht: 0",
-   "Pararius spijkenisse: 0",
-   "Pararius amsterdam: 18",
-   "Pararius amstelveen: 0",
-   "Pararius diemen: 0",
-   "Pararius duivendrecht: 25",
-   "Pararius ouderkerk-aan-de-amstel: 27",
-   "Pararius weesp: 0",
-   "Pararius hoofddorp: 28",
-   "Pararius nieuw-vennep: 0",
-   "Pararius badhoevedorp: 0",
-   "Pararius haarlem: 0",
-   "Pararius heemstede: 0",
-   "Pararius zaandam: 0",
-   "Pararius koog-aan-de-zaan: 0",
-   "Pararius purmerend: 0",
-   "Pararius landsmeer: 25",
-   "Pararius uithoorn: 0",
-   "Pararius aalsmeer: 27",
-   "Pararius abcoude: 0",
-   "Pararius muiden: 0",
-   "Pararius hilversum: 3",
-   "Pararius bussum: 0",
-   "Pararius naarden: 0",
-   "ikwilhuren: fout HTTP Error 500: Internal Server Error",
-   "verrijkt: 0 (bestemming Fokkerweg 300, Oude Meer)"
-  ],
-  "door": "github"
-=======
   "tijd": "2026-10-15T19:28+02:00",
   "toegevoegd": 2,
   "log": [
@@ -7073,7 +6940,6 @@
    "verrijkt: 2 (bestemming Fokkerweg 300, Oude Meer)"
   ],
   "door": "lokaal"
->>>>>>> Stashed changes
  },
  "bestemming": {
   "adres": "Fokkerweg 300, Oude Meer",
