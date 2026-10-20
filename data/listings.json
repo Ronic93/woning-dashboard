@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-10-20T08:50+02:00",
+ "bijgewerkt": "2026-10-20T13:56+02:00",
  "listings": [
   {
    "id": "1",
@@ -954,6 +954,183 @@
  ],
  "nieuw": [
   {
+   "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/56ba0532/botersloot",
+   "titel": "Appartement Botersloot",
+   "sub": "3011 HE Rotterdam (Stadsdriehoek)",
+   "huur": 748.0,
+   "m2": "48 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Rotterdam",
+   "regio": "Zuid-Holland",
+   "bron": "Pararius",
+   "gevonden": "2026-10-20T13:56+02:00",
+   "geo": {
+    "lat": 51.92192,
+    "lon": 4.48749,
+    "match": "Botersloot, 3011HE Rotterdam",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 45.6,
+    "km": 61.4,
+    "min": 52,
+    "min_spits": 71,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 748.0,
+    "service": null,
+    "borg": 748.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 1496.0,
+    "eerste_betaling": 1496.0,
+    "eerste_betaling_max": 2244.0
+   },
+   "ruimte": {
+    "kamers": null,
+    "slaapkamers": null,
+    "m2": 48,
+    "kamers_geschat": false
+   },
+   "buurt": {
+    "naam": "Stadsdriehoek",
+    "gemeente": "Rotterdam",
+    "lbm": 4.21,
+    "klasse": 8,
+    "onv": 3,
+    "soc": 3
+   },
+   "verdict": "aanrader",
+   "verdict_auto": true,
+   "lbm": 4.21,
+   "lbm_klasse": "Zeer goed",
+   "review": "Buurt Stadsdriehoek (Rotterdam): Leefbaarometer Zeer goed (4,21) – let op: veiligheid onder het gemiddelde. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/a9f4e32a/dorpsweg",
+   "titel": "Appartement Dorpsweg",
+   "sub": "3082 LB Rotterdam (Oud Charlois)",
+   "huur": 840.0,
+   "m2": "58 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Rotterdam",
+   "regio": "Zuid-Holland",
+   "bron": "Pararius",
+   "gevonden": "2026-10-20T13:56+02:00",
+   "geo": {
+    "lat": 51.89035,
+    "lon": 4.47246,
+    "match": "Dorpsweg, 3082LB Rotterdam",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 49.2,
+    "km": 63.9,
+    "min": 56,
+    "min_spits": 75,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 840.0,
+    "service": null,
+    "borg": 840.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 1680.0,
+    "eerste_betaling": 1680.0,
+    "eerste_betaling_max": 2520.0
+   },
+   "ruimte": {
+    "kamers": null,
+    "slaapkamers": null,
+    "m2": 58,
+    "kamers_geschat": false
+   },
+   "buurt": {
+    "naam": "Oud Charlois",
+    "gemeente": "Rotterdam",
+    "lbm": 3.86,
+    "klasse": 4,
+    "onv": 2,
+    "soc": 3
+   },
+   "verdict": "afraden",
+   "verdict_auto": true,
+   "lbm": 3.86,
+   "lbm_klasse": "Zwak",
+   "review": "Buurt Oud Charlois (Rotterdam): Leefbaarometer Zwak (3,86) – let op: veiligheid scoort zwak (overlast/criminaliteit). Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/5f10d6e3/botersloot",
+   "titel": "Appartement Botersloot",
+   "sub": "3011 HE Rotterdam (Stadsdriehoek)",
+   "huur": 775.0,
+   "m2": "48 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Rotterdam",
+   "regio": "Zuid-Holland",
+   "bron": "Pararius",
+   "gevonden": "2026-10-20T13:56+02:00",
+   "geo": {
+    "lat": 51.92192,
+    "lon": 4.48749,
+    "match": "Botersloot, 3011HE Rotterdam",
+    "nauwkeurig": "postcode"
+   },
+   "rit": {
+    "hemelsbreed_km": 45.6,
+    "km": 61.4,
+    "min": 52,
+    "min_spits": 71,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 775.0,
+    "service": null,
+    "borg": 775.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 1550.0,
+    "eerste_betaling": 1550.0,
+    "eerste_betaling_max": 2325.0
+   },
+   "ruimte": {
+    "kamers": null,
+    "slaapkamers": null,
+    "m2": 48,
+    "kamers_geschat": false
+   },
+   "buurt": {
+    "naam": "Stadsdriehoek",
+    "gemeente": "Rotterdam",
+    "lbm": 4.21,
+    "klasse": 8,
+    "onv": 3,
+    "soc": 3
+   },
+   "verdict": "aanrader",
+   "verdict_auto": true,
+   "lbm": 4.21,
+   "lbm_klasse": "Zeer goed",
+   "review": "Buurt Stadsdriehoek (Rotterdam): Leefbaarometer Zeer goed (4,21) – let op: veiligheid onder het gemiddelde. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
+  },
+  {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/3f469ab7/katendrechtse-lagedijk",
    "titel": "Appartement Katendrechtse Lagedijk",
    "sub": "3082 GJ Rotterdam (Oud Charlois)",
@@ -964,7 +1141,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-20T08:50+02:00",
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "geo": {
     "lat": 51.89183,
     "lon": 4.47003,
@@ -1185,7 +1362,7 @@
    "lbm": 4.13,
    "lbm_klasse": "Goed",
    "review": "Buurt Schepenbuurt, Cartesiusweg e.o. (Utrecht): Leefbaarometer Goed (4,13) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
-   "gezien": "2026-10-20T08:50+02:00"
+   "gezien": "2026-10-20T13:56+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/e29046af/nicolaas-tulpstraat",
@@ -1256,7 +1433,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-17T09:00+02:00",
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "geo": {
     "lat": 52.36352,
     "lon": 4.8397,
@@ -1314,7 +1491,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-17T09:00+02:00",
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "geo": {
     "lat": 52.39133,
     "lon": 4.63718,
@@ -1417,7 +1594,7 @@
    "lbm": 3.91,
    "lbm_klasse": "Zwak",
    "review": "Buurt Roland Holstbuurt (Delft): Leefbaarometer Zwak (3,91) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
-   "gezien": "2026-10-20T08:50+02:00"
+   "gezien": "2026-10-20T13:56+02:00"
   },
   {
    "url": "https://ikwilhuren.nu/object/schiedam-3119xt-1035-s-gravelandseweg-6022ddf54cbe9ef09973dffca9efe0f9/",
@@ -1475,7 +1652,7 @@
    "lbm": 4.03,
    "lbm_klasse": "Ruim voldoende",
    "review": "Buurt Hollandiabuurt (Schiedam): Leefbaarometer Ruim voldoende (4,03) – let op: veiligheid onder het gemiddelde. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
-   "gezien": "2026-10-20T08:50+02:00"
+   "gezien": "2026-10-20T13:56+02:00"
   },
   {
    "url": "https://ikwilhuren.nu/object/hilversum-1216rx-55-franciscusweg-3a4b992a1facf327613ac633ebff9242/",
@@ -1533,7 +1710,7 @@
    "lbm": 4.08,
    "lbm_klasse": "Ruim voldoende",
    "review": "Buurt Kerkelanden (Hilversum): Leefbaarometer Ruim voldoende (4,08) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
-   "gezien": "2026-10-20T08:50+02:00"
+   "gezien": "2026-10-20T13:56+02:00"
   },
   {
    "url": "https://ikwilhuren.nu/object/amsterdam-1025xl-1610-buikslotermeerplein-617a6e4aee662a4f63d1999d0850f404/",
@@ -1591,7 +1768,7 @@
    "lbm": 3.93,
    "lbm_klasse": "Zwak",
    "review": "Buurt Loenermark (Amsterdam): Leefbaarometer Zwak (3,93) – let op: veiligheid onder het gemiddelde, Noord (Banne/Vogelbuurt/Waterlandplein): wisselend, deels overlast. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
-   "gezien": "2026-10-20T08:50+02:00"
+   "gezien": "2026-10-20T13:56+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/220477c0/grote-visserijstraat",
@@ -1664,7 +1841,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-16T08:55+02:00",
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "geo": {
     "lat": 51.92353,
     "lon": 4.49094,
@@ -1722,7 +1899,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-16T08:55+02:00",
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "geo": {
     "lat": 51.87058,
     "lon": 4.48725,
@@ -1896,7 +2073,7 @@
    "regio": "Utrecht",
    "bron": "Pararius",
    "gevonden": "2026-10-16T08:55+02:00",
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "geo": {
     "lat": 52.08417,
     "lon": 5.1211,
@@ -1954,7 +2131,7 @@
    "regio": "Utrecht",
    "bron": "Pararius",
    "gevonden": "2026-10-16T08:55+02:00",
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "geo": {
     "lat": 52.08821,
     "lon": 5.08261,
@@ -2128,7 +2305,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-15T19:28+02:00",
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "geo": {
     "lat": 52.22065,
     "lon": 5.17092,
@@ -2186,7 +2363,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-15T19:28+02:00",
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "geo": {
     "lat": 52.16509,
     "lon": 4.5032,
@@ -3303,7 +3480,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T12:03+02:00",
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "geo": {
     "lat": 52.36352,
     "lon": 4.83984,
@@ -3535,7 +3712,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T12:03+02:00",
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "geo": {
     "lat": 52.31577,
     "lon": 4.9524,
@@ -3593,7 +3770,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T12:03+02:00",
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "geo": {
     "lat": 52.31599,
     "lon": 4.95237,
@@ -3737,7 +3914,7 @@
     "eerste_betaling": 2154.0,
     "eerste_betaling_max": 3231.0
    },
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "buurt": {
     "naam": "Werengouw-Midden",
     "gemeente": "Amsterdam",
@@ -4641,7 +4818,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "geo": {
     "lat": 52.22109,
     "lon": 5.17636,
@@ -4817,7 +4994,7 @@
    "regio": "Utrecht",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "geo": {
     "lat": 52.09036,
     "lon": 5.23813,
@@ -4875,7 +5052,7 @@
    "regio": "Utrecht",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "geo": {
     "lat": 52.15728,
     "lon": 5.39876,
@@ -4961,7 +5138,7 @@
     "notities": [],
     "eerste_betaling": 1550.0
    },
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -5077,7 +5254,7 @@
     "notities": [],
     "eerste_betaling": 1630.0
    },
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -5135,7 +5312,7 @@
     "notities": [],
     "eerste_betaling": 1598.0
    },
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -5193,7 +5370,7 @@
     "notities": [],
     "eerste_betaling": 3292.0
    },
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "buurt": {
     "naam": "G-buurt-West",
     "gemeente": "Amsterdam",
@@ -5541,7 +5718,7 @@
     "notities": [],
     "eerste_betaling": 1830.0
    },
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "buurt": {
     "naam": "Overtoomse Veld-Zuid",
     "gemeente": "Amsterdam",
@@ -5715,7 +5892,7 @@
     "notities": [],
     "eerste_betaling": 1664.0
    },
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -5891,7 +6068,7 @@
     "eerste_betaling": 900.0,
     "eerste_betaling_max": 1350.0
    },
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "buurt": {
     "naam": "Peldersveld West",
     "gemeente": "Zaanstad",
@@ -5983,7 +6160,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "geo": {
     "lat": 51.93033,
     "lon": 4.49662,
@@ -6041,7 +6218,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "geo": {
     "lat": 51.89507,
     "lon": 4.49214,
@@ -6157,7 +6334,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "geo": {
     "lat": 51.88659,
     "lon": 4.49666,
@@ -6215,7 +6392,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "geo": {
     "lat": 51.88659,
     "lon": 4.49666,
@@ -6273,7 +6450,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "geo": {
     "lat": 51.88659,
     "lon": 4.49666,
@@ -6331,7 +6508,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T08:59",
-   "gezien": "2026-10-20T08:50+02:00",
+   "gezien": "2026-10-20T13:56+02:00",
    "geo": {
     "lat": 51.92722,
     "lon": 4.50168,
@@ -8086,57 +8263,57 @@
   }
  ],
  "refresh": {
-  "tijd": "2026-10-20T08:50+02:00",
-  "toegevoegd": 1,
+  "tijd": "2026-10-20T13:56+02:00",
+  "toegevoegd": 3,
   "log": [
-   "Pararius rotterdam: 30",
-   "Pararius den-haag: 30",
-   "Pararius rijswijk: 1",
-   "Pararius voorburg: 1",
-   "Pararius leidschendam: 29",
-   "Pararius delft: 5",
-   "Pararius schiedam: 8",
-   "Pararius vlaardingen: 30",
-   "Pararius zoetermeer: 1",
-   "Pararius leiden: 9",
+   "Pararius rotterdam: 0",
+   "Pararius den-haag: 0",
+   "Pararius rijswijk: 0",
+   "Pararius voorburg: 0",
+   "Pararius leidschendam: 0",
+   "Pararius delft: 0",
+   "Pararius schiedam: 0",
+   "Pararius vlaardingen: 0",
+   "Pararius zoetermeer: 0",
+   "Pararius leiden: 0",
    "Pararius dordrecht: 2",
-   "Pararius capelle-aan-den-ijssel: 2",
-   "Pararius barendrecht: 29",
-   "Pararius gouda: 2",
-   "Pararius alphen-aan-den-rijn: 28",
-   "Pararius utrecht: 15",
-   "Pararius nieuwegein: 21",
-   "Pararius houten: 22",
-   "Pararius zeist: 3",
-   "Pararius amersfoort: 1",
+   "Pararius capelle-aan-den-ijssel: 0",
+   "Pararius barendrecht: 0",
+   "Pararius gouda: 0",
+   "Pararius alphen-aan-den-rijn: 0",
+   "Pararius utrecht: 11",
+   "Pararius nieuwegein: 0",
+   "Pararius houten: 18",
+   "Pararius zeist: 0",
+   "Pararius amersfoort: 0",
    "Pararius sliedrecht: 28",
-   "Pararius spijkenisse: 2",
-   "Pararius amsterdam: 15",
-   "Pararius amstelveen: 1",
+   "Pararius spijkenisse: 0",
+   "Pararius amsterdam: 0",
+   "Pararius amstelveen: 0",
    "Pararius diemen: 22",
    "Pararius duivendrecht: 23",
-   "Pararius ouderkerk-aan-de-amstel: 26",
-   "Pararius weesp: 23",
-   "Pararius hoofddorp: 27",
-   "Pararius nieuw-vennep: 27",
-   "Pararius badhoevedorp: 23",
-   "Pararius haarlem: 5",
-   "Pararius heemstede: 1",
-   "Pararius zaandam: 1",
-   "Pararius koog-aan-de-zaan: 22",
-   "Pararius purmerend: 18",
-   "Pararius landsmeer: 23",
-   "Pararius uithoorn: 28",
-   "Pararius aalsmeer: 26",
-   "Pararius abcoude: 24",
+   "Pararius ouderkerk-aan-de-amstel: 0",
+   "Pararius weesp: 0",
+   "Pararius hoofddorp: 0",
+   "Pararius nieuw-vennep: fout Command '['google-chrome', '--headless=new', '--no-sandbox', '--disable-gpu', '--user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128 Safari/537.36', '--dump-dom', 'https://www.pararius.nl/huurwoningen/nieuw-vennep/0-1100']' timed out after 60 seconds",
+   "Pararius badhoevedorp: 0",
+   "Pararius haarlem: 0",
+   "Pararius heemstede: 0",
+   "Pararius zaandam: 0",
+   "Pararius koog-aan-de-zaan: 0",
+   "Pararius purmerend: 16",
+   "Pararius landsmeer: 0",
+   "Pararius uithoorn: 27",
+   "Pararius aalsmeer: 0",
+   "Pararius abcoude: 0",
    "Pararius muiden: 20",
-   "Pararius hilversum: 3",
-   "Pararius bussum: 23",
+   "Pararius hilversum: 0",
+   "Pararius bussum: 0",
    "Pararius naarden: 23",
-   "ikwilhuren: 30 in regio",
-   "verrijkt: 1 (bestemming Fokkerweg 300, Oude Meer)"
+   "ikwilhuren: 28 in regio",
+   "verrijkt: 3 (bestemming Fokkerweg 300, Oude Meer)"
   ],
-  "door": "box"
+  "door": "github"
  },
  "bestemming": {
   "adres": "Fokkerweg 300, Oude Meer",
