@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-10-24T08:51+02:00",
+ "bijgewerkt": "2026-10-24T13:22+02:00",
  "listings": [
   {
    "id": "1",
@@ -954,6 +954,122 @@
  ],
  "nieuw": [
   {
+   "url": "https://www.pararius.nl/appartement-te-huur/hilversum/c61a9eab/hilvertsweg",
+   "titel": "Appartement Hilvertsweg 40",
+   "sub": "1214 JJ Hilversum (Bloemenkwartier Noord)",
+   "huur": 820.0,
+   "m2": "40 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Hilversum",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-24T13:22+02:00",
+   "gezien": "2026-10-24T13:22+02:00",
+   "geo": {
+    "lat": 52.21657,
+    "lon": 5.1672,
+    "match": "Hilvertsweg 40, 1214JJ Hilversum",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 27.4,
+    "km": 35.4,
+    "min": 34,
+    "min_spits": 46,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 820.0,
+    "service": null,
+    "borg": 1640.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2460.0
+   },
+   "ruimte": {
+    "kamers": null,
+    "slaapkamers": null,
+    "m2": 40,
+    "kamers_geschat": false
+   },
+   "buurt": {
+    "naam": "Bloemenkwartier Noord",
+    "gemeente": "Hilversum",
+    "lbm": 4.29,
+    "klasse": 9,
+    "onv": 5,
+    "soc": 5
+   },
+   "verdict": "aanrader",
+   "verdict_auto": true,
+   "lbm": 4.29,
+   "lbm_klasse": "Uitstekend",
+   "review": "Buurt Bloemenkwartier Noord (Hilversum): Leefbaarometer Uitstekend (4,29) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
+  },
+  {
+   "url": "https://www.pararius.nl/appartement-te-huur/hilversum/f460c691/hilvertsweg",
+   "titel": "Appartement Hilvertsweg 28 BG",
+   "sub": "1214 JH Hilversum (Bloemenkwartier Noord)",
+   "huur": 940.0,
+   "m2": "50 m²",
+   "interieur": "Gestoffeerd",
+   "plaats": "Hilversum",
+   "regio": "Amsterdam e.o.",
+   "bron": "Pararius",
+   "gevonden": "2026-10-24T13:22+02:00",
+   "gezien": "2026-10-24T13:22+02:00",
+   "geo": {
+    "lat": 52.21685,
+    "lon": 5.16719,
+    "match": "Hilvertsweg 28A, 1214JH Hilversum",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 27.4,
+    "km": 35.5,
+    "min": 34,
+    "min_spits": 46,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 940.0,
+    "service": null,
+    "borg": 1880.0,
+    "borg_bron": "advertentie",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 2820.0
+   },
+   "ruimte": {
+    "kamers": null,
+    "slaapkamers": null,
+    "m2": 50,
+    "kamers_geschat": false
+   },
+   "buurt": {
+    "naam": "Bloemenkwartier Noord",
+    "gemeente": "Hilversum",
+    "lbm": 4.29,
+    "klasse": 9,
+    "onv": 5,
+    "soc": 5
+   },
+   "verdict": "aanrader",
+   "verdict_auto": true,
+   "lbm": 4.29,
+   "lbm_klasse": "Uitstekend",
+   "review": "Buurt Bloemenkwartier Noord (Hilversum): Leefbaarometer Uitstekend (4,29) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
+  },
+  {
    "url": "https://ikwilhuren.nu/object/voorburg-2273xz-85-parkeerplaats-prinses-beatrixlaan-65e3c35070e34f36206fae48fa45deeb/",
    "titel": "Parkeerplaats Prinses Beatrixlaan 85",
    "sub": "2273XZ Voorburg",
@@ -1008,7 +1124,8 @@
    "verdict_auto": true,
    "lbm": 4.15,
    "lbm_klasse": "Goed",
-   "review": "Buurt Bovenveen noord (Leidschendam-Voorburg): Leefbaarometer Goed (4,15) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
+   "review": "Buurt Bovenveen noord (Leidschendam-Voorburg): Leefbaarometer Goed (4,15) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
+   "gezien": "2026-10-24T13:22+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/d6407e81/hollandsestraat",
@@ -1184,7 +1301,7 @@
    "lbm": 4.03,
    "lbm_klasse": "Ruim voldoende",
    "review": "Buurt Overtoomse Veld-Zuid (Amsterdam): Leefbaarometer Ruim voldoende (4,03) – let op: veiligheid scoort zwak (overlast/criminaliteit). Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
-   "gezien": "2026-10-24T08:51+02:00"
+   "gezien": "2026-10-24T13:22+02:00"
   },
   {
    "url": "https://ikwilhuren.nu/object/delft-2624gd-38-delflandplein-a04f7cee0cd0b8222850672a4a299248/",
@@ -1242,7 +1359,7 @@
    "lbm": 3.91,
    "lbm_klasse": "Zwak",
    "review": "Buurt Roland Holstbuurt (Delft): Leefbaarometer Zwak (3,91) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
-   "gezien": "2026-10-24T08:51+02:00"
+   "gezien": "2026-10-24T13:22+02:00"
   },
   {
    "url": "https://ikwilhuren.nu/object/utrecht-3534bm-474-tussenbusstraat-5523a4e5ec38d94452e35bbfada2a0e7/",
@@ -1300,7 +1417,7 @@
    "lbm": 4.13,
    "lbm_klasse": "Goed",
    "review": "Buurt Schepenbuurt, Cartesiusweg e.o. (Utrecht): Leefbaarometer Goed (4,13) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
-   "gezien": "2026-10-24T08:51+02:00"
+   "gezien": "2026-10-24T13:22+02:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/74b2596b/zuidplein",
@@ -2139,7 +2256,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-17T09:00+02:00",
-   "gezien": "2026-10-24T08:51+02:00",
+   "gezien": "2026-10-24T13:22+02:00",
    "geo": {
     "lat": 52.36352,
     "lon": 4.8397,
@@ -2197,7 +2314,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-17T09:00+02:00",
-   "gezien": "2026-10-24T08:51+02:00",
+   "gezien": "2026-10-24T13:22+02:00",
    "geo": {
     "lat": 52.39133,
     "lon": 4.63718,
@@ -3069,7 +3186,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-15T19:28+02:00",
-   "gezien": "2026-10-24T08:51+02:00",
+   "gezien": "2026-10-24T13:22+02:00",
    "geo": {
     "lat": 52.16509,
     "lon": 4.5032,
@@ -4418,7 +4535,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T12:03+02:00",
-   "gezien": "2026-10-24T08:51+02:00",
+   "gezien": "2026-10-24T13:22+02:00",
    "geo": {
     "lat": 52.31577,
     "lon": 4.9524,
@@ -4476,7 +4593,7 @@
    "regio": "Amsterdam e.o.",
    "bron": "Pararius",
    "gevonden": "2026-10-12T12:03+02:00",
-   "gezien": "2026-10-24T08:51+02:00",
+   "gezien": "2026-10-24T13:22+02:00",
    "geo": {
     "lat": 52.31599,
     "lon": 4.95237,
@@ -4620,7 +4737,7 @@
     "eerste_betaling": 2154.0,
     "eerste_betaling_max": 3231.0
    },
-   "gezien": "2026-10-24T08:51+02:00",
+   "gezien": "2026-10-24T13:22+02:00",
    "buurt": {
     "naam": "Werengouw-Midden",
     "gemeente": "Amsterdam",
@@ -5176,7 +5293,7 @@
    "regio": "Zuid-Holland",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-24T08:51+02:00",
+   "gezien": "2026-10-24T13:22+02:00",
    "geo": {
     "lat": 52.16147,
     "lon": 4.47925,
@@ -5640,7 +5757,7 @@
    "regio": "Utrecht",
    "bron": "Pararius",
    "gevonden": "2026-10-12T11:49+02:00",
-   "gezien": "2026-10-24T08:51+02:00",
+   "gezien": "2026-10-24T13:22+02:00",
    "geo": {
     "lat": 52.15494,
     "lon": 5.37364,
@@ -5844,7 +5961,7 @@
     "notities": [],
     "eerste_betaling": 1550.0
    },
-   "gezien": "2026-10-24T08:51+02:00",
+   "gezien": "2026-10-24T13:22+02:00",
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -5960,7 +6077,7 @@
     "notities": [],
     "eerste_betaling": 1630.0
    },
-   "gezien": "2026-10-24T08:51+02:00",
+   "gezien": "2026-10-24T13:22+02:00",
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -6018,7 +6135,7 @@
     "notities": [],
     "eerste_betaling": 1598.0
    },
-   "gezien": "2026-10-24T08:51+02:00",
+   "gezien": "2026-10-24T13:22+02:00",
    "buurt": {
     "naam": "F-buurt",
     "gemeente": "Amsterdam",
@@ -6076,7 +6193,7 @@
     "notities": [],
     "eerste_betaling": 3292.0
    },
-   "gezien": "2026-10-24T08:51+02:00",
+   "gezien": "2026-10-24T13:22+02:00",
    "buurt": {
     "naam": "G-buurt-West",
     "gemeente": "Amsterdam",
@@ -6774,7 +6891,7 @@
     "eerste_betaling": 900.0,
     "eerste_betaling_max": 1350.0
    },
-   "gezien": "2026-10-24T08:51+02:00",
+   "gezien": "2026-10-24T13:22+02:00",
    "buurt": {
     "naam": "Peldersveld West",
     "gemeente": "Zaanstad",
@@ -8969,57 +9086,57 @@
   }
  ],
  "refresh": {
-  "tijd": "2026-10-24T08:51+02:00",
-  "toegevoegd": 1,
+  "tijd": "2026-10-24T13:22+02:00",
+  "toegevoegd": 2,
   "log": [
-   "Pararius rotterdam: 30",
-   "Pararius den-haag: 28",
-   "Pararius rijswijk: 30",
-   "Pararius voorburg: 29",
-   "Pararius leidschendam: 29",
-   "Pararius delft: 5",
-   "Pararius schiedam: 7",
-   "Pararius vlaardingen: 30",
-   "Pararius zoetermeer: 1",
+   "Pararius rotterdam: 0",
+   "Pararius den-haag: 0",
+   "Pararius rijswijk: 0",
+   "Pararius voorburg: 0",
+   "Pararius leidschendam: 0",
+   "Pararius delft: 0",
+   "Pararius schiedam: fout Command '['google-chrome', '--headless=new', '--no-sandbox', '--disable-gpu', '--user-agent=Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128 Safari/537.36', '--dump-dom', 'https://www.pararius.nl/huurwoningen/schiedam/0-1100']' timed out after 60 seconds",
+   "Pararius vlaardingen: 0",
+   "Pararius zoetermeer: 0",
    "Pararius leiden: 7",
-   "Pararius dordrecht: 3",
-   "Pararius capelle-aan-den-ijssel: 2",
-   "Pararius barendrecht: 30",
-   "Pararius gouda: 1",
-   "Pararius alphen-aan-den-rijn: 26",
-   "Pararius utrecht: 6",
-   "Pararius nieuwegein: 12",
-   "Pararius houten: 13",
-   "Pararius zeist: 2",
-   "Pararius amersfoort: 4",
-   "Pararius sliedrecht: 28",
-   "Pararius spijkenisse: 1",
-   "Pararius amsterdam: 12",
-   "Pararius amstelveen: 1",
-   "Pararius diemen: 19",
-   "Pararius duivendrecht: 19",
-   "Pararius ouderkerk-aan-de-amstel: 22",
-   "Pararius weesp: 21",
+   "Pararius dordrecht: 0",
+   "Pararius capelle-aan-den-ijssel: 0",
+   "Pararius barendrecht: 0",
+   "Pararius gouda: 0",
+   "Pararius alphen-aan-den-rijn: 0",
+   "Pararius utrecht: 0",
+   "Pararius nieuwegein: 14",
+   "Pararius houten: 0",
+   "Pararius zeist: 0",
+   "Pararius amersfoort: 0",
+   "Pararius sliedrecht: 0",
+   "Pararius spijkenisse: 0",
+   "Pararius amsterdam: 0",
+   "Pararius amstelveen: 0",
+   "Pararius diemen: 0",
+   "Pararius duivendrecht: 0",
+   "Pararius ouderkerk-aan-de-amstel: 0",
+   "Pararius weesp: 0",
    "Pararius hoofddorp: 24",
-   "Pararius nieuw-vennep: 23",
-   "Pararius badhoevedorp: 17",
-   "Pararius haarlem: 3",
-   "Pararius heemstede: 23",
-   "Pararius zaandam: 1",
-   "Pararius koog-aan-de-zaan: 17",
-   "Pararius purmerend: 15",
-   "Pararius landsmeer: 18",
-   "Pararius uithoorn: 24",
-   "Pararius aalsmeer: 24",
-   "Pararius abcoude: 21",
-   "Pararius muiden: 16",
-   "Pararius hilversum: 1",
-   "Pararius bussum: 22",
-   "Pararius naarden: 1",
+   "Pararius nieuw-vennep: 0",
+   "Pararius badhoevedorp: 0",
+   "Pararius haarlem: 0",
+   "Pararius heemstede: 0",
+   "Pararius zaandam: 0",
+   "Pararius koog-aan-de-zaan: 0",
+   "Pararius purmerend: 0",
+   "Pararius landsmeer: 0",
+   "Pararius uithoorn: 0",
+   "Pararius aalsmeer: 0",
+   "Pararius abcoude: 0",
+   "Pararius muiden: 0",
+   "Pararius hilversum: 3",
+   "Pararius bussum: 0",
+   "Pararius naarden: 0",
    "ikwilhuren: 28 in regio",
-   "verrijkt: 1 (bestemming Fokkerweg 300, Oude Meer)"
+   "verrijkt: 2 (bestemming Fokkerweg 300, Oude Meer)"
   ],
-  "door": "box"
+  "door": "github"
  },
  "bestemming": {
   "adres": "Fokkerweg 300, Oude Meer",
