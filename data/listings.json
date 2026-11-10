@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-10T08:56+01:00",
+ "bijgewerkt": "2026-11-10T16:06+01:00",
  "listings": [
   {
    "id": "1",
@@ -953,6 +953,120 @@
   }
  ],
  "nieuw": [
+  {
+   "url": "https://ikwilhuren.nu/object/leiden-2312ak-20-a5-stationsplein-3ce25d487846ed30acf3492bd6ed965c/",
+   "titel": "Appartement Stationsplein 20 A5",
+   "sub": "2312AK Leiden",
+   "huur": 864.0,
+   "m2": "29 m²",
+   "interieur": "",
+   "plaats": "Leiden",
+   "regio": "Zuid-Holland",
+   "bron": "ikwilhuren.nu",
+   "gevonden": "2026-11-10T16:06+01:00",
+   "geo": {
+    "lat": 52.166,
+    "lon": 4.48396,
+    "match": "Stationsplein 20A-5, 2312AK Leiden",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 24.6,
+    "km": 31.6,
+    "min": 29,
+    "min_spits": 39,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 864.0,
+    "service": 50.0,
+    "borg": 0.0,
+    "borg_bron": "advertentie (vast inkomen)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 914.0
+   },
+   "ruimte": {
+    "kamers": 2,
+    "slaapkamers": 1,
+    "m2": 29,
+    "kamers_geschat": true
+   },
+   "buurt": {
+    "naam": "Stationskwartier",
+    "gemeente": "Leiden",
+    "lbm": 4.23,
+    "klasse": 8,
+    "onv": 5,
+    "soc": 5
+   },
+   "verdict": "aanrader",
+   "verdict_auto": true,
+   "lbm": 4.23,
+   "lbm_klasse": "Zeer goed",
+   "review": "Buurt Stationskwartier (Leiden): Leefbaarometer Zeer goed (4,23) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
+  },
+  {
+   "url": "https://ikwilhuren.nu/object/schiedam-3119xt-995-s-gravelandseweg-616917be0d980eb8eb73f41465d52571/",
+   "titel": "Appartement 's-gravelandseweg 995",
+   "sub": "3119XT Schiedam",
+   "huur": 1002.0,
+   "m2": "40 m²",
+   "interieur": "",
+   "plaats": "Schiedam",
+   "regio": "Zuid-Holland",
+   "bron": "ikwilhuren.nu",
+   "gevonden": "2026-11-10T16:06+01:00",
+   "geo": {
+    "lat": 51.92028,
+    "lon": 4.40257,
+    "match": "'s-Gravelandseweg 995, 3119XT Schiedam",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 48.6,
+    "km": 61.4,
+    "min": 49,
+    "min_spits": 66,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1002.0,
+    "service": 90.0,
+    "borg": 0.0,
+    "borg_bron": "advertentie (vast inkomen)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1092.0
+   },
+   "ruimte": {
+    "kamers": 1,
+    "slaapkamers": 0,
+    "m2": 40,
+    "kamers_geschat": true
+   },
+   "buurt": {
+    "naam": "Hollandiabuurt",
+    "gemeente": "Schiedam",
+    "lbm": 4.03,
+    "klasse": 6,
+    "onv": 3,
+    "soc": 3
+   },
+   "verdict": "prima",
+   "verdict_auto": true,
+   "lbm": 4.03,
+   "lbm_klasse": "Ruim voldoende",
+   "review": "Buurt Hollandiabuurt (Schiedam): Leefbaarometer Ruim voldoende (4,03) – let op: veiligheid onder het gemiddelde. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
+  },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/c3877504/zwartewaalstraat",
    "titel": "Appartement Zwartewaalstraat 117",
@@ -2477,7 +2591,7 @@
    "regio": "Utrecht",
    "bron": "Pararius",
    "gevonden": "2026-11-06T08:50+01:00",
-   "gezien": "2026-11-10T08:56+01:00",
+   "gezien": "2026-11-10T16:06+01:00",
    "geo": {
     "lat": 52.07433,
     "lon": 5.11936,
@@ -4123,7 +4237,7 @@
    "lbm": 4.02,
    "lbm_klasse": "Ruim voldoende",
    "review": "Buurt Leidsche Rijn-Centrum (Utrecht): Leefbaarometer Ruim voldoende (4,02) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
-   "gezien": "2026-11-10T08:56+01:00"
+   "gezien": "2026-11-10T16:06+01:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/ef536fd5/zeeburgerkade",
@@ -4782,7 +4896,7 @@
    "regio": "Utrecht",
    "bron": "Pararius",
    "gevonden": "2026-11-03T08:57+01:00",
-   "gezien": "2026-11-10T08:56+01:00",
+   "gezien": "2026-11-10T16:06+01:00",
    "geo": {
     "lat": 52.11882,
     "lon": 5.1244,
@@ -9636,176 +9750,60 @@
    "lbm": 4.18,
    "lbm_klasse": "Goed",
    "review": "Buurt Frans Halsbuurt (Haarlem): Leefbaarometer Goed (4,18) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
-  },
-  {
-   "url": "https://ikwilhuren.nu/object/delft-2624gd-454-delflandplein-80ef169b5776a17d2a63d523ac753b43/",
-   "titel": "Appartement Delflandplein 454",
-   "sub": "2624GD Delft",
-   "huur": 34.83,
-   "m2": "43 m²",
-   "interieur": "",
-   "plaats": "Delft",
-   "regio": "Zuid-Holland",
-   "bron": "ikwilhuren.nu",
-   "gevonden": "2026-10-17T09:00+02:00",
-   "geo": {
-    "lat": 51.99663,
-    "lon": 4.35381,
-    "match": "Delflandplein 454, 2624GD Delft",
-    "nauwkeurig": "adres"
-   },
-   "rit": {
-    "hemelsbreed_km": 43.8,
-    "km": 50.3,
-    "min": 43,
-    "min_spits": 58,
-    "bron": "OSRM",
-    "dest": [
-     52.28955927,
-     4.78308264
-    ]
-   },
-   "kosten": {
-    "huur": 34.83,
-    "service": 70.0,
-    "borg": 0.0,
-    "borg_bron": "advertentie (vast inkomen)",
-    "eenmalig": [],
-    "notities": [],
-    "eerste_betaling": 104.83
-   },
-   "ruimte": {
-    "kamers": 1,
-    "slaapkamers": 0,
-    "m2": 43,
-    "kamers_geschat": true
-   },
-   "buurt": {
-    "naam": "Roland Holstbuurt",
-    "gemeente": "Delft",
-    "lbm": 3.91,
-    "klasse": 4,
-    "onv": 4,
-    "soc": 4
-   },
-   "verdict": "afraden",
-   "verdict_auto": true,
-   "lbm": 3.91,
-   "lbm_klasse": "Zwak",
-   "review": "Buurt Roland Holstbuurt (Delft): Leefbaarometer Zwak (3,91) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
-   "gezien": "2026-10-22T08:53+02:00"
-  },
-  {
-   "url": "https://ikwilhuren.nu/object/schiedam-3119xt-1035-s-gravelandseweg-6022ddf54cbe9ef09973dffca9efe0f9/",
-   "titel": "Appartement 's-gravelandseweg 1035",
-   "sub": "3119XT Schiedam",
-   "huur": 988.0,
-   "m2": "42 m²",
-   "interieur": "",
-   "plaats": "Schiedam",
-   "regio": "Zuid-Holland",
-   "bron": "ikwilhuren.nu",
-   "gevonden": "2026-10-17T09:00+02:00",
-   "geo": {
-    "lat": 51.92028,
-    "lon": 4.40257,
-    "match": "'s-Gravelandseweg 1035, 3119XT Schiedam",
-    "nauwkeurig": "adres"
-   },
-   "rit": {
-    "hemelsbreed_km": 48.6,
-    "km": 61.4,
-    "min": 49,
-    "min_spits": 66,
-    "bron": "OSRM",
-    "dest": [
-     52.28955927,
-     4.78308264
-    ]
-   },
-   "kosten": {
-    "huur": 988.0,
-    "service": 90.0,
-    "borg": 0.0,
-    "borg_bron": "advertentie (vast inkomen)",
-    "eenmalig": [],
-    "notities": [],
-    "eerste_betaling": 1078.0
-   },
-   "ruimte": {
-    "kamers": 2,
-    "slaapkamers": 1,
-    "m2": 42,
-    "kamers_geschat": true
-   },
-   "buurt": {
-    "naam": "Hollandiabuurt",
-    "gemeente": "Schiedam",
-    "lbm": 4.03,
-    "klasse": 6,
-    "onv": 3,
-    "soc": 3
-   },
-   "verdict": "prima",
-   "verdict_auto": true,
-   "lbm": 4.03,
-   "lbm_klasse": "Ruim voldoende",
-   "review": "Buurt Hollandiabuurt (Schiedam): Leefbaarometer Ruim voldoende (4,03) – let op: veiligheid onder het gemiddelde. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
-   "gezien": "2026-10-21T08:49+02:00"
   }
  ],
  "refresh": {
-  "tijd": "2026-11-10T08:56+01:00",
-  "toegevoegd": 15,
+  "tijd": "2026-11-10T16:06+01:00",
+  "toegevoegd": 2,
   "log": [
-   "Pararius rotterdam: 30",
-   "Pararius den-haag: 30",
-   "Pararius rijswijk: 1",
-   "Pararius voorburg: 29",
-   "Pararius leidschendam: 29",
-   "Pararius delft: 13",
-   "Pararius schiedam: 7",
-   "Pararius vlaardingen: 30",
-   "Pararius zoetermeer: 1",
-   "Pararius leiden: 11",
-   "Pararius dordrecht: 3",
-   "Pararius capelle-aan-den-ijssel: 2",
-   "Pararius barendrecht: 30",
-   "Pararius gouda: 2",
-   "Pararius alphen-aan-den-rijn: 1",
+   "Pararius rotterdam: 0",
+   "Pararius den-haag: 0",
+   "Pararius rijswijk: 0",
+   "Pararius voorburg: 0",
+   "Pararius leidschendam: 0",
+   "Pararius delft: 0",
+   "Pararius schiedam: 0",
+   "Pararius vlaardingen: 0",
+   "Pararius zoetermeer: 0",
+   "Pararius leiden: 0",
+   "Pararius dordrecht: 0",
+   "Pararius capelle-aan-den-ijssel: 0",
+   "Pararius barendrecht: 0",
+   "Pararius gouda: 0",
+   "Pararius alphen-aan-den-rijn: 0",
    "Pararius utrecht: 13",
-   "Pararius nieuwegein: 1",
-   "Pararius houten: 23",
-   "Pararius zeist: 1",
-   "Pararius amersfoort: 4",
-   "Pararius sliedrecht: 29",
-   "Pararius spijkenisse: 1",
-   "Pararius amsterdam: 18",
-   "Pararius amstelveen: 1",
-   "Pararius diemen: 1",
-   "Pararius duivendrecht: 27",
-   "Pararius ouderkerk-aan-de-amstel: 27",
-   "Pararius weesp: 27",
-   "Pararius hoofddorp: 27",
-   "Pararius nieuw-vennep: 27",
-   "Pararius badhoevedorp: 26",
-   "Pararius haarlem: 4",
-   "Pararius heemstede: 27",
-   "Pararius zaandam: 2",
-   "Pararius koog-aan-de-zaan: 26",
-   "Pararius purmerend: 23",
-   "Pararius landsmeer: 25",
-   "Pararius uithoorn: 28",
-   "Pararius aalsmeer: 26",
-   "Pararius abcoude: 27",
-   "Pararius muiden: 26",
-   "Pararius hilversum: 4",
-   "Pararius bussum: 1",
-   "Pararius naarden: 27",
-   "ikwilhuren: 24 in regio",
-   "verrijkt: 15 (bestemming Fokkerweg 300, Oude Meer)"
+   "Pararius nieuwegein: 0",
+   "Pararius houten: 0",
+   "Pararius zeist: 0",
+   "Pararius amersfoort: 0",
+   "Pararius sliedrecht: 0",
+   "Pararius spijkenisse: 0",
+   "Pararius amsterdam: 0",
+   "Pararius amstelveen: 0",
+   "Pararius diemen: 0",
+   "Pararius duivendrecht: 0",
+   "Pararius ouderkerk-aan-de-amstel: 0",
+   "Pararius weesp: 0",
+   "Pararius hoofddorp: 0",
+   "Pararius nieuw-vennep: 0",
+   "Pararius badhoevedorp: 0",
+   "Pararius haarlem: 0",
+   "Pararius heemstede: 0",
+   "Pararius zaandam: 0",
+   "Pararius koog-aan-de-zaan: 0",
+   "Pararius purmerend: 0",
+   "Pararius landsmeer: 0",
+   "Pararius uithoorn: 0",
+   "Pararius aalsmeer: 0",
+   "Pararius abcoude: 0",
+   "Pararius muiden: 0",
+   "Pararius hilversum: 0",
+   "Pararius bussum: 0",
+   "Pararius naarden: 0",
+   "ikwilhuren: 27 in regio",
+   "verrijkt: 2 (bestemming Fokkerweg 300, Oude Meer)"
   ],
-  "door": "box"
+  "door": "github"
  },
  "bestemming": {
   "adres": "Fokkerweg 300, Oude Meer",
