@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-13T08:50+01:00",
+ "bijgewerkt": "2026-11-13T15:46+01:00",
  "listings": [
   {
    "id": "1",
@@ -1305,7 +1305,7 @@
    "lbm": 4.15,
    "lbm_klasse": "Goed",
    "review": "Buurt Bovenveen noord (Leidschendam-Voorburg): Leefbaarometer Goed (4,15) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
-   "gezien": "2026-11-13T08:50+01:00"
+   "gezien": "2026-11-13T15:46+01:00"
   },
   {
    "url": "https://ikwilhuren.nu/object/utrecht-3561xk-16-camera-obscuradreef-9a25549ada7bd4346691f2dd0440852f/",
@@ -1363,7 +1363,7 @@
    "lbm": 3.92,
    "lbm_klasse": "Zwak",
    "review": "Buurt Taag- en Rubicondreef en omgeving (Utrecht): Leefbaarometer Zwak (3,92) – let op: veiligheid onder het gemiddelde. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
-   "gezien": "2026-11-13T08:50+01:00"
+   "gezien": "2026-11-13T15:46+01:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/5a26e01c/dickensstraat",
@@ -1653,7 +1653,7 @@
    "lbm": 3.91,
    "lbm_klasse": "Zwak",
    "review": "Buurt Roland Holstbuurt (Delft): Leefbaarometer Zwak (3,91) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
-   "gezien": "2026-11-13T08:50+01:00"
+   "gezien": "2026-11-13T15:46+01:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/den-haag/85c69620/spaarnestraat",
@@ -2005,7 +2005,7 @@
    "lbm": 4.2,
    "lbm_klasse": "Zeer goed",
    "review": "Buurt Oostpoort (Amsterdam): Leefbaarometer Zeer goed (4,2) – let op: veiligheid scoort zwak (overlast/criminaliteit). Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
-   "gezien": "2026-11-13T08:50+01:00"
+   "gezien": "2026-11-13T15:46+01:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/289bbfec/heymansstraat",
@@ -2881,7 +2881,7 @@
    "lbm": 4.23,
    "lbm_klasse": "Zeer goed",
    "review": "Buurt Stationskwartier (Leiden): Leefbaarometer Zeer goed (4,23) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
-   "gezien": "2026-11-13T08:50+01:00"
+   "gezien": "2026-11-13T15:46+01:00"
   },
   {
    "url": "https://ikwilhuren.nu/object/schiedam-3119xt-995-s-gravelandseweg-616917be0d980eb8eb73f41465d52571/",
@@ -9755,57 +9755,57 @@
   }
  ],
  "refresh": {
-  "tijd": "2026-11-13T08:50+01:00",
-  "toegevoegd": 1,
+  "tijd": "2026-11-13T15:46+01:00",
+  "toegevoegd": 0,
   "log": [
-   "Pararius rotterdam: 30",
-   "Pararius den-haag: 30",
-   "Pararius rijswijk: 1",
-   "Pararius voorburg: 27",
-   "Pararius leidschendam: 27",
-   "Pararius delft: 4",
-   "Pararius schiedam: 5",
-   "Pararius vlaardingen: 30",
-   "Pararius zoetermeer: 1",
-   "Pararius leiden: 12",
-   "Pararius dordrecht: 3",
-   "Pararius capelle-aan-den-ijssel: 2",
-   "Pararius barendrecht: 30",
-   "Pararius gouda: 2",
-   "Pararius alphen-aan-den-rijn: 1",
-   "Pararius utrecht: 16",
-   "Pararius nieuwegein: 1",
-   "Pararius houten: 25",
-   "Pararius zeist: 2",
-   "Pararius amersfoort: 3",
-   "Pararius sliedrecht: 29",
-   "Pararius spijkenisse: 1",
-   "Pararius amsterdam: 19",
-   "Pararius amstelveen: 26",
-   "Pararius diemen: 1",
-   "Pararius duivendrecht: 27",
-   "Pararius ouderkerk-aan-de-amstel: 27",
-   "Pararius weesp: 27",
-   "Pararius hoofddorp: 24",
-   "Pararius nieuw-vennep: 24",
-   "Pararius badhoevedorp: 26",
-   "Pararius haarlem: 3",
-   "Pararius heemstede: 24",
-   "Pararius zaandam: 3",
-   "Pararius koog-aan-de-zaan: 26",
-   "Pararius purmerend: 23",
-   "Pararius landsmeer: 25",
-   "Pararius uithoorn: 28",
-   "Pararius aalsmeer: 25",
-   "Pararius abcoude: 28",
-   "Pararius muiden: 25",
-   "Pararius hilversum: 3",
-   "Pararius bussum: 1",
-   "Pararius naarden: 27",
-   "ikwilhuren: 31 in regio",
-   "verrijkt: 1 (bestemming Fokkerweg 300, Oude Meer)"
+   "Pararius rotterdam: 0",
+   "Pararius den-haag: 0",
+   "Pararius rijswijk: 0",
+   "Pararius voorburg: 0",
+   "Pararius leidschendam: 0",
+   "Pararius delft: 0",
+   "Pararius schiedam: 0",
+   "Pararius vlaardingen: 0",
+   "Pararius zoetermeer: 0",
+   "Pararius leiden: 0",
+   "Pararius dordrecht: 0",
+   "Pararius capelle-aan-den-ijssel: 0",
+   "Pararius barendrecht: 0",
+   "Pararius gouda: 0",
+   "Pararius alphen-aan-den-rijn: 0",
+   "Pararius utrecht: 0",
+   "Pararius nieuwegein: 0",
+   "Pararius houten: 0",
+   "Pararius zeist: 0",
+   "Pararius amersfoort: 0",
+   "Pararius sliedrecht: 0",
+   "Pararius spijkenisse: 0",
+   "Pararius amsterdam: 0",
+   "Pararius amstelveen: 0",
+   "Pararius diemen: 0",
+   "Pararius duivendrecht: 0",
+   "Pararius ouderkerk-aan-de-amstel: 0",
+   "Pararius weesp: 0",
+   "Pararius hoofddorp: 0",
+   "Pararius nieuw-vennep: 0",
+   "Pararius badhoevedorp: 0",
+   "Pararius haarlem: 0",
+   "Pararius heemstede: 0",
+   "Pararius zaandam: 0",
+   "Pararius koog-aan-de-zaan: 0",
+   "Pararius purmerend: 0",
+   "Pararius landsmeer: 0",
+   "Pararius uithoorn: 0",
+   "Pararius aalsmeer: 0",
+   "Pararius abcoude: 0",
+   "Pararius muiden: 0",
+   "Pararius hilversum: 0",
+   "Pararius bussum: 0",
+   "Pararius naarden: 0",
+   "ikwilhuren: 33 in regio",
+   "verrijkt: 0 (bestemming Fokkerweg 300, Oude Meer)"
   ],
-  "door": "box"
+  "door": "github"
  },
  "bestemming": {
   "adres": "Fokkerweg 300, Oude Meer",
