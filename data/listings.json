@@ -1,5 +1,5 @@
 {
- "bijgewerkt": "2026-11-16T08:53+01:00",
+ "bijgewerkt": "2026-11-16T17:12+01:00",
  "listings": [
   {
    "id": "1",
@@ -954,6 +954,236 @@
  ],
  "nieuw": [
   {
+   "url": "https://www.pararius.nl/appartement-te-huur/utrecht/8362a31e/weerdsingel-o-z",
+   "titel": "Appartement Weerdsingel O.Z. 51 F",
+   "sub": "3514 AE Utrecht (Vogelenbuurt)",
+   "huur": 947.0,
+   "m2": "26 m²",
+   "interieur": "",
+   "plaats": "Utrecht",
+   "regio": "Utrecht",
+   "bron": "Pararius",
+   "gevonden": "2026-11-16T17:12+01:00",
+   "geo": {
+    "lat": 52.09773,
+    "lon": 5.12046,
+    "match": "Weerdsingel O.Z. 51F, 3514AE Utrecht",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 31.4,
+    "km": 44.5,
+    "min": 42,
+    "min_spits": 56,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 947.0,
+    "service": null,
+    "borg": 947.0,
+    "borg_bron": "geschat",
+    "eenmalig": [],
+    "notities": [],
+    "borg_max": 1894.0,
+    "eerste_betaling": 1894.0,
+    "eerste_betaling_max": 2841.0
+   },
+   "ruimte": {
+    "kamers": null,
+    "slaapkamers": null,
+    "m2": 26,
+    "kamers_geschat": false
+   },
+   "buurt": {
+    "naam": "Vogelenbuurt",
+    "gemeente": "Utrecht",
+    "lbm": 4.27,
+    "klasse": 9,
+    "onv": 5,
+    "soc": 4
+   },
+   "verdict": "aanrader",
+   "verdict_auto": true,
+   "lbm": 4.27,
+   "lbm_klasse": "Uitstekend",
+   "review": "Buurt Vogelenbuurt (Utrecht): Leefbaarometer Uitstekend (4,27) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
+  },
+  {
+   "url": "https://ikwilhuren.nu/object/delft-2624gd-48-delflandplein-e2e914ae4c1ca3a975a629208d603347/",
+   "titel": "Appartement Delflandplein 48",
+   "sub": "2624GD Delft",
+   "huur": 1002.0,
+   "m2": "42 m²",
+   "interieur": "",
+   "plaats": "Delft",
+   "regio": "Zuid-Holland",
+   "bron": "ikwilhuren.nu",
+   "gevonden": "2026-11-16T17:12+01:00",
+   "geo": {
+    "lat": 51.99663,
+    "lon": 4.35381,
+    "match": "Delflandplein 48, 2624GD Delft",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 43.8,
+    "km": 50.3,
+    "min": 43,
+    "min_spits": 58,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1002.0,
+    "service": 103.88,
+    "borg": 0.0,
+    "borg_bron": "advertentie (vast inkomen)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1105.88
+   },
+   "ruimte": {
+    "kamers": 1,
+    "slaapkamers": 0,
+    "m2": 42,
+    "kamers_geschat": true
+   },
+   "buurt": {
+    "naam": "Roland Holstbuurt",
+    "gemeente": "Delft",
+    "lbm": 3.91,
+    "klasse": 4,
+    "onv": 4,
+    "soc": 4
+   },
+   "verdict": "afraden",
+   "verdict_auto": true,
+   "lbm": 3.91,
+   "lbm_klasse": "Zwak",
+   "review": "Buurt Roland Holstbuurt (Delft): Leefbaarometer Zwak (3,91) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
+  },
+  {
+   "url": "https://ikwilhuren.nu/object/leiden-2321kv-493-omegaplantsoen-2068379ab8ad375bd19fe1e113601b86/",
+   "titel": "Appartement Omegaplantsoen 493",
+   "sub": "2321KV Leiden",
+   "huur": 1050.0,
+   "m2": "48 m²",
+   "interieur": "",
+   "plaats": "Leiden",
+   "regio": "Zuid-Holland",
+   "bron": "ikwilhuren.nu",
+   "gevonden": "2026-11-16T17:12+01:00",
+   "geo": {
+    "lat": 52.14454,
+    "lon": 4.49202,
+    "match": "Omegaplantsoen 493, 2321KV Leiden",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 25.6,
+    "km": 31.9,
+    "min": 27,
+    "min_spits": 37,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 1050.0,
+    "service": 48.0,
+    "borg": 0.0,
+    "borg_bron": "advertentie (vast inkomen)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1098.0
+   },
+   "ruimte": {
+    "kamers": 1,
+    "slaapkamers": 0,
+    "m2": 48,
+    "kamers_geschat": true
+   },
+   "buurt": {
+    "naam": "Cronestein",
+    "gemeente": "Leiden",
+    "lbm": 3.89,
+    "klasse": 4,
+    "onv": 4,
+    "soc": 4
+   },
+   "verdict": "afraden",
+   "verdict_auto": true,
+   "lbm": 3.89,
+   "lbm_klasse": "Zwak",
+   "review": "Buurt Cronestein (Leiden): Leefbaarometer Zwak (3,89) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
+  },
+  {
+   "url": "https://ikwilhuren.nu/object/utrecht-3534bm-416-tussenbusstraat-272b3bb8b8c2898ce8a7060b4268260f/",
+   "titel": "Appartement Tussenbusstraat 416",
+   "sub": "3534BM Utrecht",
+   "huur": 944.0,
+   "m2": "51 m²",
+   "interieur": "",
+   "plaats": "Utrecht",
+   "regio": "Utrecht",
+   "bron": "ikwilhuren.nu",
+   "gevonden": "2026-11-16T17:12+01:00",
+   "geo": {
+    "lat": 52.10107,
+    "lon": 5.09109,
+    "match": "Tussenbusstraat 416, 3534BM Utrecht",
+    "nauwkeurig": "adres"
+   },
+   "rit": {
+    "hemelsbreed_km": 29.7,
+    "km": 41.3,
+    "min": 38,
+    "min_spits": 51,
+    "bron": "OSRM",
+    "dest": [
+     52.28955927,
+     4.78308264
+    ]
+   },
+   "kosten": {
+    "huur": 944.0,
+    "service": 60.0,
+    "borg": 0.0,
+    "borg_bron": "advertentie (vast inkomen)",
+    "eenmalig": [],
+    "notities": [],
+    "eerste_betaling": 1004.0
+   },
+   "ruimte": {
+    "kamers": 2,
+    "slaapkamers": 1,
+    "m2": 51,
+    "kamers_geschat": true
+   },
+   "buurt": {
+    "naam": "Schepenbuurt, Cartesiusweg e.o.",
+    "gemeente": "Utrecht",
+    "lbm": 4.13,
+    "klasse": 7,
+    "onv": 5,
+    "soc": 5
+   },
+   "verdict": "prima",
+   "verdict_auto": true,
+   "lbm": 4.13,
+   "lbm_klasse": "Goed",
+   "review": "Buurt Schepenbuurt, Cartesiusweg e.o. (Utrecht): Leefbaarometer Goed (4,13) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
+  },
+  {
    "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/8f2894fb/2e-middellandstraat",
    "titel": "Appartement 2e Middellandstraat 12 1",
    "sub": "3021 BN Rotterdam (Middelland)",
@@ -1782,7 +2012,7 @@
    "regio": "Utrecht",
    "bron": "Pararius",
    "gevonden": "2026-11-12T16:29+01:00",
-   "gezien": "2026-11-16T08:53+01:00",
+   "gezien": "2026-11-16T17:12+01:00",
    "geo": {
     "lat": 52.11349,
     "lon": 5.07901,
@@ -5108,7 +5338,7 @@
    "regio": "Utrecht",
    "bron": "Pararius",
    "gevonden": "2026-11-06T08:50+01:00",
-   "gezien": "2026-11-16T08:53+01:00",
+   "gezien": "2026-11-16T17:12+01:00",
    "geo": {
     "lat": 52.07433,
     "lon": 5.11936,
@@ -6754,7 +6984,7 @@
    "lbm": 4.02,
    "lbm_klasse": "Ruim voldoende",
    "review": "Buurt Leidsche Rijn-Centrum (Utrecht): Leefbaarometer Ruim voldoende (4,02) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
-   "gezien": "2026-11-16T08:53+01:00"
+   "gezien": "2026-11-16T17:12+01:00"
   },
   {
    "url": "https://www.pararius.nl/appartement-te-huur/amsterdam/ef536fd5/zeeburgerkade",
@@ -7413,7 +7643,7 @@
    "regio": "Utrecht",
    "bron": "Pararius",
    "gevonden": "2026-11-03T08:57+01:00",
-   "gezien": "2026-11-16T08:53+01:00",
+   "gezien": "2026-11-16T17:12+01:00",
    "geo": {
     "lat": 52.11882,
     "lon": 5.1244,
@@ -9522,283 +9752,60 @@
    "lbm_klasse": "Zwak",
    "review": "Buurt Cronestein (Leiden): Leefbaarometer Zwak (3,89) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden).",
    "gezien": "2026-10-29T14:27+01:00"
-  },
-  {
-   "url": "https://ikwilhuren.nu/object/diemen-1112xk-478-cees-sipkeslaan-0cf8708718e860da4a531a0c7a0141b3/",
-   "titel": "Cees Sipkeslaan 478",
-   "sub": "1112XK Diemen",
-   "huur": 1071.0,
-   "m2": "50 m²",
-   "interieur": "",
-   "plaats": "Diemen",
-   "regio": "Amsterdam e.o.",
-   "bron": "ikwilhuren.nu",
-   "gevonden": "2026-10-28T14:19+01:00",
-   "geo": {
-    "lat": 52.32696,
-    "lon": 4.9586,
-    "match": "Cees Sipkeslaan 478, 1112XK Diemen",
-    "nauwkeurig": "adres"
-   },
-   "rit": {
-    "hemelsbreed_km": 12.6,
-    "km": 20.1,
-    "min": 19,
-    "min_spits": 26,
-    "bron": "OSRM",
-    "dest": [
-     52.28955927,
-     4.78308264
-    ]
-   },
-   "kosten": {
-    "huur": 1071.0,
-    "service": 60.0,
-    "borg": 0.0,
-    "borg_bron": "advertentie (vast inkomen)",
-    "eenmalig": [],
-    "notities": [],
-    "eerste_betaling": 1131.0
-   },
-   "ruimte": {
-    "kamers": 2,
-    "slaapkamers": 1,
-    "m2": 50,
-    "kamers_geschat": true
-   },
-   "gezien": "2026-10-29T08:53+01:00"
-  },
-  {
-   "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/32b7f9a1/slotstraat",
-   "titel": "Appartement Slotstraat",
-   "sub": "3062 PP Rotterdam (Kralingen Oost)",
-   "huur": 886.0,
-   "m2": "30 m²",
-   "interieur": "Gestoffeerd",
-   "plaats": "Rotterdam",
-   "regio": "Zuid-Holland",
-   "bron": "Pararius",
-   "gevonden": "2026-10-28T08:53+01:00",
-   "gezien": "2026-10-29T08:53+01:00",
-   "geo": {
-    "lat": 51.92182,
-    "lon": 4.51407,
-    "match": "Slotstraat, 3062PP Rotterdam",
-    "nauwkeurig": "postcode"
-   },
-   "rit": {
-    "hemelsbreed_km": 44.8,
-    "km": 64.4,
-    "min": 55,
-    "min_spits": 75,
-    "bron": "OSRM",
-    "dest": [
-     52.28955927,
-     4.78308264
-    ]
-   },
-   "kosten": {
-    "huur": 886.0,
-    "service": null,
-    "borg": 886.0,
-    "borg_bron": "geschat",
-    "eenmalig": [],
-    "notities": [],
-    "borg_max": 1772.0,
-    "eerste_betaling": 1772.0,
-    "eerste_betaling_max": 2658.0
-   },
-   "ruimte": {
-    "kamers": 1,
-    "slaapkamers": 1,
-    "m2": 30,
-    "kamers_geschat": false
-   },
-   "buurt": {
-    "naam": "Kralingen Oost",
-    "gemeente": "Rotterdam",
-    "lbm": 4.31,
-    "klasse": 9,
-    "onv": 5,
-    "soc": 5
-   },
-   "verdict": "aanrader",
-   "verdict_auto": true,
-   "lbm": 4.31,
-   "lbm_klasse": "Uitstekend",
-   "review": "Buurt Kralingen Oost (Rotterdam): Leefbaarometer Uitstekend (4,31) – geen rode vlaggen in de cijfers. Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
-  },
-  {
-   "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/3f1209a8/willem-buytewechstraat",
-   "titel": "Appartement Willem Buytewechstraat 175 E",
-   "sub": "3024 XG Rotterdam (Delfshaven)",
-   "huur": 940.0,
-   "m2": "24 m²",
-   "interieur": "Gemeubileerd",
-   "plaats": "Rotterdam",
-   "regio": "Zuid-Holland",
-   "bron": "Pararius",
-   "gevonden": "2026-10-28T08:53+01:00",
-   "gezien": "2026-11-09T08:50+01:00",
-   "geo": {
-    "lat": 51.90728,
-    "lon": 4.45389,
-    "match": "Willem Buytewechstraat 175E, 3024XG Rotterdam",
-    "nauwkeurig": "adres"
-   },
-   "rit": {
-    "hemelsbreed_km": 48.1,
-    "km": 60.8,
-    "min": 52,
-    "min_spits": 70,
-    "bron": "OSRM",
-    "dest": [
-     52.28955927,
-     4.78308264
-    ]
-   },
-   "kosten": {
-    "huur": 940.0,
-    "service": null,
-    "borg": 1178.0,
-    "borg_bron": "advertentie",
-    "eenmalig": [],
-    "notities": [],
-    "eerste_betaling": 2118.0
-   },
-   "ruimte": {
-    "kamers": 1,
-    "slaapkamers": 1,
-    "m2": 24,
-    "kamers_geschat": false
-   },
-   "buurt": {
-    "naam": "Delfshaven",
-    "gemeente": "Rotterdam",
-    "lbm": 4.04,
-    "klasse": 6,
-    "onv": 2,
-    "soc": 3
-   },
-   "verdict": "twijfel",
-   "verdict_auto": true,
-   "lbm": 4.04,
-   "lbm_klasse": "Ruim voldoende",
-   "review": "Buurt Delfshaven (Rotterdam): Leefbaarometer Ruim voldoende (4,04) – let op: veiligheid scoort zwak (overlast/criminaliteit). Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
-  },
-  {
-   "url": "https://www.pararius.nl/appartement-te-huur/rotterdam/7215a86a/schiedamsesingel",
-   "titel": "Appartement Schiedamsesingel 143 G",
-   "sub": "3012 BA Rotterdam (Cool)",
-   "huur": 1096.0,
-   "m2": "46 m²",
-   "interieur": "Gestoffeerd",
-   "plaats": "Rotterdam",
-   "regio": "Zuid-Holland",
-   "bron": "Pararius",
-   "gevonden": "2026-10-28T08:53+01:00",
-   "gezien": "2026-11-11T08:56+01:00",
-   "geo": {
-    "lat": 51.9148,
-    "lon": 4.47849,
-    "match": "Schiedamsesingel 143G, 3012BA Rotterdam",
-    "nauwkeurig": "adres"
-   },
-   "rit": {
-    "hemelsbreed_km": 46.6,
-    "km": 62.1,
-    "min": 53,
-    "min_spits": 72,
-    "bron": "OSRM",
-    "dest": [
-     52.28955927,
-     4.78308264
-    ]
-   },
-   "kosten": {
-    "huur": 1096.0,
-    "service": null,
-    "borg": 1096.0,
-    "borg_bron": "geschat",
-    "eenmalig": [],
-    "notities": [],
-    "borg_max": 2192.0,
-    "eerste_betaling": 2192.0,
-    "eerste_betaling_max": 3288.0
-   },
-   "ruimte": {
-    "kamers": 2,
-    "slaapkamers": 1,
-    "m2": 46,
-    "kamers_geschat": false
-   },
-   "buurt": {
-    "naam": "Cool",
-    "gemeente": "Rotterdam",
-    "lbm": 4.15,
-    "klasse": 7,
-    "onv": 1,
-    "soc": 3
-   },
-   "verdict": "twijfel",
-   "verdict_auto": true,
-   "lbm": 4.15,
-   "lbm_klasse": "Goed",
-   "review": "Buurt Cool (Rotterdam): Leefbaarometer Goed (4,15) – let op: veiligheid scoort zwak (overlast/criminaliteit). Automatisch oordeel, check de straat zelf (Street View/'s avonds langsrijden)."
   }
  ],
  "refresh": {
-  "tijd": "2026-11-16T08:53+01:00",
-  "toegevoegd": 0,
+  "tijd": "2026-11-16T17:12+01:00",
+  "toegevoegd": 4,
   "log": [
-   "Pararius rotterdam: 30",
-   "Pararius den-haag: 30",
-   "Pararius rijswijk: 1",
-   "Pararius voorburg: 27",
-   "Pararius leidschendam: 27",
-   "Pararius delft: 5",
-   "Pararius schiedam: 5",
-   "Pararius vlaardingen: 30",
-   "Pararius zoetermeer: 1",
-   "Pararius leiden: 11",
-   "Pararius dordrecht: 4",
-   "Pararius capelle-aan-den-ijssel: 2",
-   "Pararius barendrecht: 30",
-   "Pararius gouda: 2",
-   "Pararius alphen-aan-den-rijn: 1",
+   "Pararius rotterdam: 0",
+   "Pararius den-haag: 0",
+   "Pararius rijswijk: 0",
+   "Pararius voorburg: 0",
+   "Pararius leidschendam: 0",
+   "Pararius delft: 0",
+   "Pararius schiedam: 0",
+   "Pararius vlaardingen: 0",
+   "Pararius zoetermeer: 0",
+   "Pararius leiden: 0",
+   "Pararius dordrecht: 0",
+   "Pararius capelle-aan-den-ijssel: 0",
+   "Pararius barendrecht: 0",
+   "Pararius gouda: 0",
+   "Pararius alphen-aan-den-rijn: 0",
    "Pararius utrecht: 12",
-   "Pararius nieuwegein: 1",
-   "Pararius houten: 19",
-   "Pararius zeist: 1",
-   "Pararius amersfoort: 3",
-   "Pararius sliedrecht: 29",
-   "Pararius spijkenisse: 1",
-   "Pararius amsterdam: 20",
-   "Pararius amstelveen: 26",
-   "Pararius diemen: 1",
-   "Pararius duivendrecht: 27",
-   "Pararius ouderkerk-aan-de-amstel: 27",
-   "Pararius weesp: 27",
-   "Pararius hoofddorp: 24",
-   "Pararius nieuw-vennep: 24",
-   "Pararius badhoevedorp: 26",
-   "Pararius haarlem: 3",
-   "Pararius heemstede: 24",
-   "Pararius zaandam: 3",
-   "Pararius koog-aan-de-zaan: 26",
-   "Pararius purmerend: 24",
-   "Pararius landsmeer: 25",
-   "Pararius uithoorn: 28",
-   "Pararius aalsmeer: 25",
-   "Pararius abcoude: 28",
-   "Pararius muiden: 25",
-   "Pararius hilversum: 2",
-   "Pararius bussum: 1",
-   "Pararius naarden: 27",
-   "ikwilhuren: 34 in regio",
-   "verrijkt: 0 (bestemming Fokkerweg 300, Oude Meer)"
+   "Pararius nieuwegein: 0",
+   "Pararius houten: 0",
+   "Pararius zeist: 0",
+   "Pararius amersfoort: 0",
+   "Pararius sliedrecht: 0",
+   "Pararius spijkenisse: 0",
+   "Pararius amsterdam: 0",
+   "Pararius amstelveen: 0",
+   "Pararius diemen: 0",
+   "Pararius duivendrecht: 0",
+   "Pararius ouderkerk-aan-de-amstel: 0",
+   "Pararius weesp: 0",
+   "Pararius hoofddorp: 0",
+   "Pararius nieuw-vennep: 0",
+   "Pararius badhoevedorp: 0",
+   "Pararius haarlem: 0",
+   "Pararius heemstede: 0",
+   "Pararius zaandam: 0",
+   "Pararius koog-aan-de-zaan: 0",
+   "Pararius purmerend: 0",
+   "Pararius landsmeer: 0",
+   "Pararius uithoorn: 0",
+   "Pararius aalsmeer: 0",
+   "Pararius abcoude: 0",
+   "Pararius muiden: 0",
+   "Pararius hilversum: 0",
+   "Pararius bussum: 0",
+   "Pararius naarden: 0",
+   "ikwilhuren: 26 in regio",
+   "verrijkt: 4 (bestemming Fokkerweg 300, Oude Meer)"
   ],
-  "door": "box"
+  "door": "github"
  },
  "bestemming": {
   "adres": "Fokkerweg 300, Oude Meer",
